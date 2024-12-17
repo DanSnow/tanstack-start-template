@@ -17,9 +17,9 @@
     "clsx": "^2.1.1",
     "effect": "^3.11.8",
     "lucide-react": "^0.468.0",
+    "ofetch": "^1.4.1",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "redaxios": "^0.5.1",
     "tailwind-merge": "^2.5.5",
     "vinxi": "0.5.1"
   },
