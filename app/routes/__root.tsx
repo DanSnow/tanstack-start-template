@@ -6,6 +6,9 @@ import { DefaultCatchBoundary } from '~/components/DefaultCatchBoundary'
 import { NotFound } from '~/components/NotFound'
 import appCss from '~/styles/app.css?url'
 import { seo } from '~/utils/seo'
+import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
+import { ReactQueryDevtools } from '@tanstack/react-query-devtools'
+import { useState } from 'react'
 
 export const Route = createRootRoute({
   head: () => ({
@@ -57,9 +60,13 @@ export const Route = createRootRoute({
 })
 
 function RootComponent() {
+  const [client] = useState(new QueryClient())
   return (
     <RootDocument>
-      <Outlet />
+      <QueryClientProvider client={client}>
+        <Outlet />
+      </QueryClientProvider>
+      <ReactQueryDevtools />
     </RootDocument>
   )
 }

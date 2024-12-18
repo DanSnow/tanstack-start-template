@@ -10,6 +10,8 @@
   },
   "dependencies": {
     "@radix-ui/react-slot": "^1.1.1",
+    "@tanstack/react-query": "^5.62.8",
+    "@tanstack/react-query-devtools": "^5.62.8",
     "@tanstack/react-router": "^1.91.2",
     "@tanstack/router-devtools": "^1.91.2",
     "@tanstack/start": "^1.91.2",
