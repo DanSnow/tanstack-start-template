@@ -8,6 +8,9 @@ import appCss from '~/styles/app.css?url'
 import { seo } from '~/utils/seo'
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
 import { ReactQueryDevtools } from '@tanstack/react-query-devtools'
+import { createStore, Provider } from 'jotai'
+import { DevTools } from 'jotai-devtools'
+import jotaiDevtoolStyle from 'jotai-devtools/styles.css?url'
 import { useState } from 'react'
 
 export const Route = createRootRoute({
@@ -27,6 +30,7 @@ export const Route = createRootRoute({
     ],
     links: [
       { rel: 'stylesheet', href: appCss },
+      { rel: 'stylesheet', href: jotaiDevtoolStyle },
       {
         rel: 'apple-touch-icon',
         sizes: '180x180',
@@ -61,12 +65,16 @@ export const Route = createRootRoute({
 
 function RootComponent() {
   const [client] = useState(new QueryClient())
+  const [store] = useState(createStore())
   return (
     <RootDocument>
       <QueryClientProvider client={client}>
-        <Outlet />
+        <Provider store={store}>
+          <Outlet />
+        </Provider>
       </QueryClientProvider>
-      <ReactQueryDevtools />
+      <DevTools store={store} />
+      <ReactQueryDevtools client={client} />
     </RootDocument>
   )
 }
