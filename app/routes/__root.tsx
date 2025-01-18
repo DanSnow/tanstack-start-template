@@ -1,4 +1,4 @@
-import { Link, Outlet, ScrollRestoration, createRootRoute } from '@tanstack/react-router'
+import { Outlet, ScrollRestoration, createRootRouteWithContext } from '@tanstack/react-router'
 import { TanStackRouterDevtools } from '@tanstack/router-devtools'
 import { Meta, Scripts } from '@tanstack/start'
 import type * as React from 'react'
@@ -6,14 +6,13 @@ import { DefaultCatchBoundary } from '~/components/DefaultCatchBoundary'
 import { NotFound } from '~/components/NotFound'
 import appCss from '~/styles/app.css?url'
 import { seo } from '~/utils/seo'
-import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
 import { ReactQueryDevtools } from '@tanstack/react-query-devtools'
-import { createStore, Provider } from 'jotai'
 import { DevTools } from 'jotai-devtools'
 import jotaiDevtoolStyle from 'jotai-devtools/styles.css?url'
-import { useState } from 'react'
+import { WrapComponent } from '~/WrapComponent'
+import type { Context } from '~/router-context'
 
-export const Route = createRootRoute({
+export const Route = createRootRouteWithContext<Context>()({
   head: () => ({
     meta: [
       {
@@ -64,17 +63,14 @@ export const Route = createRootRoute({
 })
 
 function RootComponent() {
-  const [client] = useState(new QueryClient())
-  const [store] = useState(createStore())
+  const ctx = Route.useRouteContext()
   return (
     <RootDocument>
-      <QueryClientProvider client={client}>
-        <Provider store={store}>
-          <Outlet />
-        </Provider>
-      </QueryClientProvider>
-      <DevTools store={store} />
-      <ReactQueryDevtools client={client} />
+      <WrapComponent context={ctx}>
+        <Outlet />
+      </WrapComponent>
+      <ReactQueryDevtools client={ctx.queryClient} />
+      <DevTools store={ctx.store} />
     </RootDocument>
   )
 }
