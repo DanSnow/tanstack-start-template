@@ -11,6 +11,7 @@ import { DevTools } from 'jotai-devtools'
 import jotaiDevtoolStyle from 'jotai-devtools/styles.css?url'
 import { WrapComponent } from '~/WrapComponent'
 import type { Context } from '~/router-context'
+import { lazy } from 'react'
 
 export const Route = createRootRouteWithContext<Context>()({
   head: () => ({
@@ -62,15 +63,21 @@ export const Route = createRootRouteWithContext<Context>()({
   component: RootComponent,
 })
 
+const EmptyComponent = () => null
+
+EmptyComponent.displayName = 'EmptyComponent'
+
+const Devtools = import.meta.env.DEV ? lazy(() => import('~/components/Devtools')) : EmptyComponent
+
 function RootComponent() {
   const ctx = Route.useRouteContext()
+
   return (
     <RootDocument>
       <WrapComponent context={ctx}>
         <Outlet />
       </WrapComponent>
-      <ReactQueryDevtools client={ctx.queryClient} />
-      <DevTools store={ctx.store} />
+      <Devtools />
     </RootDocument>
   )
 }
@@ -84,8 +91,6 @@ function RootDocument({ children }: { children: React.ReactNode }) {
       </head>
       <body>
         {children}
-        <ScrollRestoration />
-        <TanStackRouterDevtools position="bottom-right" />
         <Scripts />
       </body>
     </html>

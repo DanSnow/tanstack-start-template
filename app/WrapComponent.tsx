@@ -7,7 +7,7 @@ export function WrapComponent({ children, context }: { children: ReactNode; cont
   return (
     <context.trpc.Provider client={context.trpcClient} queryClient={context.queryClient}>
       <QueryClientProvider client={context.queryClient}>
-        <Provider store={context.store}> {children}</Provider>
+        <Provider store={context.store}>{children}</Provider>
       </QueryClientProvider>
     </context.trpc.Provider>
   )
