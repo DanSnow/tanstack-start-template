@@ -1,4 +1,4 @@
-id: caddy-node
+id: tanstack-starter-template
 tasks:
   build:
     command:

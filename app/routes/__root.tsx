@@ -1,5 +1,4 @@
-import { Outlet, createRootRouteWithContext } from '@tanstack/react-router'
-import { Meta, Scripts } from '@tanstack/start'
+import { Outlet, HeadContent, createRootRouteWithContext, Scripts } from '@tanstack/react-router'
 import type * as React from 'react'
 import { DefaultCatchBoundary } from '~/components/DefaultCatchBoundary'
 import { NotFound } from '~/components/NotFound'
@@ -84,7 +83,7 @@ function RootDocument({ children }: { children: React.ReactNode }) {
     // biome-ignore lint/a11y/useHtmlLang: <explanation>
     <html className="dark">
       <head>
-        <Meta />
+        <HeadContent />
       </head>
       <body>
         {children}
