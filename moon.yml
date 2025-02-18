@@ -1,0 +1,22 @@
+id: caddy-node
+tasks:
+  build:
+    command:
+      - vinxi
+      - build
+    toolchain: node
+  dev:
+    command:
+      - vinxi
+      - dev
+    local: true
+    toolchain: node
+  drizzle-kit:
+    command: drizzle-kit
+    toolchain: node
+  start:
+    command:
+      - vinxi
+      - start
+    local: true
+    toolchain: node

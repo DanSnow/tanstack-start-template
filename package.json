@@ -3,11 +3,26 @@
   "private": true,
   "sideEffects": false,
   "type": "module",
-  "scripts": {
-    "dev": "vinxi dev",
-    "build": "vinxi build",
-    "start": "vinxi start",
-    "drizzle-kit": "drizzle-kit"
+  "devDependencies": {
+    "@biomejs/biome": "^1.9.4",
+    "@tailwindcss/vite": "4.0.6",
+    "@testing-library/react": "16.2.0",
+    "@types/node": "^22.13.2",
+    "@types/react": "^19.0.8",
+    "@types/react-dom": "^19.0.3",
+    "@vitest/coverage-v8": "3.0.5",
+    "@vitest/ui": "3.0.5",
+    "autoprefixer": "^10.4.20",
+    "drizzle-kit": "^0.30.4",
+    "happy-dom": "17.1.0",
+    "jotai-devtools": "0.10.1",
+    "msw": "2.7.0",
+    "postcss": "^8.5.2",
+    "tailwindcss": "4.0.6",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.3",
+    "vite-tsconfig-paths": "^5.1.4",
+    "vitest": "3.0.5"
   },
   "dependencies": {
     "@autoform/react": "3.0.0",
@@ -50,26 +65,13 @@
     "vinxi": "0.5.3",
     "zod": "3.24.2"
   },
-  "devDependencies": {
-    "@biomejs/biome": "^1.9.4",
-    "@tailwindcss/vite": "4.0.6",
-    "@testing-library/react": "16.2.0",
-    "@types/node": "^22.13.2",
-    "@types/react": "^19.0.8",
-    "@types/react-dom": "^19.0.3",
-    "@vitest/coverage-v8": "3.0.5",
-    "@vitest/ui": "3.0.5",
-    "autoprefixer": "^10.4.20",
-    "drizzle-kit": "^0.30.4",
-    "happy-dom": "17.1.0",
-    "jotai-devtools": "0.10.1",
-    "msw": "2.7.0",
-    "postcss": "^8.5.2",
-    "tailwindcss": "4.0.6",
-    "tsx": "^4.19.2",
-    "typescript": "^5.7.3",
-    "vite-tsconfig-paths": "^5.1.4",
-    "vitest": "3.0.5"
-  },
-  "packageManager": "pnpm@9.15.4+sha512.b2dc20e2fc72b3e18848459b37359a32064663e5627a51e4c74b2c29dd8e8e0491483c3abb40789cfd578bf362fb6ba8261b05f0387d76792ed6e23ea3b1b6a0"
+  "packageManager": "pnpm@10.4.1+sha512.c753b6c3ad7afa13af388fa6d808035a008e30ea9993f58c6663e2bc5ff21679aa834db094987129aa4d488b86df57f7b634981b2f827cdcacc698cc0cfb88af",
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "@biomejs/biome",
+      "@parcel/watcher",
+      "esbuild",
+      "msw"
+    ]
+  }
 }
