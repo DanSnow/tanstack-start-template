@@ -1,5 +1,5 @@
 import { notFound } from '@tanstack/react-router'
-import { createServerFn } from '@tanstack/start'
+import { createServerFn } from '@tanstack/react-start'
 import axios from 'redaxios'
 import { logMiddleware } from './loggingMiddleware'
 
@@ -32,7 +32,5 @@ export const fetchPosts = createServerFn({ method: 'GET' })
   .middleware([logMiddleware])
   .handler(async () => {
     console.info('Fetching posts...')
-    return axios
-      .get<Array<PostType>>('https://jsonplaceholder.typicode.com/posts')
-      .then((r) => r.data.slice(0, 10))
+    return axios.get<Array<PostType>>('https://jsonplaceholder.typicode.com/posts').then((r) => r.data.slice(0, 10))
   })

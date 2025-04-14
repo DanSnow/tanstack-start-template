@@ -1,4 +1,4 @@
-import { createMiddleware } from '@tanstack/start'
+import { createMiddleware } from '@tanstack/react-start'
 
 export const logMiddleware = createMiddleware()
   .client(async (ctx) => {
@@ -19,8 +19,7 @@ export const logMiddleware = createMiddleware()
     return ctx.next({
       sendContext: {
         serverTime,
-        durationToServer:
-          serverTime.getTime() - ctx.context.clientTime.getTime(),
+        durationToServer: serverTime.getTime() - ctx.context.clientTime.getTime(),
       },
     })
   })
