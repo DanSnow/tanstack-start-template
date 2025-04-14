@@ -3,6 +3,10 @@
   "private": true,
   "sideEffects": false,
   "type": "module",
+  "scripts": {
+    "build": "moon run build --",
+    "dev": "moon run dev --"
+  },
   "devDependencies": {
     "@biomejs/biome": "^1.9.4",
     "@tailwindcss/vite": "4.1.3",
