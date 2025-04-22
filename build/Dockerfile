@@ -15,7 +15,7 @@ FROM base AS skeleton
 
 # Copy entire repository and scaffold
 COPY . .
-RUN moon docker scaffold tanstack-starter-template
+RUN moon docker scaffold tanstack-start-template
 
 #### BUILD STAGE
 #### Builds the project.
@@ -34,7 +34,7 @@ RUN moon docker setup
 # Copy project sources
 COPY --from=skeleton /app/.moon/docker/sources .
 
-RUN moon run tanstack-starter-template:build && cd .output/server && corepack pnpm install
+RUN moon run tanstack-start-template:build && cd .output/server && corepack pnpm install
 
 # Prune extraneous dependencies
 RUN moon docker prune
