@@ -5,8 +5,14 @@ import { Button } from '~/components/ui/button'
 
 export const Route = createFileRoute('/')({
   component: Home,
-  loader: ({ context: { trpcQueryUtils } }) => {
-    return trpcQueryUtils.greet.ensureData({ name: 'World' })
+  loader: ({ context: { orpc, queryClient } }) => {
+    return queryClient.ensureQueryData(
+      orpc.greet.queryOptions({
+        input: {
+          name: 'World',
+        },
+      }),
+    )
   },
 })
 

@@ -1,36 +1,31 @@
 import { QueryClient } from '@tanstack/react-query'
-import { httpBatchLink } from '@trpc/client'
-import { createTRPCReact, createTRPCQueryUtils } from '@trpc/react-query'
+import { RPCLink } from '@orpc/client/fetch'
+import type { RouterClient } from '@orpc/server'
+import { createORPCReactQueryUtils } from '@orpc/react-query'
 import { createStore } from 'jotai'
 import type { AppRouter } from './server'
+import { createORPCClient } from '@orpc/client'
 
 const HOST_URL = 'http://localhost:3000'
 
 export function createRouterContext() {
   const queryClient = new QueryClient()
 
-  const trpc = createTRPCReact<AppRouter>({})
+  const orpcClient: RouterClient<AppRouter> = createORPCClient(
+    new RPCLink({
+      url:
+        typeof window !== 'undefined' ? new URL('/api/orpc', window.location.origin) : new URL('/api/orpc', HOST_URL),
+    }),
+  )
 
-  const trpcClient = trpc.createClient({
-    links: [
-      httpBatchLink({
-        url: `${HOST_URL}/api/trpc`,
-      }),
-    ],
-  })
-
-  const trpcQueryUtils = createTRPCQueryUtils({
-    queryClient,
-    client: trpcClient,
-  })
+  const orpc = createORPCReactQueryUtils(orpcClient)
 
   const store = createStore()
 
   return {
     queryClient,
-    trpc,
-    trpcClient,
-    trpcQueryUtils,
+    orpcClient,
+    orpc,
     store,
   }
 }
