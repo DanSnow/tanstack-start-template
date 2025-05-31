@@ -10,13 +10,13 @@ importers:
     dependencies:
       '@autoform/react':
         specifier: 3.1.0
-        version: 3.1.0(react-hook-form@7.56.4(react@19.1.0))(react@19.1.0)(yup@1.6.1)(zod@3.25.40)
+        version: 3.1.0(react-hook-form@7.56.4(react@19.1.0))(react@19.1.0)(yup@1.6.1)(zod@3.25.42)
       '@hookform/resolvers':
         specifier: 5.0.1
         version: 5.0.1(react-hook-form@7.56.4(react@19.1.0))
       '@libsql/client':
-        specifier: ^0.15.7
-        version: 0.15.7
+        specifier: ^0.15.8
+        version: 0.15.8
       '@radix-ui/react-checkbox':
         specifier: 1.3.2
         version: 1.3.2(@types/react-dom@19.1.5(@types/react@19.1.6))(@types/react@19.1.6)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
@@ -37,7 +37,7 @@ importers:
         version: 1.1.9(@types/react-dom@19.1.5(@types/react@19.1.6))(@types/react@19.1.6)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       '@t3-oss/env-core':
         specifier: ^0.13.6
-        version: 0.13.6(arktype@2.1.20)(typescript@5.8.3)(zod@3.25.40)
+        version: 0.13.6(arktype@2.1.20)(typescript@5.8.3)(zod@3.25.42)
       '@tanstack/react-query':
         specifier: ^5.79.0
         version: 5.79.0(react@19.1.0)
@@ -45,17 +45,17 @@ importers:
         specifier: ^5.79.0
         version: 5.79.0(@tanstack/react-query@5.79.0(react@19.1.0))(react@19.1.0)
       '@tanstack/react-router':
-        specifier: ^1.120.12
-        version: 1.120.12(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
+        specifier: ^1.120.13
+        version: 1.120.13(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       '@tanstack/react-router-devtools':
-        specifier: ^1.120.12
-        version: 1.120.12(@tanstack/react-router@1.120.12(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(@tanstack/router-core@1.120.10)(csstype@3.1.3)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(tiny-invariant@1.3.3)
+        specifier: ^1.120.13
+        version: 1.120.13(@tanstack/react-router@1.120.13(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(@tanstack/router-core@1.120.13)(csstype@3.1.3)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(tiny-invariant@1.3.3)
       '@tanstack/react-router-with-query':
-        specifier: ^1.120.12
-        version: 1.120.12(@tanstack/react-query@5.79.0(react@19.1.0))(@tanstack/react-router@1.120.12(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(@tanstack/router-core@1.120.10)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
+        specifier: ^1.120.13
+        version: 1.120.13(@tanstack/react-query@5.79.0(react@19.1.0))(@tanstack/react-router@1.120.13(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(@tanstack/router-core@1.120.13)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       '@tanstack/react-start':
-        specifier: ^1.120.12
-        version: 1.120.12(@libsql/client@0.15.7)(@tanstack/react-router@1.120.12(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(@types/node@22.15.26)(db0@0.3.2(@libsql/client@0.15.7)(drizzle-orm@0.44.0(@libsql/client@0.15.7)(gel@2.0.2)))(drizzle-orm@0.44.0(@libsql/client@0.15.7)(gel@2.0.2))(ioredis@5.6.1)(jiti@2.4.2)(lightningcss@1.30.1)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(terser@5.40.0)(tsx@4.19.4)(vite@6.3.5(@types/node@22.15.26)(jiti@2.4.2)(lightningcss@1.30.1)(terser@5.40.0)(tsx@4.19.4)(yaml@2.6.1))(yaml@2.6.1)
+        specifier: ^1.120.13
+        version: 1.120.13(@libsql/client@0.15.8)(@tanstack/react-router@1.120.13(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(@types/node@22.15.29)(db0@0.3.2(@libsql/client@0.15.8)(drizzle-orm@0.44.1(@libsql/client@0.15.8)(gel@2.0.2)))(drizzle-orm@0.44.1(@libsql/client@0.15.8)(gel@2.0.2))(ioredis@5.6.1)(jiti@2.4.2)(lightningcss@1.30.1)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(terser@5.40.0)(tsx@4.19.4)(vite@6.3.5(@types/node@22.15.29)(jiti@2.4.2)(lightningcss@1.30.1)(terser@5.40.0)(tsx@4.19.4)(yaml@2.6.1))(yaml@2.6.1)
       '@trpc/client':
         specifier: 11.1.4
         version: 11.1.4(@trpc/server@11.1.4(typescript@5.8.3))(typescript@5.8.3)
@@ -78,8 +78,8 @@ importers:
         specifier: ^16.5.0
         version: 16.5.0
       drizzle-orm:
-        specifier: ^0.44.0
-        version: 0.44.0(@libsql/client@0.15.7)(gel@2.0.2)
+        specifier: ^0.44.1
+        version: 0.44.1(@libsql/client@0.15.8)(gel@2.0.2)
       effect:
         specifier: ^3.16.2
         version: 3.16.2
@@ -121,10 +121,10 @@ importers:
         version: 3.3.0
       vinxi:
         specifier: 0.5.6
-        version: 0.5.6(@libsql/client@0.15.7)(@types/node@22.15.26)(db0@0.3.2(@libsql/client@0.15.7)(drizzle-orm@0.44.0(@libsql/client@0.15.7)(gel@2.0.2)))(drizzle-orm@0.44.0(@libsql/client@0.15.7)(gel@2.0.2))(ioredis@5.6.1)(jiti@2.4.2)(lightningcss@1.30.1)(terser@5.40.0)(tsx@4.19.4)(yaml@2.6.1)
+        version: 0.5.6(@libsql/client@0.15.8)(@types/node@22.15.29)(db0@0.3.2(@libsql/client@0.15.8)(drizzle-orm@0.44.1(@libsql/client@0.15.8)(gel@2.0.2)))(drizzle-orm@0.44.1(@libsql/client@0.15.8)(gel@2.0.2))(ioredis@5.6.1)(jiti@2.4.2)(lightningcss@1.30.1)(terser@5.40.0)(tsx@4.19.4)(yaml@2.6.1)
       zod:
-        specifier: 3.25.40
-        version: 3.25.40
+        specifier: 3.25.42
+        version: 3.25.42
     devDependencies:
       '@biomejs/biome':
         specifier: ^1.9.4
@@ -134,13 +134,13 @@ importers:
         version: 1.36.3
       '@tailwindcss/vite':
         specifier: 4.1.8
-        version: 4.1.8(vite@6.3.5(@types/node@22.15.26)(jiti@2.4.2)(lightningcss@1.30.1)(terser@5.40.0)(tsx@4.19.4)(yaml@2.6.1))
+        version: 4.1.8(vite@6.3.5(@types/node@22.15.29)(jiti@2.4.2)(lightningcss@1.30.1)(terser@5.40.0)(tsx@4.19.4)(yaml@2.6.1))
       '@testing-library/react':
         specifier: 16.3.0
         version: 16.3.0(@testing-library/dom@10.4.0)(@types/react-dom@19.1.5(@types/react@19.1.6))(@types/react@19.1.6)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       '@types/node':
-        specifier: ^22.15.26
-        version: 22.15.26
+        specifier: ^22.15.29
+        version: 22.15.29
       '@types/react':
         specifier: ^19.1.6
         version: 19.1.6
@@ -166,8 +166,8 @@ importers:
         specifier: 0.12.0
         version: 0.12.0(@types/react@19.1.6)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(redux@5.0.1)(storybook@8.6.12(prettier@3.5.3))
       msw:
-        specifier: 2.8.6
-        version: 2.8.6(@types/node@22.15.26)(typescript@5.8.3)
+        specifier: 2.8.7
+        version: 2.8.7(@types/node@22.15.29)(typescript@5.8.3)
       postcss:
         specifier: ^8.5.4
         version: 8.5.4
@@ -182,10 +182,10 @@ importers:
         version: 5.8.3
       vite-tsconfig-paths:
         specifier: ^5.1.4
-        version: 5.1.4(typescript@5.8.3)(vite@6.3.5(@types/node@22.15.26)(jiti@2.4.2)(lightningcss@1.30.1)(terser@5.40.0)(tsx@4.19.4)(yaml@2.6.1))
+        version: 5.1.4(typescript@5.8.3)(vite@6.3.5(@types/node@22.15.29)(jiti@2.4.2)(lightningcss@1.30.1)(terser@5.40.0)(tsx@4.19.4)(yaml@2.6.1))
       vitest:
         specifier: 3.1.4
-        version: 3.1.4(@types/node@22.15.26)(@vitest/ui@3.1.4)(happy-dom@17.5.6)(jiti@2.4.2)(lightningcss@1.30.1)(msw@2.8.6(@types/node@22.15.26)(typescript@5.8.3))(terser@5.40.0)(tsx@4.19.4)(yaml@2.6.1)
+        version: 3.1.4(@types/node@22.15.29)(@vitest/ui@3.1.4)(happy-dom@17.5.6)(jiti@2.4.2)(lightningcss@1.30.1)(msw@2.8.7(@types/node@22.15.29)(typescript@5.8.3))(terser@5.40.0)(tsx@4.19.4)(yaml@2.6.1)
 
 packages:
 
@@ -237,6 +237,10 @@ packages:
     resolution: {integrity: sha512-hyrN8ivxfvJ4i0fIJuV4EOlV0WDMz5Ui4StRTgVaAvWeiRCilXgwVvxJKtFQ3TKtHgJscB2YiXKGNJuVwhQMtA==}
     engines: {node: '>=6.9.0'}
 
+  '@babel/core@7.27.4':
+    resolution: {integrity: sha512-bXYxrXFubeYdvB0NhD/NBB3Qi6aZeV20GOWVI47t2dkecCEoneR4NPVcb7abpXDEvejgrUfFtG6vG/zxAKmg+g==}
+    engines: {node: '>=6.9.0'}
+
   '@babel/generator@7.27.3':
     resolution: {integrity: sha512-xnlJYj5zepml8NXtjkG0WquFUv8RskFqyFcVgTBp5k+NaA/8uw/K+OSVf8AMGw5e9HKP2ETd5xpK5MLZQD6b4Q==}
     engines: {node: '>=6.9.0'}
@@ -275,8 +279,17 @@ packages:
     resolution: {integrity: sha512-h/eKy9agOya1IGuLaZ9tEUgz+uIRXcbtOhRtUyyMf8JFmn1iT13vnl/IGVWSkdOCG/pC57U4S1jnAabAavTMwg==}
     engines: {node: '>=6.9.0'}
 
+  '@babel/helpers@7.27.4':
+    resolution: {integrity: sha512-Y+bO6U+I7ZKaM5G5rDUZiYfUvQPUibYmAFe7EnKdnKBbVXDZxvp+MWOH5gYciY0EPk4EScsuFMQBbEfpdRKSCQ==}
+    engines: {node: '>=6.9.0'}
+
   '@babel/parser@7.27.3':
     resolution: {integrity: sha512-xyYxRj6+tLNDTWi0KCBcZ9V7yg3/lwL9DWh9Uwh/RIVlIfFidggcgxKX3GCXwCiswwcGRawBKbEg2LG/Y8eJhw==}
+    engines: {node: '>=6.0.0'}
+    hasBin: true
+
+  '@babel/parser@7.27.4':
+    resolution: {integrity: sha512-BRmLHGwpUqLFR2jzx9orBuX/ABDkj2jLKOXrHDTN2aOKL+jFDDKaRNo9nyYsIl9h/UE/7lMKdDjKQQyxKKDZ7g==}
     engines: {node: '>=6.0.0'}
     hasBin: true
 
@@ -314,6 +327,10 @@ packages:
 
   '@babel/traverse@7.27.3':
     resolution: {integrity: sha512-lId/IfN/Ye1CIu8xG7oKBHXd2iNb2aW1ilPszzGcJug6M8RCKfVNcYhpI5+bMvFYjK7lXIM0R+a+6r8xhHp2FQ==}
+    engines: {node: '>=6.9.0'}
+
+  '@babel/traverse@7.27.4':
+    resolution: {integrity: sha512-oNcu2QbHqts9BtOWJosOVJapWjBDSxGCpFvikNR5TGDYDQf3JwpIoMzIKrvfoti93cLfPJEG4tH9SPVeyCGgdA==}
     engines: {node: '>=6.9.0'}
 
   '@babel/types@7.27.3':
@@ -1239,19 +1256,19 @@ packages:
   '@jridgewell/trace-mapping@0.3.25':
     resolution: {integrity: sha512-vNk6aEwybGtawWmy/PzwnGDOjCkLWSD2wqvjGGAgOAwCGWySYXfYoxt00IJkTF+8Lb57DwOb3Aa0o9CApepiYQ==}
 
-  '@libsql/client@0.15.7':
-    resolution: {integrity: sha512-2rKekOBINDKXGwB0I5qeTDuom2944hEkWkjN8O41j95/HRKP+3sk/fq6/PoPJSuwY3pgWAS8vyby+FgOyPnIVQ==}
+  '@libsql/client@0.15.8':
+    resolution: {integrity: sha512-TskygwF+ToZeWhPPT0WennyGrP3tmkKraaKopT2YwUjqD6DWDRm6SG5iy0VqnaO+HC9FNBCDX0oQPODU3gqqPQ==}
 
-  '@libsql/core@0.15.7':
-    resolution: {integrity: sha512-hW1++8iKAEnb7Y3EZ2zXRR+1K0MKdRT7SLaNgFkfwz6CmiIBY3sYN7VSftNS7IR6xKRvFBpoz10CC63NoFGkaQ==}
+  '@libsql/core@0.15.8':
+    resolution: {integrity: sha512-oX2fQqDbZkaBUvFMGvJq1Jh+mVzJrgNbEwK6Wzvp91z3uMe9iaIIXgO8yxB72RpUf7BqzjiKHjEiRXytfTdbUw==}
 
-  '@libsql/darwin-arm64@0.5.11':
-    resolution: {integrity: sha512-Av4+H8VypNZdbRbDKu5ogoCBHOdYh2Vx6iO7+0SACjcgnpqjnGL59lJUuX3fmV48VI6al1xORYJVApo//B5iqA==}
+  '@libsql/darwin-arm64@0.5.12':
+    resolution: {integrity: sha512-RDA87qaCWPE+uJWY91A0Is8KU9x43xDWMH8VNlj330CLFT9rC6jDypqadg0mzu1FEL2leG6BRdX6EcfM6NM3pw==}
     cpu: [arm64]
     os: [darwin]
 
-  '@libsql/darwin-x64@0.5.11':
-    resolution: {integrity: sha512-+BXozvOKhwbye16itymY2YXeHOcIeZGORdJK2prfXA7Q2HR4/dRdUirR1o/koxxxG616uiWlAVj5WJ0j2IWkQA==}
+  '@libsql/darwin-x64@0.5.12':
+    resolution: {integrity: sha512-6Ufip8uxQkLOFCsGd07miDt1w+Rx5VIJdDI6mSRBlVaEXWuWx1R8D7gfeCS0k73vDd+oh39pYF/R8nVFkwiOcg==}
     cpu: [x64]
     os: [darwin]
 
@@ -1265,38 +1282,38 @@ packages:
   '@libsql/isomorphic-ws@0.1.5':
     resolution: {integrity: sha512-DtLWIH29onUYR00i0GlQ3UdcTRC6EP4u9w/h9LxpUZJWRMARk6dQwZ6Jkd+QdwVpuAOrdxt18v0K2uIYR3fwFg==}
 
-  '@libsql/linux-arm-gnueabihf@0.5.11':
-    resolution: {integrity: sha512-znsVKbKgOerCNkIY0HjtvkioVGLskmGXZodZn3TMDRTmn1PIUt7/dnxU5moKMdKa1hKDSOC52dqF77nAdkn4UA==}
+  '@libsql/linux-arm-gnueabihf@0.5.12':
+    resolution: {integrity: sha512-I+4K++7byiOjYJNRGcrCBlIXjP6MwUta2GxPGZMoH2kAv6AintO4dvritu6vDe9LyRPXTjRJl30k+ThXR0RWxQ==}
     cpu: [arm]
     os: [linux]
 
-  '@libsql/linux-arm-musleabihf@0.5.11':
-    resolution: {integrity: sha512-l4gJY6AvhQ4fUJRpjph3AW6pbiAUcVxJUH0oM5Pf/GnA9acpaDgLtle2hWMz16BSncg/Jl2jVpaJuyJsJ9E7YA==}
+  '@libsql/linux-arm-musleabihf@0.5.12':
+    resolution: {integrity: sha512-87C3A5ozNEdOnI5VZq9lHpPJ3Ncl3p+qB5roDluVKflx9kKH1hEc8MpwkvU3qeIWppvgHowXlO9CfS572V10OA==}
     cpu: [arm]
     os: [linux]
 
-  '@libsql/linux-arm64-gnu@0.5.11':
-    resolution: {integrity: sha512-axXEenVUnSKR25g0iqL/OH4z4qrPBNwdBhjTWZr613L9tnboDPAioP1kVEy77nN8C8CL/dyXh5X4vKuIwHrQpQ==}
+  '@libsql/linux-arm64-gnu@0.5.12':
+    resolution: {integrity: sha512-0jpcuD7nHGD4XVTbId44SaY/JcqURKpxkXUcW4FsQ1qmkG5PsUy5l2Ob29P8HwGRBhDBomFWA4PvwJGrP/2pMA==}
     cpu: [arm64]
     os: [linux]
 
-  '@libsql/linux-arm64-musl@0.5.11':
-    resolution: {integrity: sha512-Pzz9dm2D78PQpy3pYKbvzBBOwdjg9c3yoQSu5QQQCGL4J5e1bZpa/p6Z3BoYBlvmdo1V36ljS6N4hRir/rnCxg==}
+  '@libsql/linux-arm64-musl@0.5.12':
+    resolution: {integrity: sha512-ic5bHp9OTCNgmvqojqkxWfuPm4Y8CKfpUe/AqmXrstzqlE9EKg1qD9KZIjso2g4pX15KPWJGPSd29OXxHkzsog==}
     cpu: [arm64]
     os: [linux]
 
-  '@libsql/linux-x64-gnu@0.5.11':
-    resolution: {integrity: sha512-DxOU0MqG7soKZFVzOo7Zot5qDajZjjOgjf/sOjeJf/aeRBr3KkKiwgWKnmjDhuhitahqc8Nu2D92/dsAuDHJsA==}
+  '@libsql/linux-x64-gnu@0.5.12':
+    resolution: {integrity: sha512-9zDtahCw2q0WJ54c/0vq142JtzI16OB8/U0bVCrpxF9DmLFyKBrAtEvoYdvKtFmvcvNn7YA5LEytr2g2q+xl1g==}
     cpu: [x64]
     os: [linux]
 
-  '@libsql/linux-x64-musl@0.5.11':
-    resolution: {integrity: sha512-uRou4r+PiDA616t2USnsjbot88ennTrwKqhVUY7S6LTPI3RiKizZg6YESCwhzofPtk8Ualp/hMQGTGSoW9DUKw==}
+  '@libsql/linux-x64-musl@0.5.12':
+    resolution: {integrity: sha512-+fisSpE+2yK1N88shPtB7bEB8d+fF3CQmy1KnbJ4Oned8cw5uBfU46A1ICG+49RFaKxmoIQimHVAxfGV9NFQ3w==}
     cpu: [x64]
     os: [linux]
 
-  '@libsql/win32-x64-msvc@0.5.11':
-    resolution: {integrity: sha512-NES0P2pyx5XjveTYotTG03eoJwx0haJBYWXfqmcPLmbQ5u03Qmd7rxhLfWDdIRj4PrdhVProwdB0FA82ryLcKQ==}
+  '@libsql/win32-x64-msvc@0.5.12':
+    resolution: {integrity: sha512-upNJCcgMgpAFXlL//rRVwlPgMT8uG1LoilHgCEpAp+GEjgBjoDgGW6iOkktuJC8paZh5kt9dCPh3r3jF3HWQjg==}
     cpu: [x64]
     os: [win32]
 
@@ -2211,16 +2228,16 @@ packages:
     peerDependencies:
       react: ^18 || ^19
 
-  '@tanstack/react-router-devtools@1.120.12':
-    resolution: {integrity: sha512-t0lij/wSgOocJ3KfyPqsz00ajxPrhpKRIhtyZi94hIE3k3rUGg8exVt2Lw4y2+CAXAtPmYWrkKii1v+hbE+TXQ==}
+  '@tanstack/react-router-devtools@1.120.13':
+    resolution: {integrity: sha512-HP9Qd1SBzN/TaAw5TPeD+9xCytBTZy+HM1kGRimXqSy8aOKlOkPa4fRcPyA+OWpB9CgiLKHDu6UrVVb2ZBAd6w==}
     engines: {node: '>=12'}
     peerDependencies:
-      '@tanstack/react-router': ^1.120.12
+      '@tanstack/react-router': ^1.120.13
       react: '>=18.0.0 || >=19.0.0'
       react-dom: '>=18.0.0 || >=19.0.0'
 
-  '@tanstack/react-router-with-query@1.120.12':
-    resolution: {integrity: sha512-FXPHrlodDBJDNn4TE5iGKpbl5gAbd5OGxiAVQb7g+uvdZwhlaL4BpPAHDS/8Na7ISV7iVVZgyN0dSl/oDeSTtw==}
+  '@tanstack/react-router-with-query@1.120.13':
+    resolution: {integrity: sha512-Yw+N7Lg257iXixLjzfiaA0fpW/hQZI71rlZlIvcDdoH3iY2Cj2Z42n/J91CNhUg9VopxTQU1BUYI1naepddADg==}
     engines: {node: '>=12'}
     peerDependencies:
       '@tanstack/react-query': '>=5.49.2'
@@ -2229,22 +2246,22 @@ packages:
       react: '>=18.0.0 || >=19.0.0'
       react-dom: '>=18.0.0 || >=19.0.0'
 
-  '@tanstack/react-router@1.120.12':
-    resolution: {integrity: sha512-NjwSfrEIwKsZsfibH6j4A43YqV6CMtCu2pvwBd4qXyUrLeeOlItffiRXX5Bq4E4ZiohULIhlL8PooCy2rHMpMw==}
+  '@tanstack/react-router@1.120.13':
+    resolution: {integrity: sha512-WAw5ZBo9Z3KQJMbxTK8O/3TW38K/F+ef1MzmA7uPrROMeNcBeZOEvhqeE4cKQbpnyWzIdWzNITjHs6wjn1ydzQ==}
     engines: {node: '>=12'}
     peerDependencies:
       react: '>=18.0.0 || >=19.0.0'
       react-dom: '>=18.0.0 || >=19.0.0'
 
-  '@tanstack/react-start-client@1.120.12':
-    resolution: {integrity: sha512-14+kBZTrPfG/T/6IXJzqMSnx6bJxEcM+re1OmmxWwD0Qf0vDcbDPecMbjcDLT/iSkN/qr9WSQwgA5umUNRa5IA==}
+  '@tanstack/react-start-client@1.120.13':
+    resolution: {integrity: sha512-HdlN48eta2cJCllkZEL0N2Tgfz5uwgOptY9eWIqCz6UpPERxNY4zzgrrSwbskpWiiFseLQx5X4/EIY2QWS3WwA==}
     engines: {node: '>=12'}
     peerDependencies:
       react: '>=18.0.0 || >=19.0.0'
       react-dom: '>=18.0.0 || >=19.0.0'
 
-  '@tanstack/react-start-config@1.120.12':
-    resolution: {integrity: sha512-Wo94BB+ftMf8B+mW/s3lLdo4Vc3i3wGo4nx1W3ViPViaE7TLhXee8ymKfmhJFc684T1sWDRLTQ8ukJqiLZqCAQ==}
+  '@tanstack/react-start-config@1.120.13':
+    resolution: {integrity: sha512-hIy/N5j64eTxWQ2/wI2mvnUAwKEBWNyY0gJFh1wKw2Os2ToIUyEgtyHP5A+qmfm5eABloEuvScy1E181u7niMQ==}
     engines: {node: '>=12'}
     peerDependencies:
       react: '>=18.0.0 || >=19.0.0'
@@ -2255,19 +2272,19 @@ packages:
     resolution: {integrity: sha512-5ltCwlAV5XOz7x/IFoOT1992gITfkygd5BdIexN990prNpvjDiOsNwJtrSEg9rge4XCuAbSK3jtxFh4Qy0l0zA==}
     engines: {node: '>=12'}
 
-  '@tanstack/react-start-router-manifest@1.120.10':
-    resolution: {integrity: sha512-rY2b1mjYgN4rbmEtRL4LZ+9IRa0kY08Ztf9tOe6/Agw4XfIEqz+sc83SdcJCZRKDeEKqhcd99Kjfqx4s2zMgFg==}
+  '@tanstack/react-start-router-manifest@1.120.13':
+    resolution: {integrity: sha512-NZGAlNYRYTu99okOJQAdc6P2WJlu5S4SCyEst29CJw9JzMK4RAaBsbjXs5yvg85Sl4FPXp9fmiTQml01evSiGA==}
     engines: {node: '>=12'}
 
-  '@tanstack/react-start-server@1.120.12':
-    resolution: {integrity: sha512-NR23kGthjP1QBDB0Ua1u223LlD9gmADiK8YWvHUl1JMKbvU+n48IHcewpd+CXAxyCjNro0VP4LlC1j9a/j8drw==}
+  '@tanstack/react-start-server@1.120.13':
+    resolution: {integrity: sha512-OahkvuaZjOrgWoCURcTeS6ufvKdB6oihAkib0Mi3mf+lEDrd90D5h2GXoRmZwI5KbCPqyYdROSwFtAwsy/M7tQ==}
     engines: {node: '>=12'}
     peerDependencies:
       react: '>=18.0.0 || >=19.0.0'
       react-dom: '>=18.0.0 || >=19.0.0'
 
-  '@tanstack/react-start@1.120.12':
-    resolution: {integrity: sha512-Wy5u8+SHUcKvKNIeZStaAiVAuxJF0bwUDzdtYXeuMB0B24zY+1ziq6cWMPN4Lkk+BGyNdoma2qomczkJsbDj0g==}
+  '@tanstack/react-start@1.120.13':
+    resolution: {integrity: sha512-fU6D4MuMQSKJTlA7oc4h9fXlxmKWOQgUXmmTjOL0FF6vSZee1txl33vVxfZlNJA15sVcgBPIjNxbLbaLauR6RA==}
     engines: {node: '>=12'}
     peerDependencies:
       react: '>=18.0.0 || >=19.0.0'
@@ -2280,15 +2297,15 @@ packages:
       react: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
       react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
 
-  '@tanstack/router-core@1.120.10':
-    resolution: {integrity: sha512-AmEJAYt+6w/790zTnfddVhnK1QJCnd96H4xg1aD65Oohc8+OTQBxgWky/wzqwhHRdkdsBgRT7iWac9x5Y8UrQA==}
+  '@tanstack/router-core@1.120.13':
+    resolution: {integrity: sha512-6elPiA6XSrAg6riKzl+lqYuHSp38++oWvEP50I6kSBDp0QmP/NKVYM0SL/g2R85AFD/hL9sFm+P5aTXzMgrPaA==}
     engines: {node: '>=12'}
 
-  '@tanstack/router-devtools-core@1.120.12':
-    resolution: {integrity: sha512-AQ6QzC/AZDtsD3NzcwTWX89O28haeHXk8t7oFC+lP6uQderk2hn047nlE64w9bwFfpKX4/DWEHuVqhavTCDJhA==}
+  '@tanstack/router-devtools-core@1.120.13':
+    resolution: {integrity: sha512-H9Yt6BXUfdcKURo9FMBw4idZVCggWlKaxNdJjfu8Or7Wu6Zi58kRt17RJ4ys/n6D1WznyteQ3ya2JZpan5n2NA==}
     engines: {node: '>=12'}
     peerDependencies:
-      '@tanstack/router-core': ^1.120.10
+      '@tanstack/router-core': ^1.120.13
       csstype: ^3.0.10
       solid-js: '>=1.9.5'
       tiny-invariant: ^1.3.3
@@ -2296,21 +2313,21 @@ packages:
       csstype:
         optional: true
 
-  '@tanstack/router-generator@1.120.12':
-    resolution: {integrity: sha512-s0P6waKYhtDVnUteztA5Q/I/GpCl7F+AeLvBJQCg74x4qU3uIQjJ9lJySgaANIrQO8am/sVp+2vEwx6e6lTmgA==}
+  '@tanstack/router-generator@1.120.13':
+    resolution: {integrity: sha512-sFqfYsdHXAF+lI8Xcvz/UPc8epKW4nGS1/rv/XLt+gTctgUS7trcyy6pTbUeFFglc9u+iAqEkJMS7uwF9jbBzA==}
     engines: {node: '>=12'}
     peerDependencies:
-      '@tanstack/react-router': ^1.120.12
+      '@tanstack/react-router': ^1.120.13
     peerDependenciesMeta:
       '@tanstack/react-router':
         optional: true
 
-  '@tanstack/router-plugin@1.120.12':
-    resolution: {integrity: sha512-JpeZhlMC7xRNYiJNPBhvCTSqCQIPttIo+P8S9XtLKYq+2tf+LXd0MGIrimTO0xkg1ROrb2cI17TRaMIYEWYe0Q==}
+  '@tanstack/router-plugin@1.120.13':
+    resolution: {integrity: sha512-myzEwP/Iqr0zf2/otj7hKXf9oZS+f2y+vdBfXE4T2UjLmOPQqCQOYgIt6LOJsfCfuCaKlOQBWbszcKly2IVlIA==}
     engines: {node: '>=12'}
     peerDependencies:
       '@rsbuild/core': '>=1.0.2'
-      '@tanstack/react-router': ^1.120.12
+      '@tanstack/react-router': ^1.120.13
       vite: '>=5.0.0 || >=6.0.0'
       vite-plugin-solid: ^2.11.2
       webpack: '>=5.92.0'
@@ -2334,36 +2351,36 @@ packages:
     resolution: {integrity: sha512-ramMedB4yt+fhFHio3GqRLUQVwKBEBREnHEVetHEYHLe6h+qYEwaVxQrQ75J+dTTWXa14DLadtgR3ygEydtfqA==}
     engines: {node: '>=12'}
 
-  '@tanstack/start-api-routes@1.120.10':
-    resolution: {integrity: sha512-E86zRj8tZfF5BkOg6FVGTgOmMyOaslNpCWvOjGE4LhOJIUkc8pNJ/JkxKqGT9dUr/AdKnWxmb/vRSROHc6LGYg==}
+  '@tanstack/start-api-routes@1.120.13':
+    resolution: {integrity: sha512-FNQgmbU7noMxSb/7hkVu60d/01NY9n2sOBZ8n7FuCtk1YnxhLjjV5/OvQbfww3vDR/ykhJzz46z6lLT7bfk6JQ==}
     engines: {node: '>=12'}
 
-  '@tanstack/start-client-core@1.120.10':
-    resolution: {integrity: sha512-n4ByHnNNqiQ6lG2con81CsqyKhY82FOnMQkZszeXSd1w3Ebkhvc1jUzhuhHz+kyEu8G5OWcg+kRwMjk40CnJ4A==}
+  '@tanstack/start-client-core@1.120.13':
+    resolution: {integrity: sha512-IUbxeOukvReVVuiaIXHIhf/nhiWLCpPPFaBntoLswy6rPA7D3GvpeGm5CZL/RBrC81djEhQvHBPcZDeTbChgYw==}
     engines: {node: '>=12'}
 
-  '@tanstack/start-server-core@1.120.10':
-    resolution: {integrity: sha512-8iAPz7/FJ3Br/ZkKVidzIPYQ1dno2YfHlizpi2YH6yt1c4fiSsAmdK6TFoU5c3XrEg+6LtAE18DLBrD3LFP/lw==}
+  '@tanstack/start-server-core@1.120.13':
+    resolution: {integrity: sha512-MZ8wpQro9SUl+qjJ0ruIigGcUzAiVHWk4X+LpQq4G/JKPkdnaBeBJm7ceZAUHdR0+lxVAAYgfJKH2qkrgAwPLQ==}
     engines: {node: '>=12'}
 
-  '@tanstack/start-server-functions-client@1.120.10':
-    resolution: {integrity: sha512-sf+qR8FVQWyC7zVkf7waua1sHGZdMq8rJuiRCAvuDAGIl1XCH0jIvIXvlu9fQJ1UevnD6aime5A0DXmjf2F8Uw==}
+  '@tanstack/start-server-functions-client@1.120.13':
+    resolution: {integrity: sha512-cCUqAn4phS66aD+lh9glCWAI9P4d+Re3ETJH07FTKWUMEJZBXxXV6dXpzbghw11xYvM6ZDUG5pDoHUaYtFp8ZQ==}
     engines: {node: '>=12'}
 
-  '@tanstack/start-server-functions-fetcher@1.120.10':
-    resolution: {integrity: sha512-jsoTwH7p4mnMsJ5HHN3diec4a++kSWmNNkfjSjxafXBzKG+uxsDlDVzK185IDGVQsBr7fHHzsm/UfwDKSVoarg==}
+  '@tanstack/start-server-functions-fetcher@1.120.13':
+    resolution: {integrity: sha512-qfN1mN5ZwYFcO7k1CdM3GGrxvC/dvaFWnYPmLLkAoq8OAtJRQJlieVFomq7Tz+eHLvnHEOPat+rp7//TrjMScA==}
     engines: {node: '>=12'}
 
-  '@tanstack/start-server-functions-handler@1.120.10':
-    resolution: {integrity: sha512-2U3DCQfOLoByoIlQvvONg5kDV4uChCoNIIfAKKoMnfrfnFMclamA1F215epeubNSZvKf1Bpij8CvWANFh6KhoQ==}
+  '@tanstack/start-server-functions-handler@1.120.13':
+    resolution: {integrity: sha512-xfjXT0QmnbES8yHyWjvWxXKmw930v4s17mS5YMYhaaryTpg/J+/UV3us1jW7nKekoUbLtURhIMYpx2CkMx+Gbw==}
     engines: {node: '>=12'}
 
   '@tanstack/start-server-functions-server@1.119.2':
     resolution: {integrity: sha512-wosjaLvWhVeNCg+RRl2Q7Wl0TliQUBPlqhoG9BBN5uLNmsW+iKeFuzctaXoCB0sKkloz9gjtoJRxPyFY2LpkxQ==}
     engines: {node: '>=12'}
 
-  '@tanstack/start-server-functions-ssr@1.120.10':
-    resolution: {integrity: sha512-pXU71nNIShQyFCnWLfUYSMbyNKFEUUUZSo0ATWGHzicjdjxkVv9JjIBr3Y6HlgYMmfOl1zgifVgoU8grQtBawA==}
+  '@tanstack/start-server-functions-ssr@1.120.13':
+    resolution: {integrity: sha512-iG+XOFNcC6NcGXJXl+Yujtfi1WyCLyOyYtOyOorFUydvfDGGuKRtUSFOJyi5DNvrq442fE3MqGRJ3g7LQu5EWQ==}
     engines: {node: '>=12'}
 
   '@tanstack/store@0.7.1':
@@ -2459,8 +2476,8 @@ packages:
   '@types/micromatch@4.0.9':
     resolution: {integrity: sha512-7V+8ncr22h4UoYRLnLXSpTxjQrNUXtWHGeMPRJt1nULXI57G9bIcpyrHlmrQ7QK24EyyuXvYcSSWAM8GA9nqCg==}
 
-  '@types/node@22.15.26':
-    resolution: {integrity: sha512-lgISkNrqdQ5DAzjBhnDNGKDuXDNo7/1V4FhNzsKREhWLZTOELQAptuAnJMzHtUl1qyEBBy9lNBKQ9WjyiSloTw==}
+  '@types/node@22.15.29':
+    resolution: {integrity: sha512-LNdjOkUDlU1RZb8e1kOIUpN1qQUlzGkEtbVNo53vbrwDg5om6oduhm4SiUaPW5ASTXhAiP0jInWG8Qx9fVlOeQ==}
 
   '@types/normalize-package-data@2.4.4':
     resolution: {integrity: sha512-37i+OaWTh9qeK4LSHPsyRC7NahnGotNuZvjLSgcPzblpHB3rrCJxAOgI5gCdKm7coonsaX1Of0ILiTcnZjbfxA==}
@@ -3212,8 +3229,8 @@ packages:
     resolution: {integrity: sha512-PUjYKWtzOzPtdtQlTHQG3qfv4Y0XT8+Eas6UbxCmxTj7qgMf+39dDujf1BP1I+qqZtw9uzwTh8jYtkMuCq+B0Q==}
     hasBin: true
 
-  drizzle-orm@0.44.0:
-    resolution: {integrity: sha512-/8wYepe887Gp1eCVILKitNegclGLPUMdK4oDDyDftKJOeHoCylY+XM++chMJloy9oKTceWOALiQMl2aAuFuPTw==}
+  drizzle-orm@0.44.1:
+    resolution: {integrity: sha512-prIWOlwJbiYInvcJxE+IMiJCtMiFVrSUJCwx6AXSJvGOdLu35qZ46QncTZDgloiLNCG0XxTC8agQElSmsl++TA==}
     peerDependencies:
       '@aws-sdk/client-rds-data': '>=3'
       '@cloudflare/workers-types': '>=4'
@@ -4025,6 +4042,7 @@ packages:
     resolution: {integrity: sha512-Quz3MvAwHxVYNXsOByL7xI5EB2WYOeFswqaHIA3qOK3isRWTxiplBEocmmru6XmxDB2L7jDNYtYA4FyimoAFEw==}
     engines: {node: '>=8.17.0'}
     hasBin: true
+    bundledDependencies: []
 
   junk@4.0.1:
     resolution: {integrity: sha512-Qush0uP+G8ZScpGMZvHUiRfI0YBWuB3gVBYlI0v0vvOJt5FLicco+IkP0a50LqTTQhmts/m6tP5SWE+USyIvcQ==}
@@ -4057,8 +4075,8 @@ packages:
     resolution: {integrity: sha512-b94GiNHQNy6JNTrt5w6zNyffMrNkXZb3KTkCZJb2V1xaEGCk093vkZ2jk3tpaeP33/OiXC+WvK9AxUebnf5nbw==}
     engines: {node: '>= 0.6.3'}
 
-  libsql@0.5.11:
-    resolution: {integrity: sha512-P2xY1nL2Jl7oM75LcguAEYqouVcevWhLWT8RU/p9ldaqQx5s/chF9t5ZFXPWP0x9myQQ4SguRqPO+FqdnCzKQg==}
+  libsql@0.5.12:
+    resolution: {integrity: sha512-TikiQZ1j4TwFEqVdJdTM9ZTti28is/ytGEvn0S2MocOj69UKQetWACe/qd8KAD5VeNnQSVd6Nlm2AJx0DFW9Ag==}
     cpu: [x64, arm64, wasm32, arm]
     os: [darwin, linux, win32]
 
@@ -4290,8 +4308,8 @@ packages:
   ms@2.1.3:
     resolution: {integrity: sha512-6FlzubTLZG3J2a/NVCAleEhjzq5oxgHyaCU9yYXvcLsvoVaHJq/s5xXI6/XXP6tz7R9xAOtHnSO/tXtF3WRTlA==}
 
-  msw@2.8.6:
-    resolution: {integrity: sha512-fpwS5PnENnf7q7VF2ev00yfzmNXW78McKNgyaHaXQgz7p9pV8b2qQx1FoI0QA4BOxaVGBB6zBQUV4QWaK3G40g==}
+  msw@2.8.7:
+    resolution: {integrity: sha512-0TGfV4oQiKpa3pDsQBDf0xvFP+sRrqEOnh2n1JWpHVKHJHLv6ZmY1HCZpCi7uDiJTeIHJMBpmBiRmBJN+ETPSQ==}
     engines: {node: '>=18'}
     hasBin: true
     peerDependencies:
@@ -5732,8 +5750,8 @@ packages:
     resolution: {integrity: sha512-zK7YHHz4ZXpW89AHXUPbQVGKI7uvkd3hzusTdotCg1UxyaVtg0zFJSTfW/Dq5f7OBBVnq6cZIaC8Ti4hb6dtCA==}
     engines: {node: '>= 14'}
 
-  zod@3.25.40:
-    resolution: {integrity: sha512-AiNHzYhEjwg7HcjCSskJVBzdsioZkqXjlxfI6ygzM52P8LcQnXRvMzzFxQWdPP9c1bHYQqOcAqepHPGfF2hvJQ==}
+  zod@3.25.42:
+    resolution: {integrity: sha512-PcALTLskaucbeHc41tU/xfjfhcz8z0GdhhDcSgrCTmSazUuqnYqiXO63M0QUBVwpBlsLsNVn5qHSC5Dw3KZvaQ==}
 
 snapshots:
 
@@ -5754,11 +5772,11 @@ snapshots:
 
   '@autoform/core@2.2.0': {}
 
-  '@autoform/react@3.1.0(react-hook-form@7.56.4(react@19.1.0))(react@19.1.0)(yup@1.6.1)(zod@3.25.40)':
+  '@autoform/react@3.1.0(react-hook-form@7.56.4(react@19.1.0))(react@19.1.0)(yup@1.6.1)(zod@3.25.42)':
     dependencies:
       '@autoform/core': 2.2.0
       '@autoform/yup': 2.2.0(yup@1.6.1)
-      '@autoform/zod': 2.2.0(zod@3.25.40)
+      '@autoform/zod': 2.2.0(zod@3.25.42)
       '@hookform/resolvers': 3.10.0(react-hook-form@7.56.4(react@19.1.0))
       react: 19.1.0
       react-hook-form: 7.56.4(react@19.1.0)
@@ -5771,10 +5789,10 @@ snapshots:
       '@autoform/core': 2.2.0
       yup: 1.6.1
 
-  '@autoform/zod@2.2.0(zod@3.25.40)':
+  '@autoform/zod@2.2.0(zod@3.25.42)':
     dependencies:
       '@autoform/core': 2.2.0
-      zod: 3.25.40
+      zod: 3.25.42
 
   '@babel/code-frame@7.26.2':
     dependencies:
@@ -5801,6 +5819,26 @@ snapshots:
       '@babel/parser': 7.27.3
       '@babel/template': 7.27.2
       '@babel/traverse': 7.27.3
+      '@babel/types': 7.27.3
+      convert-source-map: 2.0.0
+      debug: 4.4.1
+      gensync: 1.0.0-beta.2
+      json5: 2.2.3
+      semver: 6.3.1
+    transitivePeerDependencies:
+      - supports-color
+
+  '@babel/core@7.27.4':
+    dependencies:
+      '@ampproject/remapping': 2.3.0
+      '@babel/code-frame': 7.27.1
+      '@babel/generator': 7.27.3
+      '@babel/helper-compilation-targets': 7.27.2
+      '@babel/helper-module-transforms': 7.27.3(@babel/core@7.27.4)
+      '@babel/helpers': 7.27.4
+      '@babel/parser': 7.27.4
+      '@babel/template': 7.27.2
+      '@babel/traverse': 7.27.4
       '@babel/types': 7.27.3
       convert-source-map: 2.0.0
       debug: 4.4.1
@@ -5842,6 +5880,15 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
+  '@babel/helper-module-transforms@7.27.3(@babel/core@7.27.4)':
+    dependencies:
+      '@babel/core': 7.27.4
+      '@babel/helper-module-imports': 7.27.1
+      '@babel/helper-validator-identifier': 7.27.1
+      '@babel/traverse': 7.27.3
+    transitivePeerDependencies:
+      - supports-color
+
   '@babel/helper-plugin-utils@7.27.1': {}
 
   '@babel/helper-string-parser@7.27.1': {}
@@ -5855,7 +5902,16 @@ snapshots:
       '@babel/template': 7.27.2
       '@babel/types': 7.27.3
 
+  '@babel/helpers@7.27.4':
+    dependencies:
+      '@babel/template': 7.27.2
+      '@babel/types': 7.27.3
+
   '@babel/parser@7.27.3':
+    dependencies:
+      '@babel/types': 7.27.3
+
+  '@babel/parser@7.27.4':
     dependencies:
       '@babel/types': 7.27.3
 
@@ -5864,19 +5920,29 @@ snapshots:
       '@babel/core': 7.27.3
       '@babel/helper-plugin-utils': 7.27.1
 
+  '@babel/plugin-syntax-jsx@7.27.1(@babel/core@7.27.4)':
+    dependencies:
+      '@babel/core': 7.27.4
+      '@babel/helper-plugin-utils': 7.27.1
+
   '@babel/plugin-syntax-typescript@7.27.1(@babel/core@7.27.3)':
     dependencies:
       '@babel/core': 7.27.3
       '@babel/helper-plugin-utils': 7.27.1
 
-  '@babel/plugin-transform-react-jsx-self@7.27.1(@babel/core@7.27.3)':
+  '@babel/plugin-syntax-typescript@7.27.1(@babel/core@7.27.4)':
     dependencies:
-      '@babel/core': 7.27.3
+      '@babel/core': 7.27.4
       '@babel/helper-plugin-utils': 7.27.1
 
-  '@babel/plugin-transform-react-jsx-source@7.27.1(@babel/core@7.27.3)':
+  '@babel/plugin-transform-react-jsx-self@7.27.1(@babel/core@7.27.4)':
     dependencies:
-      '@babel/core': 7.27.3
+      '@babel/core': 7.27.4
+      '@babel/helper-plugin-utils': 7.27.1
+
+  '@babel/plugin-transform-react-jsx-source@7.27.1(@babel/core@7.27.4)':
+    dependencies:
+      '@babel/core': 7.27.4
       '@babel/helper-plugin-utils': 7.27.1
 
   '@babel/runtime@7.27.3': {}
@@ -5892,6 +5958,18 @@ snapshots:
       '@babel/code-frame': 7.27.1
       '@babel/generator': 7.27.3
       '@babel/parser': 7.27.3
+      '@babel/template': 7.27.2
+      '@babel/types': 7.27.3
+      debug: 4.4.1
+      globals: 11.12.0
+    transitivePeerDependencies:
+      - supports-color
+
+  '@babel/traverse@7.27.4':
+    dependencies:
+      '@babel/code-frame': 7.27.1
+      '@babel/generator': 7.27.3
+      '@babel/parser': 7.27.4
       '@babel/template': 7.27.2
       '@babel/types': 7.27.3
       debug: 4.4.1
@@ -6386,17 +6464,17 @@ snapshots:
       '@standard-schema/utils': 0.3.0
       react-hook-form: 7.56.4(react@19.1.0)
 
-  '@inquirer/confirm@5.1.12(@types/node@22.15.26)':
+  '@inquirer/confirm@5.1.12(@types/node@22.15.29)':
     dependencies:
-      '@inquirer/core': 10.1.13(@types/node@22.15.26)
-      '@inquirer/type': 3.0.7(@types/node@22.15.26)
+      '@inquirer/core': 10.1.13(@types/node@22.15.29)
+      '@inquirer/type': 3.0.7(@types/node@22.15.29)
     optionalDependencies:
-      '@types/node': 22.15.26
+      '@types/node': 22.15.29
 
-  '@inquirer/core@10.1.13(@types/node@22.15.26)':
+  '@inquirer/core@10.1.13(@types/node@22.15.29)':
     dependencies:
       '@inquirer/figures': 1.0.12
-      '@inquirer/type': 3.0.7(@types/node@22.15.26)
+      '@inquirer/type': 3.0.7(@types/node@22.15.29)
       ansi-escapes: 4.3.2
       cli-width: 4.1.0
       mute-stream: 2.0.0
@@ -6404,13 +6482,13 @@ snapshots:
       wrap-ansi: 6.2.0
       yoctocolors-cjs: 2.1.2
     optionalDependencies:
-      '@types/node': 22.15.26
+      '@types/node': 22.15.29
 
   '@inquirer/figures@1.0.12': {}
 
-  '@inquirer/type@3.0.7(@types/node@22.15.26)':
+  '@inquirer/type@3.0.7(@types/node@22.15.29)':
     optionalDependencies:
-      '@types/node': 22.15.26
+      '@types/node': 22.15.29
 
   '@ioredis/commands@1.2.0': {}
 
@@ -6451,25 +6529,25 @@ snapshots:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.5.0
 
-  '@libsql/client@0.15.7':
+  '@libsql/client@0.15.8':
     dependencies:
-      '@libsql/core': 0.15.7
+      '@libsql/core': 0.15.8
       '@libsql/hrana-client': 0.7.0
       js-base64: 3.7.7
-      libsql: 0.5.11
+      libsql: 0.5.12
       promise-limit: 2.7.0
     transitivePeerDependencies:
       - bufferutil
       - utf-8-validate
 
-  '@libsql/core@0.15.7':
+  '@libsql/core@0.15.8':
     dependencies:
       js-base64: 3.7.7
 
-  '@libsql/darwin-arm64@0.5.11':
+  '@libsql/darwin-arm64@0.5.12':
     optional: true
 
-  '@libsql/darwin-x64@0.5.11':
+  '@libsql/darwin-x64@0.5.12':
     optional: true
 
   '@libsql/hrana-client@0.7.0':
@@ -6492,25 +6570,25 @@ snapshots:
       - bufferutil
       - utf-8-validate
 
-  '@libsql/linux-arm-gnueabihf@0.5.11':
+  '@libsql/linux-arm-gnueabihf@0.5.12':
     optional: true
 
-  '@libsql/linux-arm-musleabihf@0.5.11':
+  '@libsql/linux-arm-musleabihf@0.5.12':
     optional: true
 
-  '@libsql/linux-arm64-gnu@0.5.11':
+  '@libsql/linux-arm64-gnu@0.5.12':
     optional: true
 
-  '@libsql/linux-arm64-musl@0.5.11':
+  '@libsql/linux-arm64-musl@0.5.12':
     optional: true
 
-  '@libsql/linux-x64-gnu@0.5.11':
+  '@libsql/linux-x64-gnu@0.5.12':
     optional: true
 
-  '@libsql/linux-x64-musl@0.5.11':
+  '@libsql/linux-x64-musl@0.5.12':
     optional: true
 
-  '@libsql/win32-x64-msvc@0.5.11':
+  '@libsql/win32-x64-msvc@0.5.12':
     optional: true
 
   '@mantine/code-highlight@7.17.7(@mantine/core@7.17.7(@mantine/hooks@7.17.7(react@19.1.0))(@types/react@19.1.6)(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(@mantine/hooks@7.17.7(react@19.1.0))(react-dom@19.1.0(react@19.1.0))(react@19.1.0)':
@@ -6678,7 +6756,7 @@ snapshots:
       unixify: 1.0.0
       urlpattern-polyfill: 8.0.2
       yargs: 17.7.2
-      zod: 3.25.40
+      zod: 3.25.42
     transitivePeerDependencies:
       - encoding
       - rollup
@@ -7259,11 +7337,11 @@ snapshots:
     dependencies:
       storybook: 8.6.12(prettier@3.5.3)
 
-  '@t3-oss/env-core@0.13.6(arktype@2.1.20)(typescript@5.8.3)(zod@3.25.40)':
+  '@t3-oss/env-core@0.13.6(arktype@2.1.20)(typescript@5.8.3)(zod@3.25.42)':
     optionalDependencies:
       arktype: 2.1.20
       typescript: 5.8.3
-      zod: 3.25.40
+      zod: 3.25.42
 
   '@tailwindcss/node@4.1.8':
     dependencies:
@@ -7329,27 +7407,27 @@ snapshots:
       '@tailwindcss/oxide-win32-arm64-msvc': 4.1.8
       '@tailwindcss/oxide-win32-x64-msvc': 4.1.8
 
-  '@tailwindcss/vite@4.1.8(vite@6.3.5(@types/node@22.15.26)(jiti@2.4.2)(lightningcss@1.30.1)(terser@5.40.0)(tsx@4.19.4)(yaml@2.6.1))':
+  '@tailwindcss/vite@4.1.8(vite@6.3.5(@types/node@22.15.29)(jiti@2.4.2)(lightningcss@1.30.1)(terser@5.40.0)(tsx@4.19.4)(yaml@2.6.1))':
     dependencies:
       '@tailwindcss/node': 4.1.8
       '@tailwindcss/oxide': 4.1.8
       tailwindcss: 4.1.8
-      vite: 6.3.5(@types/node@22.15.26)(jiti@2.4.2)(lightningcss@1.30.1)(terser@5.40.0)(tsx@4.19.4)(yaml@2.6.1)
+      vite: 6.3.5(@types/node@22.15.29)(jiti@2.4.2)(lightningcss@1.30.1)(terser@5.40.0)(tsx@4.19.4)(yaml@2.6.1)
 
-  '@tanstack/directive-functions-plugin@1.119.2(@types/node@22.15.26)(jiti@2.4.2)(lightningcss@1.30.1)(terser@5.40.0)(tsx@4.19.4)(yaml@2.6.1)':
+  '@tanstack/directive-functions-plugin@1.119.2(@types/node@22.15.29)(jiti@2.4.2)(lightningcss@1.30.1)(terser@5.40.0)(tsx@4.19.4)(yaml@2.6.1)':
     dependencies:
       '@babel/code-frame': 7.26.2
-      '@babel/core': 7.27.3
-      '@babel/plugin-syntax-jsx': 7.27.1(@babel/core@7.27.3)
-      '@babel/plugin-syntax-typescript': 7.27.1(@babel/core@7.27.3)
+      '@babel/core': 7.27.4
+      '@babel/plugin-syntax-jsx': 7.27.1(@babel/core@7.27.4)
+      '@babel/plugin-syntax-typescript': 7.27.1(@babel/core@7.27.4)
       '@babel/template': 7.27.2
-      '@babel/traverse': 7.27.3
+      '@babel/traverse': 7.27.4
       '@babel/types': 7.27.3
       '@tanstack/router-utils': 1.115.0
       babel-dead-code-elimination: 1.0.10
       dedent: 1.6.0
       tiny-invariant: 1.3.3
-      vite: 6.1.4(@types/node@22.15.26)(jiti@2.4.2)(lightningcss@1.30.1)(terser@5.40.0)(tsx@4.19.4)(yaml@2.6.1)
+      vite: 6.1.4(@types/node@22.15.29)(jiti@2.4.2)(lightningcss@1.30.1)(terser@5.40.0)(tsx@4.19.4)(yaml@2.6.1)
     transitivePeerDependencies:
       - '@types/node'
       - babel-plugin-macros
@@ -7382,10 +7460,10 @@ snapshots:
       '@tanstack/query-core': 5.79.0
       react: 19.1.0
 
-  '@tanstack/react-router-devtools@1.120.12(@tanstack/react-router@1.120.12(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(@tanstack/router-core@1.120.10)(csstype@3.1.3)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(tiny-invariant@1.3.3)':
+  '@tanstack/react-router-devtools@1.120.13(@tanstack/react-router@1.120.13(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(@tanstack/router-core@1.120.13)(csstype@3.1.3)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(tiny-invariant@1.3.3)':
     dependencies:
-      '@tanstack/react-router': 1.120.12(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
-      '@tanstack/router-devtools-core': 1.120.12(@tanstack/router-core@1.120.10)(csstype@3.1.3)(solid-js@1.9.7)(tiny-invariant@1.3.3)
+      '@tanstack/react-router': 1.120.13(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
+      '@tanstack/router-devtools-core': 1.120.13(@tanstack/router-core@1.120.13)(csstype@3.1.3)(solid-js@1.9.7)(tiny-invariant@1.3.3)
       react: 19.1.0
       react-dom: 19.1.0(react@19.1.0)
       solid-js: 1.9.7
@@ -7394,37 +7472,37 @@ snapshots:
       - csstype
       - tiny-invariant
 
-  '@tanstack/react-router-with-query@1.120.12(@tanstack/react-query@5.79.0(react@19.1.0))(@tanstack/react-router@1.120.12(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(@tanstack/router-core@1.120.10)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)':
+  '@tanstack/react-router-with-query@1.120.13(@tanstack/react-query@5.79.0(react@19.1.0))(@tanstack/react-router@1.120.13(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(@tanstack/router-core@1.120.13)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)':
     dependencies:
       '@tanstack/react-query': 5.79.0(react@19.1.0)
-      '@tanstack/react-router': 1.120.12(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
-      '@tanstack/router-core': 1.120.10
+      '@tanstack/react-router': 1.120.13(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
+      '@tanstack/router-core': 1.120.13
       react: 19.1.0
       react-dom: 19.1.0(react@19.1.0)
 
-  '@tanstack/react-router@1.120.12(react-dom@19.1.0(react@19.1.0))(react@19.1.0)':
+  '@tanstack/react-router@1.120.13(react-dom@19.1.0(react@19.1.0))(react@19.1.0)':
     dependencies:
       '@tanstack/history': 1.115.0
       '@tanstack/react-store': 0.7.1(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
-      '@tanstack/router-core': 1.120.10
+      '@tanstack/router-core': 1.120.13
       jsesc: 3.1.0
       react: 19.1.0
       react-dom: 19.1.0(react@19.1.0)
       tiny-invariant: 1.3.3
       tiny-warning: 1.0.3
 
-  '@tanstack/react-start-client@1.120.12(@libsql/client@0.15.7)(@types/node@22.15.26)(db0@0.3.2(@libsql/client@0.15.7)(drizzle-orm@0.44.0(@libsql/client@0.15.7)(gel@2.0.2)))(drizzle-orm@0.44.0(@libsql/client@0.15.7)(gel@2.0.2))(ioredis@5.6.1)(jiti@2.4.2)(lightningcss@1.30.1)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(terser@5.40.0)(tsx@4.19.4)(yaml@2.6.1)':
+  '@tanstack/react-start-client@1.120.13(@libsql/client@0.15.8)(@types/node@22.15.29)(db0@0.3.2(@libsql/client@0.15.8)(drizzle-orm@0.44.1(@libsql/client@0.15.8)(gel@2.0.2)))(drizzle-orm@0.44.1(@libsql/client@0.15.8)(gel@2.0.2))(ioredis@5.6.1)(jiti@2.4.2)(lightningcss@1.30.1)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(terser@5.40.0)(tsx@4.19.4)(yaml@2.6.1)':
     dependencies:
-      '@tanstack/react-router': 1.120.12(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
-      '@tanstack/router-core': 1.120.10
-      '@tanstack/start-client-core': 1.120.10
+      '@tanstack/react-router': 1.120.13(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
+      '@tanstack/router-core': 1.120.13
+      '@tanstack/start-client-core': 1.120.13
       cookie-es: 1.2.2
       jsesc: 3.1.0
       react: 19.1.0
       react-dom: 19.1.0(react@19.1.0)
       tiny-invariant: 1.3.3
       tiny-warning: 1.0.3
-      vinxi: 0.5.6(@libsql/client@0.15.7)(@types/node@22.15.26)(db0@0.3.2(@libsql/client@0.15.7)(drizzle-orm@0.44.0(@libsql/client@0.15.7)(gel@2.0.2)))(drizzle-orm@0.44.0(@libsql/client@0.15.7)(gel@2.0.2))(ioredis@5.6.1)(jiti@2.4.2)(lightningcss@1.30.1)(terser@5.40.0)(tsx@4.19.4)(yaml@2.6.1)
+      vinxi: 0.5.6(@libsql/client@0.15.8)(@types/node@22.15.29)(db0@0.3.2(@libsql/client@0.15.8)(drizzle-orm@0.44.1(@libsql/client@0.15.8)(gel@2.0.2)))(drizzle-orm@0.44.1(@libsql/client@0.15.8)(gel@2.0.2))(ioredis@5.6.1)(jiti@2.4.2)(lightningcss@1.30.1)(terser@5.40.0)(tsx@4.19.4)(yaml@2.6.1)
     transitivePeerDependencies:
       - '@azure/app-configuration'
       - '@azure/cosmos'
@@ -7467,23 +7545,23 @@ snapshots:
       - xml2js
       - yaml
 
-  '@tanstack/react-start-config@1.120.12(@libsql/client@0.15.7)(@tanstack/react-router@1.120.12(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(@types/node@22.15.26)(db0@0.3.2(@libsql/client@0.15.7)(drizzle-orm@0.44.0(@libsql/client@0.15.7)(gel@2.0.2)))(drizzle-orm@0.44.0(@libsql/client@0.15.7)(gel@2.0.2))(ioredis@5.6.1)(jiti@2.4.2)(lightningcss@1.30.1)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(terser@5.40.0)(tsx@4.19.4)(vite@6.3.5(@types/node@22.15.26)(jiti@2.4.2)(lightningcss@1.30.1)(terser@5.40.0)(tsx@4.19.4)(yaml@2.6.1))(yaml@2.6.1)':
+  '@tanstack/react-start-config@1.120.13(@libsql/client@0.15.8)(@tanstack/react-router@1.120.13(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(@types/node@22.15.29)(db0@0.3.2(@libsql/client@0.15.8)(drizzle-orm@0.44.1(@libsql/client@0.15.8)(gel@2.0.2)))(drizzle-orm@0.44.1(@libsql/client@0.15.8)(gel@2.0.2))(ioredis@5.6.1)(jiti@2.4.2)(lightningcss@1.30.1)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(terser@5.40.0)(tsx@4.19.4)(vite@6.3.5(@types/node@22.15.29)(jiti@2.4.2)(lightningcss@1.30.1)(terser@5.40.0)(tsx@4.19.4)(yaml@2.6.1))(yaml@2.6.1)':
     dependencies:
-      '@tanstack/react-start-plugin': 1.115.0(@types/node@22.15.26)(jiti@2.4.2)(lightningcss@1.30.1)(terser@5.40.0)(tsx@4.19.4)(yaml@2.6.1)
-      '@tanstack/router-core': 1.120.10
-      '@tanstack/router-generator': 1.120.12(@tanstack/react-router@1.120.12(react-dom@19.1.0(react@19.1.0))(react@19.1.0))
-      '@tanstack/router-plugin': 1.120.12(@tanstack/react-router@1.120.12(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(vite@6.3.5(@types/node@22.15.26)(jiti@2.4.2)(lightningcss@1.30.1)(terser@5.40.0)(tsx@4.19.4)(yaml@2.6.1))
-      '@tanstack/server-functions-plugin': 1.119.2(@types/node@22.15.26)(jiti@2.4.2)(lightningcss@1.30.1)(terser@5.40.0)(tsx@4.19.4)(yaml@2.6.1)
-      '@tanstack/start-server-functions-handler': 1.120.10
-      '@vitejs/plugin-react': 4.5.0(vite@6.3.5(@types/node@22.15.26)(jiti@2.4.2)(lightningcss@1.30.1)(terser@5.40.0)(tsx@4.19.4)(yaml@2.6.1))
+      '@tanstack/react-start-plugin': 1.115.0(@types/node@22.15.29)(jiti@2.4.2)(lightningcss@1.30.1)(terser@5.40.0)(tsx@4.19.4)(yaml@2.6.1)
+      '@tanstack/router-core': 1.120.13
+      '@tanstack/router-generator': 1.120.13(@tanstack/react-router@1.120.13(react-dom@19.1.0(react@19.1.0))(react@19.1.0))
+      '@tanstack/router-plugin': 1.120.13(@tanstack/react-router@1.120.13(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(vite@6.3.5(@types/node@22.15.29)(jiti@2.4.2)(lightningcss@1.30.1)(terser@5.40.0)(tsx@4.19.4)(yaml@2.6.1))
+      '@tanstack/server-functions-plugin': 1.119.2(@types/node@22.15.29)(jiti@2.4.2)(lightningcss@1.30.1)(terser@5.40.0)(tsx@4.19.4)(yaml@2.6.1)
+      '@tanstack/start-server-functions-handler': 1.120.13
+      '@vitejs/plugin-react': 4.5.0(vite@6.3.5(@types/node@22.15.29)(jiti@2.4.2)(lightningcss@1.30.1)(terser@5.40.0)(tsx@4.19.4)(yaml@2.6.1))
       import-meta-resolve: 4.1.0
-      nitropack: 2.11.12(@libsql/client@0.15.7)(drizzle-orm@0.44.0(@libsql/client@0.15.7)(gel@2.0.2))
+      nitropack: 2.11.12(@libsql/client@0.15.8)(drizzle-orm@0.44.1(@libsql/client@0.15.8)(gel@2.0.2))
       ofetch: 1.4.1
       react: 19.1.0
       react-dom: 19.1.0(react@19.1.0)
-      vinxi: 0.5.3(@libsql/client@0.15.7)(@types/node@22.15.26)(db0@0.3.2(@libsql/client@0.15.7)(drizzle-orm@0.44.0(@libsql/client@0.15.7)(gel@2.0.2)))(drizzle-orm@0.44.0(@libsql/client@0.15.7)(gel@2.0.2))(ioredis@5.6.1)(jiti@2.4.2)(lightningcss@1.30.1)(terser@5.40.0)(tsx@4.19.4)(yaml@2.6.1)
-      vite: 6.3.5(@types/node@22.15.26)(jiti@2.4.2)(lightningcss@1.30.1)(terser@5.40.0)(tsx@4.19.4)(yaml@2.6.1)
-      zod: 3.25.40
+      vinxi: 0.5.3(@libsql/client@0.15.8)(@types/node@22.15.29)(db0@0.3.2(@libsql/client@0.15.8)(drizzle-orm@0.44.1(@libsql/client@0.15.8)(gel@2.0.2)))(drizzle-orm@0.44.1(@libsql/client@0.15.8)(gel@2.0.2))(ioredis@5.6.1)(jiti@2.4.2)(lightningcss@1.30.1)(terser@5.40.0)(tsx@4.19.4)(yaml@2.6.1)
+      vite: 6.3.5(@types/node@22.15.29)(jiti@2.4.2)(lightningcss@1.30.1)(terser@5.40.0)(tsx@4.19.4)(yaml@2.6.1)
+      zod: 3.25.42
     transitivePeerDependencies:
       - '@azure/app-configuration'
       - '@azure/cosmos'
@@ -7531,19 +7609,19 @@ snapshots:
       - xml2js
       - yaml
 
-  '@tanstack/react-start-plugin@1.115.0(@types/node@22.15.26)(jiti@2.4.2)(lightningcss@1.30.1)(terser@5.40.0)(tsx@4.19.4)(yaml@2.6.1)':
+  '@tanstack/react-start-plugin@1.115.0(@types/node@22.15.29)(jiti@2.4.2)(lightningcss@1.30.1)(terser@5.40.0)(tsx@4.19.4)(yaml@2.6.1)':
     dependencies:
       '@babel/code-frame': 7.26.2
-      '@babel/core': 7.27.3
-      '@babel/plugin-syntax-jsx': 7.27.1(@babel/core@7.27.3)
-      '@babel/plugin-syntax-typescript': 7.27.1(@babel/core@7.27.3)
+      '@babel/core': 7.27.4
+      '@babel/plugin-syntax-jsx': 7.27.1(@babel/core@7.27.4)
+      '@babel/plugin-syntax-typescript': 7.27.1(@babel/core@7.27.4)
       '@babel/template': 7.27.2
-      '@babel/traverse': 7.27.3
+      '@babel/traverse': 7.27.4
       '@babel/types': 7.27.3
       '@tanstack/router-utils': 1.115.0
       babel-dead-code-elimination: 1.0.10
       tiny-invariant: 1.3.3
-      vite: 6.1.4(@types/node@22.15.26)(jiti@2.4.2)(lightningcss@1.30.1)(terser@5.40.0)(tsx@4.19.4)(yaml@2.6.1)
+      vite: 6.1.4(@types/node@22.15.29)(jiti@2.4.2)(lightningcss@1.30.1)(terser@5.40.0)(tsx@4.19.4)(yaml@2.6.1)
     transitivePeerDependencies:
       - '@types/node'
       - jiti
@@ -7558,11 +7636,11 @@ snapshots:
       - tsx
       - yaml
 
-  '@tanstack/react-start-router-manifest@1.120.10(@libsql/client@0.15.7)(@types/node@22.15.26)(db0@0.3.2(@libsql/client@0.15.7)(drizzle-orm@0.44.0(@libsql/client@0.15.7)(gel@2.0.2)))(drizzle-orm@0.44.0(@libsql/client@0.15.7)(gel@2.0.2))(ioredis@5.6.1)(jiti@2.4.2)(lightningcss@1.30.1)(terser@5.40.0)(tsx@4.19.4)(yaml@2.6.1)':
+  '@tanstack/react-start-router-manifest@1.120.13(@libsql/client@0.15.8)(@types/node@22.15.29)(db0@0.3.2(@libsql/client@0.15.8)(drizzle-orm@0.44.1(@libsql/client@0.15.8)(gel@2.0.2)))(drizzle-orm@0.44.1(@libsql/client@0.15.8)(gel@2.0.2))(ioredis@5.6.1)(jiti@2.4.2)(lightningcss@1.30.1)(terser@5.40.0)(tsx@4.19.4)(yaml@2.6.1)':
     dependencies:
-      '@tanstack/router-core': 1.120.10
+      '@tanstack/router-core': 1.120.13
       tiny-invariant: 1.3.3
-      vinxi: 0.5.3(@libsql/client@0.15.7)(@types/node@22.15.26)(db0@0.3.2(@libsql/client@0.15.7)(drizzle-orm@0.44.0(@libsql/client@0.15.7)(gel@2.0.2)))(drizzle-orm@0.44.0(@libsql/client@0.15.7)(gel@2.0.2))(ioredis@5.6.1)(jiti@2.4.2)(lightningcss@1.30.1)(terser@5.40.0)(tsx@4.19.4)(yaml@2.6.1)
+      vinxi: 0.5.3(@libsql/client@0.15.8)(@types/node@22.15.29)(db0@0.3.2(@libsql/client@0.15.8)(drizzle-orm@0.44.1(@libsql/client@0.15.8)(gel@2.0.2)))(drizzle-orm@0.44.1(@libsql/client@0.15.8)(gel@2.0.2))(ioredis@5.6.1)(jiti@2.4.2)(lightningcss@1.30.1)(terser@5.40.0)(tsx@4.19.4)(yaml@2.6.1)
     transitivePeerDependencies:
       - '@azure/app-configuration'
       - '@azure/cosmos'
@@ -7605,13 +7683,13 @@ snapshots:
       - xml2js
       - yaml
 
-  '@tanstack/react-start-server@1.120.12(react-dom@19.1.0(react@19.1.0))(react@19.1.0)':
+  '@tanstack/react-start-server@1.120.13(react-dom@19.1.0(react@19.1.0))(react@19.1.0)':
     dependencies:
       '@tanstack/history': 1.115.0
-      '@tanstack/react-router': 1.120.12(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
-      '@tanstack/router-core': 1.120.10
-      '@tanstack/start-client-core': 1.120.10
-      '@tanstack/start-server-core': 1.120.10
+      '@tanstack/react-router': 1.120.13(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
+      '@tanstack/router-core': 1.120.13
+      '@tanstack/start-client-core': 1.120.13
+      '@tanstack/start-server-core': 1.120.13
       h3: 1.13.0
       isbot: 5.1.28
       jsesc: 3.1.0
@@ -7620,20 +7698,20 @@ snapshots:
       tiny-warning: 1.0.3
       unctx: 2.4.1
 
-  '@tanstack/react-start@1.120.12(@libsql/client@0.15.7)(@tanstack/react-router@1.120.12(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(@types/node@22.15.26)(db0@0.3.2(@libsql/client@0.15.7)(drizzle-orm@0.44.0(@libsql/client@0.15.7)(gel@2.0.2)))(drizzle-orm@0.44.0(@libsql/client@0.15.7)(gel@2.0.2))(ioredis@5.6.1)(jiti@2.4.2)(lightningcss@1.30.1)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(terser@5.40.0)(tsx@4.19.4)(vite@6.3.5(@types/node@22.15.26)(jiti@2.4.2)(lightningcss@1.30.1)(terser@5.40.0)(tsx@4.19.4)(yaml@2.6.1))(yaml@2.6.1)':
+  '@tanstack/react-start@1.120.13(@libsql/client@0.15.8)(@tanstack/react-router@1.120.13(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(@types/node@22.15.29)(db0@0.3.2(@libsql/client@0.15.8)(drizzle-orm@0.44.1(@libsql/client@0.15.8)(gel@2.0.2)))(drizzle-orm@0.44.1(@libsql/client@0.15.8)(gel@2.0.2))(ioredis@5.6.1)(jiti@2.4.2)(lightningcss@1.30.1)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(terser@5.40.0)(tsx@4.19.4)(vite@6.3.5(@types/node@22.15.29)(jiti@2.4.2)(lightningcss@1.30.1)(terser@5.40.0)(tsx@4.19.4)(yaml@2.6.1))(yaml@2.6.1)':
     dependencies:
-      '@tanstack/react-start-client': 1.120.12(@libsql/client@0.15.7)(@types/node@22.15.26)(db0@0.3.2(@libsql/client@0.15.7)(drizzle-orm@0.44.0(@libsql/client@0.15.7)(gel@2.0.2)))(drizzle-orm@0.44.0(@libsql/client@0.15.7)(gel@2.0.2))(ioredis@5.6.1)(jiti@2.4.2)(lightningcss@1.30.1)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(terser@5.40.0)(tsx@4.19.4)(yaml@2.6.1)
-      '@tanstack/react-start-config': 1.120.12(@libsql/client@0.15.7)(@tanstack/react-router@1.120.12(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(@types/node@22.15.26)(db0@0.3.2(@libsql/client@0.15.7)(drizzle-orm@0.44.0(@libsql/client@0.15.7)(gel@2.0.2)))(drizzle-orm@0.44.0(@libsql/client@0.15.7)(gel@2.0.2))(ioredis@5.6.1)(jiti@2.4.2)(lightningcss@1.30.1)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(terser@5.40.0)(tsx@4.19.4)(vite@6.3.5(@types/node@22.15.26)(jiti@2.4.2)(lightningcss@1.30.1)(terser@5.40.0)(tsx@4.19.4)(yaml@2.6.1))(yaml@2.6.1)
-      '@tanstack/react-start-router-manifest': 1.120.10(@libsql/client@0.15.7)(@types/node@22.15.26)(db0@0.3.2(@libsql/client@0.15.7)(drizzle-orm@0.44.0(@libsql/client@0.15.7)(gel@2.0.2)))(drizzle-orm@0.44.0(@libsql/client@0.15.7)(gel@2.0.2))(ioredis@5.6.1)(jiti@2.4.2)(lightningcss@1.30.1)(terser@5.40.0)(tsx@4.19.4)(yaml@2.6.1)
-      '@tanstack/react-start-server': 1.120.12(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
-      '@tanstack/start-api-routes': 1.120.10(@libsql/client@0.15.7)(@types/node@22.15.26)(db0@0.3.2(@libsql/client@0.15.7)(drizzle-orm@0.44.0(@libsql/client@0.15.7)(gel@2.0.2)))(drizzle-orm@0.44.0(@libsql/client@0.15.7)(gel@2.0.2))(ioredis@5.6.1)(jiti@2.4.2)(lightningcss@1.30.1)(terser@5.40.0)(tsx@4.19.4)(yaml@2.6.1)
-      '@tanstack/start-server-functions-client': 1.120.10(@types/node@22.15.26)(jiti@2.4.2)(lightningcss@1.30.1)(terser@5.40.0)(tsx@4.19.4)(yaml@2.6.1)
-      '@tanstack/start-server-functions-handler': 1.120.10
-      '@tanstack/start-server-functions-server': 1.119.2(@types/node@22.15.26)(jiti@2.4.2)(lightningcss@1.30.1)(terser@5.40.0)(tsx@4.19.4)(yaml@2.6.1)
-      '@tanstack/start-server-functions-ssr': 1.120.10(@types/node@22.15.26)(jiti@2.4.2)(lightningcss@1.30.1)(terser@5.40.0)(tsx@4.19.4)(yaml@2.6.1)
+      '@tanstack/react-start-client': 1.120.13(@libsql/client@0.15.8)(@types/node@22.15.29)(db0@0.3.2(@libsql/client@0.15.8)(drizzle-orm@0.44.1(@libsql/client@0.15.8)(gel@2.0.2)))(drizzle-orm@0.44.1(@libsql/client@0.15.8)(gel@2.0.2))(ioredis@5.6.1)(jiti@2.4.2)(lightningcss@1.30.1)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(terser@5.40.0)(tsx@4.19.4)(yaml@2.6.1)
+      '@tanstack/react-start-config': 1.120.13(@libsql/client@0.15.8)(@tanstack/react-router@1.120.13(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(@types/node@22.15.29)(db0@0.3.2(@libsql/client@0.15.8)(drizzle-orm@0.44.1(@libsql/client@0.15.8)(gel@2.0.2)))(drizzle-orm@0.44.1(@libsql/client@0.15.8)(gel@2.0.2))(ioredis@5.6.1)(jiti@2.4.2)(lightningcss@1.30.1)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(terser@5.40.0)(tsx@4.19.4)(vite@6.3.5(@types/node@22.15.29)(jiti@2.4.2)(lightningcss@1.30.1)(terser@5.40.0)(tsx@4.19.4)(yaml@2.6.1))(yaml@2.6.1)
+      '@tanstack/react-start-router-manifest': 1.120.13(@libsql/client@0.15.8)(@types/node@22.15.29)(db0@0.3.2(@libsql/client@0.15.8)(drizzle-orm@0.44.1(@libsql/client@0.15.8)(gel@2.0.2)))(drizzle-orm@0.44.1(@libsql/client@0.15.8)(gel@2.0.2))(ioredis@5.6.1)(jiti@2.4.2)(lightningcss@1.30.1)(terser@5.40.0)(tsx@4.19.4)(yaml@2.6.1)
+      '@tanstack/react-start-server': 1.120.13(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
+      '@tanstack/start-api-routes': 1.120.13(@libsql/client@0.15.8)(@types/node@22.15.29)(db0@0.3.2(@libsql/client@0.15.8)(drizzle-orm@0.44.1(@libsql/client@0.15.8)(gel@2.0.2)))(drizzle-orm@0.44.1(@libsql/client@0.15.8)(gel@2.0.2))(ioredis@5.6.1)(jiti@2.4.2)(lightningcss@1.30.1)(terser@5.40.0)(tsx@4.19.4)(yaml@2.6.1)
+      '@tanstack/start-server-functions-client': 1.120.13(@types/node@22.15.29)(jiti@2.4.2)(lightningcss@1.30.1)(terser@5.40.0)(tsx@4.19.4)(yaml@2.6.1)
+      '@tanstack/start-server-functions-handler': 1.120.13
+      '@tanstack/start-server-functions-server': 1.119.2(@types/node@22.15.29)(jiti@2.4.2)(lightningcss@1.30.1)(terser@5.40.0)(tsx@4.19.4)(yaml@2.6.1)
+      '@tanstack/start-server-functions-ssr': 1.120.13(@types/node@22.15.29)(jiti@2.4.2)(lightningcss@1.30.1)(terser@5.40.0)(tsx@4.19.4)(yaml@2.6.1)
       react: 19.1.0
       react-dom: 19.1.0(react@19.1.0)
-      vite: 6.3.5(@types/node@22.15.26)(jiti@2.4.2)(lightningcss@1.30.1)(terser@5.40.0)(tsx@4.19.4)(yaml@2.6.1)
+      vite: 6.3.5(@types/node@22.15.29)(jiti@2.4.2)(lightningcss@1.30.1)(terser@5.40.0)(tsx@4.19.4)(yaml@2.6.1)
     transitivePeerDependencies:
       - '@azure/app-configuration'
       - '@azure/cosmos'
@@ -7688,15 +7766,15 @@ snapshots:
       react-dom: 19.1.0(react@19.1.0)
       use-sync-external-store: 1.5.0(react@19.1.0)
 
-  '@tanstack/router-core@1.120.10':
+  '@tanstack/router-core@1.120.13':
     dependencies:
       '@tanstack/history': 1.115.0
       '@tanstack/store': 0.7.1
       tiny-invariant: 1.3.3
 
-  '@tanstack/router-devtools-core@1.120.12(@tanstack/router-core@1.120.10)(csstype@3.1.3)(solid-js@1.9.7)(tiny-invariant@1.3.3)':
+  '@tanstack/router-devtools-core@1.120.13(@tanstack/router-core@1.120.13)(csstype@3.1.3)(solid-js@1.9.7)(tiny-invariant@1.3.3)':
     dependencies:
-      '@tanstack/router-core': 1.120.10
+      '@tanstack/router-core': 1.120.13
       clsx: 2.1.1
       goober: 2.1.16(csstype@3.1.3)
       solid-js: 1.9.7
@@ -7704,25 +7782,25 @@ snapshots:
     optionalDependencies:
       csstype: 3.1.3
 
-  '@tanstack/router-generator@1.120.12(@tanstack/react-router@1.120.12(react-dom@19.1.0(react@19.1.0))(react@19.1.0))':
+  '@tanstack/router-generator@1.120.13(@tanstack/react-router@1.120.13(react-dom@19.1.0(react@19.1.0))(react@19.1.0))':
     dependencies:
       '@tanstack/virtual-file-routes': 1.115.0
       prettier: 3.5.3
       tsx: 4.19.4
-      zod: 3.25.40
+      zod: 3.25.42
     optionalDependencies:
-      '@tanstack/react-router': 1.120.12(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
+      '@tanstack/react-router': 1.120.13(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
 
-  '@tanstack/router-plugin@1.120.12(@tanstack/react-router@1.120.12(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(vite@6.3.5(@types/node@22.15.26)(jiti@2.4.2)(lightningcss@1.30.1)(terser@5.40.0)(tsx@4.19.4)(yaml@2.6.1))':
+  '@tanstack/router-plugin@1.120.13(@tanstack/react-router@1.120.13(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(vite@6.3.5(@types/node@22.15.29)(jiti@2.4.2)(lightningcss@1.30.1)(terser@5.40.0)(tsx@4.19.4)(yaml@2.6.1))':
     dependencies:
-      '@babel/core': 7.27.3
-      '@babel/plugin-syntax-jsx': 7.27.1(@babel/core@7.27.3)
-      '@babel/plugin-syntax-typescript': 7.27.1(@babel/core@7.27.3)
+      '@babel/core': 7.27.4
+      '@babel/plugin-syntax-jsx': 7.27.1(@babel/core@7.27.4)
+      '@babel/plugin-syntax-typescript': 7.27.1(@babel/core@7.27.4)
       '@babel/template': 7.27.2
-      '@babel/traverse': 7.27.3
+      '@babel/traverse': 7.27.4
       '@babel/types': 7.27.3
-      '@tanstack/router-core': 1.120.10
-      '@tanstack/router-generator': 1.120.12(@tanstack/react-router@1.120.12(react-dom@19.1.0(react@19.1.0))(react@19.1.0))
+      '@tanstack/router-core': 1.120.13
+      '@tanstack/router-generator': 1.120.13(@tanstack/react-router@1.120.13(react-dom@19.1.0(react@19.1.0))(react@19.1.0))
       '@tanstack/router-utils': 1.115.0
       '@tanstack/virtual-file-routes': 1.115.0
       '@types/babel__core': 7.20.5
@@ -7731,30 +7809,30 @@ snapshots:
       babel-dead-code-elimination: 1.0.10
       chokidar: 3.6.0
       unplugin: 2.3.5
-      zod: 3.25.40
+      zod: 3.25.42
     optionalDependencies:
-      '@tanstack/react-router': 1.120.12(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
-      vite: 6.3.5(@types/node@22.15.26)(jiti@2.4.2)(lightningcss@1.30.1)(terser@5.40.0)(tsx@4.19.4)(yaml@2.6.1)
+      '@tanstack/react-router': 1.120.13(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
+      vite: 6.3.5(@types/node@22.15.29)(jiti@2.4.2)(lightningcss@1.30.1)(terser@5.40.0)(tsx@4.19.4)(yaml@2.6.1)
     transitivePeerDependencies:
       - supports-color
 
   '@tanstack/router-utils@1.115.0':
     dependencies:
       '@babel/generator': 7.27.3
-      '@babel/parser': 7.27.3
+      '@babel/parser': 7.27.4
       ansis: 3.17.0
       diff: 7.0.0
 
-  '@tanstack/server-functions-plugin@1.119.2(@types/node@22.15.26)(jiti@2.4.2)(lightningcss@1.30.1)(terser@5.40.0)(tsx@4.19.4)(yaml@2.6.1)':
+  '@tanstack/server-functions-plugin@1.119.2(@types/node@22.15.29)(jiti@2.4.2)(lightningcss@1.30.1)(terser@5.40.0)(tsx@4.19.4)(yaml@2.6.1)':
     dependencies:
       '@babel/code-frame': 7.26.2
-      '@babel/core': 7.27.3
-      '@babel/plugin-syntax-jsx': 7.27.1(@babel/core@7.27.3)
-      '@babel/plugin-syntax-typescript': 7.27.1(@babel/core@7.27.3)
+      '@babel/core': 7.27.4
+      '@babel/plugin-syntax-jsx': 7.27.1(@babel/core@7.27.4)
+      '@babel/plugin-syntax-typescript': 7.27.1(@babel/core@7.27.4)
       '@babel/template': 7.27.2
-      '@babel/traverse': 7.27.3
+      '@babel/traverse': 7.27.4
       '@babel/types': 7.27.3
-      '@tanstack/directive-functions-plugin': 1.119.2(@types/node@22.15.26)(jiti@2.4.2)(lightningcss@1.30.1)(terser@5.40.0)(tsx@4.19.4)(yaml@2.6.1)
+      '@tanstack/directive-functions-plugin': 1.119.2(@types/node@22.15.29)(jiti@2.4.2)(lightningcss@1.30.1)(terser@5.40.0)(tsx@4.19.4)(yaml@2.6.1)
       babel-dead-code-elimination: 1.0.10
       dedent: 1.6.0
       tiny-invariant: 1.3.3
@@ -7773,11 +7851,11 @@ snapshots:
       - tsx
       - yaml
 
-  '@tanstack/start-api-routes@1.120.10(@libsql/client@0.15.7)(@types/node@22.15.26)(db0@0.3.2(@libsql/client@0.15.7)(drizzle-orm@0.44.0(@libsql/client@0.15.7)(gel@2.0.2)))(drizzle-orm@0.44.0(@libsql/client@0.15.7)(gel@2.0.2))(ioredis@5.6.1)(jiti@2.4.2)(lightningcss@1.30.1)(terser@5.40.0)(tsx@4.19.4)(yaml@2.6.1)':
+  '@tanstack/start-api-routes@1.120.13(@libsql/client@0.15.8)(@types/node@22.15.29)(db0@0.3.2(@libsql/client@0.15.8)(drizzle-orm@0.44.1(@libsql/client@0.15.8)(gel@2.0.2)))(drizzle-orm@0.44.1(@libsql/client@0.15.8)(gel@2.0.2))(ioredis@5.6.1)(jiti@2.4.2)(lightningcss@1.30.1)(terser@5.40.0)(tsx@4.19.4)(yaml@2.6.1)':
     dependencies:
-      '@tanstack/router-core': 1.120.10
-      '@tanstack/start-server-core': 1.120.10
-      vinxi: 0.5.3(@libsql/client@0.15.7)(@types/node@22.15.26)(db0@0.3.2(@libsql/client@0.15.7)(drizzle-orm@0.44.0(@libsql/client@0.15.7)(gel@2.0.2)))(drizzle-orm@0.44.0(@libsql/client@0.15.7)(gel@2.0.2))(ioredis@5.6.1)(jiti@2.4.2)(lightningcss@1.30.1)(terser@5.40.0)(tsx@4.19.4)(yaml@2.6.1)
+      '@tanstack/router-core': 1.120.13
+      '@tanstack/start-server-core': 1.120.13
+      vinxi: 0.5.3(@libsql/client@0.15.8)(@types/node@22.15.29)(db0@0.3.2(@libsql/client@0.15.8)(drizzle-orm@0.44.1(@libsql/client@0.15.8)(gel@2.0.2)))(drizzle-orm@0.44.1(@libsql/client@0.15.8)(gel@2.0.2))(ioredis@5.6.1)(jiti@2.4.2)(lightningcss@1.30.1)(terser@5.40.0)(tsx@4.19.4)(yaml@2.6.1)
     transitivePeerDependencies:
       - '@azure/app-configuration'
       - '@azure/cosmos'
@@ -7820,28 +7898,28 @@ snapshots:
       - xml2js
       - yaml
 
-  '@tanstack/start-client-core@1.120.10':
+  '@tanstack/start-client-core@1.120.13':
     dependencies:
-      '@tanstack/router-core': 1.120.10
+      '@tanstack/router-core': 1.120.13
       cookie-es: 1.2.2
       tiny-invariant: 1.3.3
       tiny-warning: 1.0.3
 
-  '@tanstack/start-server-core@1.120.10':
+  '@tanstack/start-server-core@1.120.13':
     dependencies:
       '@tanstack/history': 1.115.0
-      '@tanstack/router-core': 1.120.10
-      '@tanstack/start-client-core': 1.120.10
+      '@tanstack/router-core': 1.120.13
+      '@tanstack/start-client-core': 1.120.13
       h3: 1.13.0
       isbot: 5.1.28
       jsesc: 3.1.0
       tiny-warning: 1.0.3
       unctx: 2.4.1
 
-  '@tanstack/start-server-functions-client@1.120.10(@types/node@22.15.26)(jiti@2.4.2)(lightningcss@1.30.1)(terser@5.40.0)(tsx@4.19.4)(yaml@2.6.1)':
+  '@tanstack/start-server-functions-client@1.120.13(@types/node@22.15.29)(jiti@2.4.2)(lightningcss@1.30.1)(terser@5.40.0)(tsx@4.19.4)(yaml@2.6.1)':
     dependencies:
-      '@tanstack/server-functions-plugin': 1.119.2(@types/node@22.15.26)(jiti@2.4.2)(lightningcss@1.30.1)(terser@5.40.0)(tsx@4.19.4)(yaml@2.6.1)
-      '@tanstack/start-server-functions-fetcher': 1.120.10
+      '@tanstack/server-functions-plugin': 1.119.2(@types/node@22.15.29)(jiti@2.4.2)(lightningcss@1.30.1)(terser@5.40.0)(tsx@4.19.4)(yaml@2.6.1)
+      '@tanstack/start-server-functions-fetcher': 1.120.13
     transitivePeerDependencies:
       - '@types/node'
       - babel-plugin-macros
@@ -7857,21 +7935,21 @@ snapshots:
       - tsx
       - yaml
 
-  '@tanstack/start-server-functions-fetcher@1.120.10':
+  '@tanstack/start-server-functions-fetcher@1.120.13':
     dependencies:
-      '@tanstack/router-core': 1.120.10
-      '@tanstack/start-client-core': 1.120.10
+      '@tanstack/router-core': 1.120.13
+      '@tanstack/start-client-core': 1.120.13
 
-  '@tanstack/start-server-functions-handler@1.120.10':
+  '@tanstack/start-server-functions-handler@1.120.13':
     dependencies:
-      '@tanstack/router-core': 1.120.10
-      '@tanstack/start-client-core': 1.120.10
-      '@tanstack/start-server-core': 1.120.10
+      '@tanstack/router-core': 1.120.13
+      '@tanstack/start-client-core': 1.120.13
+      '@tanstack/start-server-core': 1.120.13
       tiny-invariant: 1.3.3
 
-  '@tanstack/start-server-functions-server@1.119.2(@types/node@22.15.26)(jiti@2.4.2)(lightningcss@1.30.1)(terser@5.40.0)(tsx@4.19.4)(yaml@2.6.1)':
+  '@tanstack/start-server-functions-server@1.119.2(@types/node@22.15.29)(jiti@2.4.2)(lightningcss@1.30.1)(terser@5.40.0)(tsx@4.19.4)(yaml@2.6.1)':
     dependencies:
-      '@tanstack/server-functions-plugin': 1.119.2(@types/node@22.15.26)(jiti@2.4.2)(lightningcss@1.30.1)(terser@5.40.0)(tsx@4.19.4)(yaml@2.6.1)
+      '@tanstack/server-functions-plugin': 1.119.2(@types/node@22.15.29)(jiti@2.4.2)(lightningcss@1.30.1)(terser@5.40.0)(tsx@4.19.4)(yaml@2.6.1)
       tiny-invariant: 1.3.3
     transitivePeerDependencies:
       - '@types/node'
@@ -7888,12 +7966,12 @@ snapshots:
       - tsx
       - yaml
 
-  '@tanstack/start-server-functions-ssr@1.120.10(@types/node@22.15.26)(jiti@2.4.2)(lightningcss@1.30.1)(terser@5.40.0)(tsx@4.19.4)(yaml@2.6.1)':
+  '@tanstack/start-server-functions-ssr@1.120.13(@types/node@22.15.29)(jiti@2.4.2)(lightningcss@1.30.1)(terser@5.40.0)(tsx@4.19.4)(yaml@2.6.1)':
     dependencies:
-      '@tanstack/server-functions-plugin': 1.119.2(@types/node@22.15.26)(jiti@2.4.2)(lightningcss@1.30.1)(terser@5.40.0)(tsx@4.19.4)(yaml@2.6.1)
-      '@tanstack/start-client-core': 1.120.10
-      '@tanstack/start-server-core': 1.120.10
-      '@tanstack/start-server-functions-fetcher': 1.120.10
+      '@tanstack/server-functions-plugin': 1.119.2(@types/node@22.15.29)(jiti@2.4.2)(lightningcss@1.30.1)(terser@5.40.0)(tsx@4.19.4)(yaml@2.6.1)
+      '@tanstack/start-client-core': 1.120.13
+      '@tanstack/start-server-core': 1.120.13
+      '@tanstack/start-server-functions-fetcher': 1.120.13
       tiny-invariant: 1.3.3
     transitivePeerDependencies:
       - '@types/node'
@@ -7971,7 +8049,7 @@ snapshots:
 
   '@types/babel__core@7.20.5':
     dependencies:
-      '@babel/parser': 7.27.3
+      '@babel/parser': 7.27.4
       '@babel/types': 7.27.3
       '@types/babel__generator': 7.27.0
       '@types/babel__template': 7.4.4
@@ -7983,7 +8061,7 @@ snapshots:
 
   '@types/babel__template@7.4.4':
     dependencies:
-      '@babel/parser': 7.27.3
+      '@babel/parser': 7.27.4
       '@babel/types': 7.27.3
 
   '@types/babel__traverse@7.20.7':
@@ -8006,7 +8084,7 @@ snapshots:
     dependencies:
       '@types/braces': 3.0.5
 
-  '@types/node@22.15.26':
+  '@types/node@22.15.29':
     dependencies:
       undici-types: 6.21.0
 
@@ -8030,11 +8108,11 @@ snapshots:
 
   '@types/ws@8.18.1':
     dependencies:
-      '@types/node': 22.15.26
+      '@types/node': 22.15.29
 
   '@types/yauzl@2.10.3':
     dependencies:
-      '@types/node': 22.15.26
+      '@types/node': 22.15.29
     optional: true
 
   '@typescript-eslint/project-service@8.33.0(typescript@5.8.3)':
@@ -8112,15 +8190,15 @@ snapshots:
       untun: 0.1.3
       uqr: 0.1.2
 
-  '@vitejs/plugin-react@4.5.0(vite@6.3.5(@types/node@22.15.26)(jiti@2.4.2)(lightningcss@1.30.1)(terser@5.40.0)(tsx@4.19.4)(yaml@2.6.1))':
+  '@vitejs/plugin-react@4.5.0(vite@6.3.5(@types/node@22.15.29)(jiti@2.4.2)(lightningcss@1.30.1)(terser@5.40.0)(tsx@4.19.4)(yaml@2.6.1))':
     dependencies:
-      '@babel/core': 7.27.3
-      '@babel/plugin-transform-react-jsx-self': 7.27.1(@babel/core@7.27.3)
-      '@babel/plugin-transform-react-jsx-source': 7.27.1(@babel/core@7.27.3)
+      '@babel/core': 7.27.4
+      '@babel/plugin-transform-react-jsx-self': 7.27.1(@babel/core@7.27.4)
+      '@babel/plugin-transform-react-jsx-source': 7.27.1(@babel/core@7.27.4)
       '@rolldown/pluginutils': 1.0.0-beta.9
       '@types/babel__core': 7.20.5
       react-refresh: 0.17.0
-      vite: 6.3.5(@types/node@22.15.26)(jiti@2.4.2)(lightningcss@1.30.1)(terser@5.40.0)(tsx@4.19.4)(yaml@2.6.1)
+      vite: 6.3.5(@types/node@22.15.29)(jiti@2.4.2)(lightningcss@1.30.1)(terser@5.40.0)(tsx@4.19.4)(yaml@2.6.1)
     transitivePeerDependencies:
       - supports-color
 
@@ -8138,7 +8216,7 @@ snapshots:
       std-env: 3.9.0
       test-exclude: 7.0.1
       tinyrainbow: 2.0.0
-      vitest: 3.1.4(@types/node@22.15.26)(@vitest/ui@3.1.4)(happy-dom@17.5.6)(jiti@2.4.2)(lightningcss@1.30.1)(msw@2.8.6(@types/node@22.15.26)(typescript@5.8.3))(terser@5.40.0)(tsx@4.19.4)(yaml@2.6.1)
+      vitest: 3.1.4(@types/node@22.15.29)(@vitest/ui@3.1.4)(happy-dom@17.5.6)(jiti@2.4.2)(lightningcss@1.30.1)(msw@2.8.7(@types/node@22.15.29)(typescript@5.8.3))(terser@5.40.0)(tsx@4.19.4)(yaml@2.6.1)
     transitivePeerDependencies:
       - supports-color
 
@@ -8156,14 +8234,14 @@ snapshots:
       chai: 5.2.0
       tinyrainbow: 2.0.0
 
-  '@vitest/mocker@3.1.4(msw@2.8.6(@types/node@22.15.26)(typescript@5.8.3))(vite@6.3.5(@types/node@22.15.26)(jiti@2.4.2)(lightningcss@1.30.1)(terser@5.40.0)(tsx@4.19.4)(yaml@2.6.1))':
+  '@vitest/mocker@3.1.4(msw@2.8.7(@types/node@22.15.29)(typescript@5.8.3))(vite@6.3.5(@types/node@22.15.29)(jiti@2.4.2)(lightningcss@1.30.1)(terser@5.40.0)(tsx@4.19.4)(yaml@2.6.1))':
     dependencies:
       '@vitest/spy': 3.1.4
       estree-walker: 3.0.3
       magic-string: 0.30.17
     optionalDependencies:
-      msw: 2.8.6(@types/node@22.15.26)(typescript@5.8.3)
-      vite: 6.3.5(@types/node@22.15.26)(jiti@2.4.2)(lightningcss@1.30.1)(terser@5.40.0)(tsx@4.19.4)(yaml@2.6.1)
+      msw: 2.8.7(@types/node@22.15.29)(typescript@5.8.3)
+      vite: 6.3.5(@types/node@22.15.29)(jiti@2.4.2)(lightningcss@1.30.1)(terser@5.40.0)(tsx@4.19.4)(yaml@2.6.1)
 
   '@vitest/pretty-format@2.0.5':
     dependencies:
@@ -8205,7 +8283,7 @@ snapshots:
       sirv: 3.0.1
       tinyglobby: 0.2.14
       tinyrainbow: 2.0.0
-      vitest: 3.1.4(@types/node@22.15.26)(@vitest/ui@3.1.4)(happy-dom@17.5.6)(jiti@2.4.2)(lightningcss@1.30.1)(msw@2.8.6(@types/node@22.15.26)(typescript@5.8.3))(terser@5.40.0)(tsx@4.19.4)(yaml@2.6.1)
+      vitest: 3.1.4(@types/node@22.15.29)(@vitest/ui@3.1.4)(happy-dom@17.5.6)(jiti@2.4.2)(lightningcss@1.30.1)(msw@2.8.7(@types/node@22.15.29)(typescript@5.8.3))(terser@5.40.0)(tsx@4.19.4)(yaml@2.6.1)
 
   '@vitest/utils@2.0.5':
     dependencies:
@@ -8395,9 +8473,9 @@ snapshots:
 
   babel-dead-code-elimination@1.0.10:
     dependencies:
-      '@babel/core': 7.27.3
-      '@babel/parser': 7.27.3
-      '@babel/traverse': 7.27.3
+      '@babel/core': 7.27.4
+      '@babel/parser': 7.27.4
+      '@babel/traverse': 7.27.4
       '@babel/types': 7.27.3
     transitivePeerDependencies:
       - supports-color
@@ -8709,10 +8787,10 @@ snapshots:
       '@deno/shim-deno': 0.19.2
       undici-types: 5.28.4
 
-  db0@0.3.2(@libsql/client@0.15.7)(drizzle-orm@0.44.0(@libsql/client@0.15.7)(gel@2.0.2)):
+  db0@0.3.2(@libsql/client@0.15.8)(drizzle-orm@0.44.1(@libsql/client@0.15.8)(gel@2.0.2)):
     optionalDependencies:
-      '@libsql/client': 0.15.7
-      drizzle-orm: 0.44.0(@libsql/client@0.15.7)(gel@2.0.2)
+      '@libsql/client': 0.15.8
+      drizzle-orm: 0.44.1(@libsql/client@0.15.8)(gel@2.0.2)
 
   debug@2.6.9:
     dependencies:
@@ -8839,9 +8917,9 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  drizzle-orm@0.44.0(@libsql/client@0.15.7)(gel@2.0.2):
+  drizzle-orm@0.44.1(@libsql/client@0.15.8)(gel@2.0.2):
     optionalDependencies:
-      '@libsql/client': 0.15.7
+      '@libsql/client': 0.15.8
       gel: 2.0.2
 
   dunder-proto@1.0.1:
@@ -9664,20 +9742,20 @@ snapshots:
     dependencies:
       readable-stream: 2.3.8
 
-  libsql@0.5.11:
+  libsql@0.5.12:
     dependencies:
       '@neon-rs/load': 0.0.4
       detect-libc: 2.0.2
     optionalDependencies:
-      '@libsql/darwin-arm64': 0.5.11
-      '@libsql/darwin-x64': 0.5.11
-      '@libsql/linux-arm-gnueabihf': 0.5.11
-      '@libsql/linux-arm-musleabihf': 0.5.11
-      '@libsql/linux-arm64-gnu': 0.5.11
-      '@libsql/linux-arm64-musl': 0.5.11
-      '@libsql/linux-x64-gnu': 0.5.11
-      '@libsql/linux-x64-musl': 0.5.11
-      '@libsql/win32-x64-msvc': 0.5.11
+      '@libsql/darwin-arm64': 0.5.12
+      '@libsql/darwin-x64': 0.5.12
+      '@libsql/linux-arm-gnueabihf': 0.5.12
+      '@libsql/linux-arm-musleabihf': 0.5.12
+      '@libsql/linux-arm64-gnu': 0.5.12
+      '@libsql/linux-arm64-musl': 0.5.12
+      '@libsql/linux-x64-gnu': 0.5.12
+      '@libsql/linux-x64-musl': 0.5.12
+      '@libsql/win32-x64-msvc': 0.5.12
 
   lightningcss-darwin-arm64@1.30.1:
     optional: true
@@ -9877,12 +9955,12 @@ snapshots:
 
   ms@2.1.3: {}
 
-  msw@2.8.6(@types/node@22.15.26)(typescript@5.8.3):
+  msw@2.8.7(@types/node@22.15.29)(typescript@5.8.3):
     dependencies:
       '@bundled-es-modules/cookie': 2.0.1
       '@bundled-es-modules/statuses': 1.0.1
       '@bundled-es-modules/tough-cookie': 0.1.6
-      '@inquirer/confirm': 5.1.12(@types/node@22.15.26)
+      '@inquirer/confirm': 5.1.12(@types/node@22.15.29)
       '@mswjs/interceptors': 0.38.7
       '@open-draft/deferred-promise': 2.2.0
       '@open-draft/until': 2.1.0
@@ -9930,7 +10008,7 @@ snapshots:
       p-wait-for: 5.0.2
       qs: 6.14.0
 
-  nitropack@2.11.12(@libsql/client@0.15.7)(drizzle-orm@0.44.0(@libsql/client@0.15.7)(gel@2.0.2)):
+  nitropack@2.11.12(@libsql/client@0.15.8)(drizzle-orm@0.44.1(@libsql/client@0.15.8)(gel@2.0.2)):
     dependencies:
       '@cloudflare/kv-asset-handler': 0.4.0
       '@netlify/functions': 3.1.10(rollup@4.41.1)
@@ -9952,7 +10030,7 @@ snapshots:
       cookie-es: 2.0.0
       croner: 9.0.0
       crossws: 0.3.5
-      db0: 0.3.2(@libsql/client@0.15.7)(drizzle-orm@0.44.0(@libsql/client@0.15.7)(gel@2.0.2))
+      db0: 0.3.2(@libsql/client@0.15.8)(drizzle-orm@0.44.1(@libsql/client@0.15.8)(gel@2.0.2))
       defu: 6.1.4
       destr: 2.0.5
       dot-prop: 9.0.0
@@ -9998,7 +10076,7 @@ snapshots:
       unenv: 2.0.0-rc.17
       unimport: 5.0.1
       unplugin-utils: 0.2.4
-      unstorage: 1.16.0(db0@0.3.2(@libsql/client@0.15.7)(drizzle-orm@0.44.0(@libsql/client@0.15.7)(gel@2.0.2)))(ioredis@5.6.1)
+      unstorage: 1.16.0(db0@0.3.2(@libsql/client@0.15.8)(drizzle-orm@0.44.1(@libsql/client@0.15.8)(gel@2.0.2)))(ioredis@5.6.1)
       untyped: 2.0.0
       unwasm: 0.3.9
       youch: 4.1.0-beta.8
@@ -11039,7 +11117,7 @@ snapshots:
       picomatch: 4.0.2
       webpack-virtual-modules: 0.6.2
 
-  unstorage@1.16.0(db0@0.3.2(@libsql/client@0.15.7)(drizzle-orm@0.44.0(@libsql/client@0.15.7)(gel@2.0.2)))(ioredis@5.6.1):
+  unstorage@1.16.0(db0@0.3.2(@libsql/client@0.15.8)(drizzle-orm@0.44.1(@libsql/client@0.15.8)(gel@2.0.2)))(ioredis@5.6.1):
     dependencies:
       anymatch: 3.1.3
       chokidar: 4.0.3
@@ -11050,7 +11128,7 @@ snapshots:
       ofetch: 1.4.1
       ufo: 1.6.1
     optionalDependencies:
-      db0: 0.3.2(@libsql/client@0.15.7)(drizzle-orm@0.44.0(@libsql/client@0.15.7)(gel@2.0.2))
+      db0: 0.3.2(@libsql/client@0.15.8)(drizzle-orm@0.44.1(@libsql/client@0.15.8)(gel@2.0.2))
       ioredis: 5.6.1
 
   untun@0.1.3:
@@ -11148,11 +11226,11 @@ snapshots:
       spdx-correct: 3.2.0
       spdx-expression-parse: 3.0.1
 
-  vinxi@0.5.3(@libsql/client@0.15.7)(@types/node@22.15.26)(db0@0.3.2(@libsql/client@0.15.7)(drizzle-orm@0.44.0(@libsql/client@0.15.7)(gel@2.0.2)))(drizzle-orm@0.44.0(@libsql/client@0.15.7)(gel@2.0.2))(ioredis@5.6.1)(jiti@2.4.2)(lightningcss@1.30.1)(terser@5.40.0)(tsx@4.19.4)(yaml@2.6.1):
+  vinxi@0.5.3(@libsql/client@0.15.8)(@types/node@22.15.29)(db0@0.3.2(@libsql/client@0.15.8)(drizzle-orm@0.44.1(@libsql/client@0.15.8)(gel@2.0.2)))(drizzle-orm@0.44.1(@libsql/client@0.15.8)(gel@2.0.2))(ioredis@5.6.1)(jiti@2.4.2)(lightningcss@1.30.1)(terser@5.40.0)(tsx@4.19.4)(yaml@2.6.1):
     dependencies:
-      '@babel/core': 7.27.3
-      '@babel/plugin-syntax-jsx': 7.27.1(@babel/core@7.27.3)
-      '@babel/plugin-syntax-typescript': 7.27.1(@babel/core@7.27.3)
+      '@babel/core': 7.27.4
+      '@babel/plugin-syntax-jsx': 7.27.1(@babel/core@7.27.4)
+      '@babel/plugin-syntax-typescript': 7.27.1(@babel/core@7.27.4)
       '@types/micromatch': 4.0.9
       '@vinxi/listhen': 1.5.6
       boxen: 7.1.1
@@ -11170,7 +11248,7 @@ snapshots:
       hookable: 5.5.3
       http-proxy: 1.18.1
       micromatch: 4.0.8
-      nitropack: 2.11.12(@libsql/client@0.15.7)(drizzle-orm@0.44.0(@libsql/client@0.15.7)(gel@2.0.2))
+      nitropack: 2.11.12(@libsql/client@0.15.8)(drizzle-orm@0.44.1(@libsql/client@0.15.8)(gel@2.0.2))
       node-fetch-native: 1.6.6
       path-to-regexp: 6.3.0
       pathe: 1.1.2
@@ -11181,9 +11259,9 @@ snapshots:
       ufo: 1.6.1
       unctx: 2.4.1
       unenv: 1.10.0
-      unstorage: 1.16.0(db0@0.3.2(@libsql/client@0.15.7)(drizzle-orm@0.44.0(@libsql/client@0.15.7)(gel@2.0.2)))(ioredis@5.6.1)
-      vite: 6.3.5(@types/node@22.15.26)(jiti@2.4.2)(lightningcss@1.30.1)(terser@5.40.0)(tsx@4.19.4)(yaml@2.6.1)
-      zod: 3.25.40
+      unstorage: 1.16.0(db0@0.3.2(@libsql/client@0.15.8)(drizzle-orm@0.44.1(@libsql/client@0.15.8)(gel@2.0.2)))(ioredis@5.6.1)
+      vite: 6.3.5(@types/node@22.15.29)(jiti@2.4.2)(lightningcss@1.30.1)(terser@5.40.0)(tsx@4.19.4)(yaml@2.6.1)
+      zod: 3.25.42
     transitivePeerDependencies:
       - '@azure/app-configuration'
       - '@azure/cosmos'
@@ -11226,7 +11304,7 @@ snapshots:
       - xml2js
       - yaml
 
-  vinxi@0.5.6(@libsql/client@0.15.7)(@types/node@22.15.26)(db0@0.3.2(@libsql/client@0.15.7)(drizzle-orm@0.44.0(@libsql/client@0.15.7)(gel@2.0.2)))(drizzle-orm@0.44.0(@libsql/client@0.15.7)(gel@2.0.2))(ioredis@5.6.1)(jiti@2.4.2)(lightningcss@1.30.1)(terser@5.40.0)(tsx@4.19.4)(yaml@2.6.1):
+  vinxi@0.5.6(@libsql/client@0.15.8)(@types/node@22.15.29)(db0@0.3.2(@libsql/client@0.15.8)(drizzle-orm@0.44.1(@libsql/client@0.15.8)(gel@2.0.2)))(drizzle-orm@0.44.1(@libsql/client@0.15.8)(gel@2.0.2))(ioredis@5.6.1)(jiti@2.4.2)(lightningcss@1.30.1)(terser@5.40.0)(tsx@4.19.4)(yaml@2.6.1):
     dependencies:
       '@babel/core': 7.27.3
       '@babel/plugin-syntax-jsx': 7.27.1(@babel/core@7.27.3)
@@ -11248,7 +11326,7 @@ snapshots:
       hookable: 5.5.3
       http-proxy: 1.18.1
       micromatch: 4.0.8
-      nitropack: 2.11.12(@libsql/client@0.15.7)(drizzle-orm@0.44.0(@libsql/client@0.15.7)(gel@2.0.2))
+      nitropack: 2.11.12(@libsql/client@0.15.8)(drizzle-orm@0.44.1(@libsql/client@0.15.8)(gel@2.0.2))
       node-fetch-native: 1.6.6
       path-to-regexp: 6.3.0
       pathe: 1.1.2
@@ -11259,9 +11337,9 @@ snapshots:
       ufo: 1.6.1
       unctx: 2.4.1
       unenv: 1.10.0
-      unstorage: 1.16.0(db0@0.3.2(@libsql/client@0.15.7)(drizzle-orm@0.44.0(@libsql/client@0.15.7)(gel@2.0.2)))(ioredis@5.6.1)
-      vite: 6.3.5(@types/node@22.15.26)(jiti@2.4.2)(lightningcss@1.30.1)(terser@5.40.0)(tsx@4.19.4)(yaml@2.6.1)
-      zod: 3.25.40
+      unstorage: 1.16.0(db0@0.3.2(@libsql/client@0.15.8)(drizzle-orm@0.44.1(@libsql/client@0.15.8)(gel@2.0.2)))(ioredis@5.6.1)
+      vite: 6.3.5(@types/node@22.15.29)(jiti@2.4.2)(lightningcss@1.30.1)(terser@5.40.0)(tsx@4.19.4)(yaml@2.6.1)
+      zod: 3.25.42
     transitivePeerDependencies:
       - '@azure/app-configuration'
       - '@azure/cosmos'
@@ -11304,13 +11382,13 @@ snapshots:
       - xml2js
       - yaml
 
-  vite-node@3.1.4(@types/node@22.15.26)(jiti@2.4.2)(lightningcss@1.30.1)(terser@5.40.0)(tsx@4.19.4)(yaml@2.6.1):
+  vite-node@3.1.4(@types/node@22.15.29)(jiti@2.4.2)(lightningcss@1.30.1)(terser@5.40.0)(tsx@4.19.4)(yaml@2.6.1):
     dependencies:
       cac: 6.7.14
       debug: 4.4.1
       es-module-lexer: 1.7.0
       pathe: 2.0.3
-      vite: 6.3.5(@types/node@22.15.26)(jiti@2.4.2)(lightningcss@1.30.1)(terser@5.40.0)(tsx@4.19.4)(yaml@2.6.1)
+      vite: 6.3.5(@types/node@22.15.29)(jiti@2.4.2)(lightningcss@1.30.1)(terser@5.40.0)(tsx@4.19.4)(yaml@2.6.1)
     transitivePeerDependencies:
       - '@types/node'
       - jiti
@@ -11325,24 +11403,24 @@ snapshots:
       - tsx
       - yaml
 
-  vite-tsconfig-paths@5.1.4(typescript@5.8.3)(vite@6.3.5(@types/node@22.15.26)(jiti@2.4.2)(lightningcss@1.30.1)(terser@5.40.0)(tsx@4.19.4)(yaml@2.6.1)):
+  vite-tsconfig-paths@5.1.4(typescript@5.8.3)(vite@6.3.5(@types/node@22.15.29)(jiti@2.4.2)(lightningcss@1.30.1)(terser@5.40.0)(tsx@4.19.4)(yaml@2.6.1)):
     dependencies:
       debug: 4.4.1
       globrex: 0.1.2
       tsconfck: 3.1.6(typescript@5.8.3)
     optionalDependencies:
-      vite: 6.3.5(@types/node@22.15.26)(jiti@2.4.2)(lightningcss@1.30.1)(terser@5.40.0)(tsx@4.19.4)(yaml@2.6.1)
+      vite: 6.3.5(@types/node@22.15.29)(jiti@2.4.2)(lightningcss@1.30.1)(terser@5.40.0)(tsx@4.19.4)(yaml@2.6.1)
     transitivePeerDependencies:
       - supports-color
       - typescript
 
-  vite@6.1.4(@types/node@22.15.26)(jiti@2.4.2)(lightningcss@1.30.1)(terser@5.40.0)(tsx@4.19.4)(yaml@2.6.1):
+  vite@6.1.4(@types/node@22.15.29)(jiti@2.4.2)(lightningcss@1.30.1)(terser@5.40.0)(tsx@4.19.4)(yaml@2.6.1):
     dependencies:
       esbuild: 0.24.2
       postcss: 8.5.4
       rollup: 4.41.1
     optionalDependencies:
-      '@types/node': 22.15.26
+      '@types/node': 22.15.29
       fsevents: 2.3.3
       jiti: 2.4.2
       lightningcss: 1.30.1
@@ -11350,7 +11428,7 @@ snapshots:
       tsx: 4.19.4
       yaml: 2.6.1
 
-  vite@6.3.5(@types/node@22.15.26)(jiti@2.4.2)(lightningcss@1.30.1)(terser@5.40.0)(tsx@4.19.4)(yaml@2.6.1):
+  vite@6.3.5(@types/node@22.15.29)(jiti@2.4.2)(lightningcss@1.30.1)(terser@5.40.0)(tsx@4.19.4)(yaml@2.6.1):
     dependencies:
       esbuild: 0.25.5
       fdir: 6.4.5(picomatch@4.0.2)
@@ -11359,7 +11437,7 @@ snapshots:
       rollup: 4.41.1
       tinyglobby: 0.2.14
     optionalDependencies:
-      '@types/node': 22.15.26
+      '@types/node': 22.15.29
       fsevents: 2.3.3
       jiti: 2.4.2
       lightningcss: 1.30.1
@@ -11367,10 +11445,10 @@ snapshots:
       tsx: 4.19.4
       yaml: 2.6.1
 
-  vitest@3.1.4(@types/node@22.15.26)(@vitest/ui@3.1.4)(happy-dom@17.5.6)(jiti@2.4.2)(lightningcss@1.30.1)(msw@2.8.6(@types/node@22.15.26)(typescript@5.8.3))(terser@5.40.0)(tsx@4.19.4)(yaml@2.6.1):
+  vitest@3.1.4(@types/node@22.15.29)(@vitest/ui@3.1.4)(happy-dom@17.5.6)(jiti@2.4.2)(lightningcss@1.30.1)(msw@2.8.7(@types/node@22.15.29)(typescript@5.8.3))(terser@5.40.0)(tsx@4.19.4)(yaml@2.6.1):
     dependencies:
       '@vitest/expect': 3.1.4
-      '@vitest/mocker': 3.1.4(msw@2.8.6(@types/node@22.15.26)(typescript@5.8.3))(vite@6.3.5(@types/node@22.15.26)(jiti@2.4.2)(lightningcss@1.30.1)(terser@5.40.0)(tsx@4.19.4)(yaml@2.6.1))
+      '@vitest/mocker': 3.1.4(msw@2.8.7(@types/node@22.15.29)(typescript@5.8.3))(vite@6.3.5(@types/node@22.15.29)(jiti@2.4.2)(lightningcss@1.30.1)(terser@5.40.0)(tsx@4.19.4)(yaml@2.6.1))
       '@vitest/pretty-format': 3.1.4
       '@vitest/runner': 3.1.4
       '@vitest/snapshot': 3.1.4
@@ -11387,11 +11465,11 @@ snapshots:
       tinyglobby: 0.2.14
       tinypool: 1.0.2
       tinyrainbow: 2.0.0
-      vite: 6.3.5(@types/node@22.15.26)(jiti@2.4.2)(lightningcss@1.30.1)(terser@5.40.0)(tsx@4.19.4)(yaml@2.6.1)
-      vite-node: 3.1.4(@types/node@22.15.26)(jiti@2.4.2)(lightningcss@1.30.1)(terser@5.40.0)(tsx@4.19.4)(yaml@2.6.1)
+      vite: 6.3.5(@types/node@22.15.29)(jiti@2.4.2)(lightningcss@1.30.1)(terser@5.40.0)(tsx@4.19.4)(yaml@2.6.1)
+      vite-node: 3.1.4(@types/node@22.15.29)(jiti@2.4.2)(lightningcss@1.30.1)(terser@5.40.0)(tsx@4.19.4)(yaml@2.6.1)
       why-is-node-running: 2.3.0
     optionalDependencies:
-      '@types/node': 22.15.26
+      '@types/node': 22.15.29
       '@vitest/ui': 3.1.4(vitest@3.1.4)
       happy-dom: 17.5.6
     transitivePeerDependencies:
@@ -11563,4 +11641,4 @@ snapshots:
       compress-commons: 6.0.2
       readable-stream: 4.7.0
 
-  zod@3.25.40: {}
+  zod@3.25.42: {}
