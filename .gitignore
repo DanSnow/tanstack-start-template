@@ -24,3 +24,5 @@ yarn.lock
 .moon/cache
 .moon/docker
 *.sqlite
+drizzle/meta
+drizzle/*.sql
