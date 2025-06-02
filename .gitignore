@@ -24,5 +24,7 @@ yarn.lock
 .moon/cache
 .moon/docker
 *.sqlite
+
+# remove these after initializing the project
 drizzle/meta
 drizzle/*.sql
