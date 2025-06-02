@@ -2,6 +2,7 @@ import { createFileRoute } from '@tanstack/react-router'
 import { createServerFn } from '@tanstack/react-start'
 import { useCallback } from 'react'
 import { Button } from '~/components/ui/button'
+import { authClient } from '~/lib/auth-client'
 
 export const Route = createFileRoute('/')({
   component: Home,
@@ -24,6 +25,7 @@ const hello = createServerFn({
 
 function Home() {
   const data = Route.useLoaderData()
+  const { data: session } = authClient.useSession()
   const handleClick = useCallback(async () => {
     const res = await hello()
     console.log(res)
@@ -31,6 +33,7 @@ function Home() {
   return (
     <div className="p-2">
       <h3>{data}</h3>
+      <p>{session ? `Hi ${session.user.name}` : 'Not Login'}</p>
       <Button onClick={handleClick}>Click Me!</Button>
     </div>
   )
