@@ -1,7 +1,7 @@
 import { QueryClient } from '@tanstack/react-query'
 import { RPCLink } from '@orpc/client/fetch'
 import type { RouterClient } from '@orpc/server'
-import { createORPCReactQueryUtils } from '@orpc/react-query'
+import { createTanstackQueryUtils } from '@orpc/tanstack-query'
 import { createStore } from 'jotai'
 import type { AppRouter } from './server'
 import { createORPCClient } from '@orpc/client'
@@ -18,7 +18,7 @@ export function createRouterContext() {
     }),
   )
 
-  const orpc = createORPCReactQueryUtils(orpcClient)
+  const orpc = createTanstackQueryUtils(orpcClient)
 
   const store = createStore()
 
