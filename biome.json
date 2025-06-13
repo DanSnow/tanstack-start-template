@@ -7,7 +7,7 @@
   },
   "files": {
     "ignoreUnknown": false,
-    "ignore": ["**/routeTree.gen.ts"]
+    "ignore": ["**/routeTree.gen.ts", ".moon/cache/**/*", ".output/**/*"]
   },
   "formatter": {
     "enabled": true,
@@ -23,6 +23,9 @@
       "recommended": true,
       "suspicious": {
         "noShadowRestrictedNames": "off"
+      },
+      "style": {
+        "noDefaultExport": "error"
       }
     }
   },
