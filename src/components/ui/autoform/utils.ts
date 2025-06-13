@@ -1,5 +1,5 @@
-import { buildZodFieldConfig } from '@autoform/react'
-import type { FieldTypes } from './AutoForm'
+import { buildZodFieldConfig } from '@autoform/react';
+import type { FieldTypes } from './AutoForm';
 
 export const fieldConfig = buildZodFieldConfig<
   FieldTypes,
@@ -7,4 +7,4 @@ export const fieldConfig = buildZodFieldConfig<
   {
     // Add types for `customData` here.
   }
->()
+>();
