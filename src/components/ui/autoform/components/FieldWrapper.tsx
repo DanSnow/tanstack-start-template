@@ -1,11 +1,17 @@
-import type React from 'react'
-import { Label } from '~/components/ui/label'
-import type { FieldWrapperProps } from '@autoform/react'
+import type { FieldWrapperProps } from '@autoform/react';
+import type React from 'react';
+import { Label } from '~/components/ui/label';
 
-const DISABLED_LABELS = ['boolean', 'object', 'array']
+const DISABLED_LABELS = ['boolean', 'object', 'array'];
 
-export const FieldWrapper: React.FC<FieldWrapperProps> = ({ label, children, id, field, error }) => {
-  const isDisabled = DISABLED_LABELS.includes(field.type)
+export const FieldWrapper: React.FC<FieldWrapperProps> = ({
+  label,
+  children,
+  id,
+  field,
+  error,
+}) => {
+  const isDisabled = DISABLED_LABELS.includes(field.type);
 
   return (
     <div className="space-y-2">
@@ -17,9 +23,11 @@ export const FieldWrapper: React.FC<FieldWrapperProps> = ({ label, children, id,
       )}
       {children}
       {field.fieldConfig?.description && (
-        <p className="text-sm text-muted-foreground">{field.fieldConfig.description}</p>
+        <p className="text-sm text-muted-foreground">
+          {field.fieldConfig.description}
+        </p>
       )}
       {error && <p className="text-sm text-destructive">{error}</p>}
     </div>
-  )
-}
+  );
+};

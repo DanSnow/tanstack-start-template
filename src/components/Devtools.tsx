@@ -1,16 +1,16 @@
-import { ReactQueryDevtools } from '@tanstack/react-query-devtools'
-import { useRouteContext } from '@tanstack/react-router'
-import { TanStackRouterDevtools } from '@tanstack/react-router-devtools'
-import { DevTools } from 'jotai-devtools'
-import { useEffect, useState } from 'react'
+import { ReactQueryDevtools } from '@tanstack/react-query-devtools';
+import { useRouteContext } from '@tanstack/react-router';
+import { TanStackRouterDevtools } from '@tanstack/react-router-devtools';
+import { DevTools } from 'jotai-devtools';
+import { useEffect, useState } from 'react';
 
 function Devtools() {
-  const { queryClient, store } = useRouteContext({ from: '__root__' })
-  const [mounted, setMounted] = useState(false)
+  const { queryClient, store } = useRouteContext({ from: '__root__' });
+  const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
-    setMounted(true)
-  }, [])
+    setMounted(true);
+  }, []);
 
   return (
     mounted && (
@@ -20,9 +20,10 @@ function Devtools() {
         <TanStackRouterDevtools position="bottom-right" />
       </>
     )
-  )
+  );
 }
 
-Devtools.displayName = 'Devtools'
+Devtools.displayName = 'Devtools';
 
-export default Devtools
+// biome-ignore lint/style/noDefaultExport: lazy component
+export default Devtools;

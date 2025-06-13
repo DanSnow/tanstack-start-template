@@ -1,6 +1,6 @@
-import { createEnv } from '@t3-oss/env-core'
-import { z } from 'zod'
-import process from 'node:process'
+import process from 'node:process';
+import { createEnv } from '@t3-oss/env-core';
+import { z } from 'zod';
 
 export const env = createEnv({
   server: {
@@ -11,4 +11,4 @@ export const env = createEnv({
     DB_FILE_NAME: process.env.DB_FILE_NAME,
     HASH_ID_SECRET: process.env.HASH_ID_SECRET,
   },
-})
+});

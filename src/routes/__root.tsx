@@ -1,13 +1,18 @@
-import { Outlet, HeadContent, createRootRouteWithContext, Scripts } from '@tanstack/react-router'
-import type * as React from 'react'
-import { DefaultCatchBoundary } from '~/components/DefaultCatchBoundary'
-import { NotFound } from '~/components/NotFound'
-import appCss from '~/styles/app.css?url'
-import { seo } from '~/utils/seo'
-import jotaiDevtoolStyle from 'jotai-devtools/styles.css?url'
-import { WrapComponent } from '~/WrapComponent'
-import type { Context } from '~/router-context'
-import { lazy } from 'react'
+import {
+  HeadContent,
+  Outlet,
+  Scripts,
+  createRootRouteWithContext,
+} from '@tanstack/react-router';
+import jotaiDevtoolStyle from 'jotai-devtools/styles.css?url';
+import type * as React from 'react';
+import { lazy } from 'react';
+import { WrapComponent } from '~/WrapComponent';
+import { DefaultCatchBoundary } from '~/components/DefaultCatchBoundary';
+import { NotFound } from '~/components/NotFound';
+import type { Context } from '~/router-context';
+import appCss from '~/styles/app.css?url';
+import { seo } from '~/utils/seo';
 
 export const Route = createRootRouteWithContext<Context>()({
   head: () => ({
@@ -20,8 +25,10 @@ export const Route = createRootRouteWithContext<Context>()({
         content: 'width=device-width, initial-scale=1',
       },
       ...seo({
-        title: 'TanStack Start | Type-Safe, Client-First, Full-Stack React Framework',
-        description: 'TanStack Start is a type-safe, client-first, full-stack React framework. ',
+        title:
+          'TanStack Start | Type-Safe, Client-First, Full-Stack React Framework',
+        description:
+          'TanStack Start is a type-safe, client-first, full-stack React framework. ',
       }),
     ],
     links: [
@@ -53,20 +60,22 @@ export const Route = createRootRouteWithContext<Context>()({
       <RootDocument>
         <DefaultCatchBoundary {...props} />
       </RootDocument>
-    )
+    );
   },
   notFoundComponent: () => <NotFound />,
   component: RootComponent,
-})
+});
 
-const EmptyComponent = () => null
+const EmptyComponent = () => null;
 
-EmptyComponent.displayName = 'EmptyComponent'
+EmptyComponent.displayName = 'EmptyComponent';
 
-const Devtools = import.meta.env.DEV ? lazy(() => import('~/components/Devtools')) : EmptyComponent
+const Devtools = import.meta.env.DEV
+  ? lazy(() => import('~/components/Devtools'))
+  : EmptyComponent;
 
 function RootComponent() {
-  const ctx = Route.useRouteContext()
+  const ctx = Route.useRouteContext();
 
   return (
     <RootDocument>
@@ -75,7 +84,7 @@ function RootComponent() {
       </WrapComponent>
       <Devtools />
     </RootDocument>
-  )
+  );
 }
 
 function RootDocument({ children }: { children: React.ReactNode }) {
@@ -90,5 +99,5 @@ function RootDocument({ children }: { children: React.ReactNode }) {
         <Scripts />
       </body>
     </html>
-  )
+  );
 }

@@ -1,7 +1,7 @@
-import { createServerFn } from '@tanstack/react-start'
-import { getHeaders } from '@tanstack/react-start/server'
-import { auth } from '~/lib/server/auth'
-import { pipe, Array } from 'effect'
+import { createServerFn } from '@tanstack/react-start';
+import { getHeaders } from '@tanstack/react-start/server';
+import { Array, pipe } from 'effect';
+import { auth } from '~/lib/server/auth';
 
 /**
  * Get session on server side
@@ -13,7 +13,7 @@ import { pipe, Array } from 'effect'
 export const getServerSession = createServerFn({
   method: 'GET',
 }).handler(() => {
-  const headers = getHeaders()
+  const headers = getHeaders();
   return auth.api.getSession({
     headers: new Headers(
       pipe(
@@ -22,5 +22,5 @@ export const getServerSession = createServerFn({
         Array.filter((pair): pair is [string, string] => pair[1] !== undefined),
       ),
     ),
-  })
-})
+  });
+});

@@ -1,3 +1,3 @@
-import { os } from '@orpc/server'
+import { os } from '@orpc/server';
 
-export const publicProcedure = os
+export const publicProcedure = os;
