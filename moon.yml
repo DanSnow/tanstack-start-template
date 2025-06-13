@@ -2,13 +2,15 @@ id: tanstack-start-template
 tasks:
   build:
     command:
-      - vinxi
+      - vite
       - build
     toolchain: node
   dev:
     command:
-      - vinxi
+      - vite
       - dev
+      - --port
+      - "3000"
     local: true
     toolchain: node
   drizzle-kit:
@@ -16,8 +18,8 @@ tasks:
     toolchain: node
   start:
     command:
-      - vinxi
-      - start
+      - node
+      - .output/server/index.mjs
     local: true
     toolchain: node
   generate-auth:

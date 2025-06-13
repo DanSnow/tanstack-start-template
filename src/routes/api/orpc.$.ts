@@ -1,4 +1,4 @@
-import { createAPIFileRoute } from '@tanstack/react-start/api'
+import { createServerFileRoute } from '@tanstack/react-start/server'
 import { RPCHandler } from '@orpc/server/fetch'
 import { appRouter } from '~/server'
 import { onError } from '@orpc/server'
@@ -22,7 +22,7 @@ async function handleRequest(request: Request) {
   return new Response('Not found', { status: 404 })
 }
 
-export const APIRoute = createAPIFileRoute('/api/orpc/$')({
+export const ServerRoute = createServerFileRoute('/api/orpc/$').methods({
   GET: ({ request }) => {
     return handleRequest(request)
   },
