@@ -1,18 +1,18 @@
 import {
+  createRootRouteWithContext,
   HeadContent,
   Outlet,
   Scripts,
-  createRootRouteWithContext,
 } from '@tanstack/react-router';
 import jotaiDevtoolStyle from 'jotai-devtools/styles.css?url';
 import type * as React from 'react';
 import { lazy } from 'react';
-import { WrapComponent } from '~/WrapComponent';
 import { DefaultCatchBoundary } from '~/components/DefaultCatchBoundary';
 import { NotFound } from '~/components/NotFound';
 import type { Context } from '~/router-context';
 import appCss from '~/styles/app.css?url';
 import { seo } from '~/utils/seo';
+import { WrapComponent } from '~/WrapComponent';
 
 export const Route = createRootRouteWithContext<Context>()({
   head: () => ({

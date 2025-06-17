@@ -6,7 +6,10 @@ import type { Context } from './router-context';
 export function WrapComponent({
   children,
   context,
-}: { children: ReactNode; context: Context }) {
+}: {
+  children: ReactNode;
+  context: Context;
+}) {
   return (
     <QueryClientProvider client={context.queryClient}>
       <Provider store={context.store}>{children}</Provider>
