@@ -46,12 +46,10 @@ const ApiAuthSplatServerRoute = ApiAuthSplatServerRouteImport.update({
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
-  '': typeof LayoutRoute
   '/sign-up': typeof SignUpRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
-  '': typeof LayoutRoute
   '/sign-up': typeof SignUpRoute
 }
 export interface FileRoutesById {
@@ -62,9 +60,9 @@ export interface FileRoutesById {
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/' | '' | '/sign-up'
+  fullPaths: '/' | '/sign-up'
   fileRoutesByTo: FileRoutesByTo
-  to: '/' | '' | '/sign-up'
+  to: '/' | '/sign-up'
   id: '__root__' | '/' | '/_layout' | '/sign-up'
   fileRoutesById: FileRoutesById
 }
