@@ -15,8 +15,7 @@ node:
   packageManager: "pnpm"
 
   # The version of the package manager (above) to use.
-  pnpm:
-    version: "10.11.1"
+  pnpm: {}
 
   # Add `node.version` as a constraint in the root `package.json` `engines`.
   addEnginesConstraint: true
@@ -36,6 +35,8 @@ node:
 
   # Sync a project's relationships as `dependencies` within the project's `package.json`.
   syncProjectWorkspaceDependencies: true
+
+  syncPackageManagerField: false
 
   # Sync `node.version` to a 3rd-party version manager's config file.
   # Accepts "nodenv" (.node-version), "nvm" (.nvmrc), or none.

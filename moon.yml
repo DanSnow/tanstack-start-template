@@ -25,13 +25,19 @@ tasks:
   generate-auth:
     local: true
     script: |
-      pnpm dlx @better-auth/cli generate --config app/lib/server/auth.ts --output app/drizzle/auth-schema.ts
-      pnpm exec biome format --write app/drizzle/auth-schema.ts
+      pnpm dlx @better-auth/cli generate --config src/lib/server/auth.ts --output src/drizzle/auth-schema.ts
+      pnpm exec biome check --fix --unsafe src/drizzle/auth-schema.ts
   generate-migrate:
     local: true
     command: drizzle-kit generate
     platform: node
+    inputs:
+      - src/drizzle/**/*.ts
+    outputs:
+      - src/drizzle/migrations/**/*
   migrate:
     local: true
     command: drizzle-kit migrate
     platform: node
+    deps:
+      - generate-migrate

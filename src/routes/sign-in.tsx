@@ -23,28 +23,22 @@ const formSchema = z.object({
         },
       }),
     ),
-  name: z.string(),
 });
 
 const schema = new ZodProvider(formSchema);
 
-export const Route = createFileRoute('/sign-up')({
+export const Route = createFileRoute('/sign-in')({
   component: RouteComponent,
 });
 
 function RouteComponent() {
   const navigate = useNavigate();
   const { mutate } = useMutation({
-    mutationKey: ['auth', 'signUp'],
-    mutationFn: async ({
-      email,
-      password,
-      name,
-    }: z.infer<typeof formSchema>) => {
-      const { data, error } = await authClient.signUp.email({
+    mutationKey: ['auth', 'signIn'],
+    mutationFn: async ({ email, password }: z.infer<typeof formSchema>) => {
+      const { data, error } = await authClient.signIn.email({
         email,
         password,
-        name,
         callbackURL: '/',
       });
       if (error) {
