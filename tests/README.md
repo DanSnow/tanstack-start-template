@@ -1,0 +1,1 @@
+This folder contains the integration test of this starter template. You can remove them after initialized your project.

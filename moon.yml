@@ -22,9 +22,14 @@ tasks:
       - .output/server/index.mjs
     local: true
     toolchain: node
+  test:
+    command:
+      - vitest
+    toolchain: node
   generate-auth:
     local: true
     script: |
+      touch src/drizzle/auth-schema.ts # ensure the file exists before generate schema
       pnpm dlx @better-auth/cli generate --config src/lib/server/auth.ts --output src/drizzle/auth-schema.ts
       pnpm exec biome check --fix --unsafe src/drizzle/auth-schema.ts
   generate-migrate:
