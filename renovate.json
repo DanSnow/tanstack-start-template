@@ -1,6 +1,6 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": ["config:js-app", ":automergeAll"],
+  "extends": ["config:js-app", ":automergeAll", "customManagers:biomeVersions"],
   "semanticCommitScope": "deps",
   "automergeType": "pr",
   "prCreation": "immediate",
@@ -11,6 +11,28 @@
     {
       "matchPackageNames": ["@orpc/**"],
       "groupName": "orpc monorepo"
+    }
+  ],
+  "customManagers": [
+    {
+      "customType": "jsonata",
+      "fileFormat": "yaml",
+      "datasourceTemplate": "node-version",
+      "depNameTemplate": "node",
+      "managerFilePatterns": [".moon/toolchain.yml"],
+      "matchStrings": [
+        "{\"currentValue\": $.\"node\".\"version\" }"
+      ]
+    },
+    {
+      "customType": "jsonata",
+      "fileFormat": "yaml",
+      "datasourceTemplate": "npm",
+      "depNameTemplate": "pnpm",
+      "managerFilePatterns": [".moon/toolchain.yml"],
+      "matchStrings": [
+        "{\"currentValue\": $.\"node\".\"pnpm\".\"version\" }"
+      ]
     }
   ]
 }
