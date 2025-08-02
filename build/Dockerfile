@@ -1,7 +1,7 @@
 #### BASE STAGE
 #### Installs moon.
 
-FROM node:22 AS base
+FROM node:22.17.1 AS base
 WORKDIR /app
 
 # Install moon binary
