@@ -1,3 +1,7 @@
+*.sqlite
+.nitro
+.tanstack
+
 node_modules
 package-lock.json
 yarn.lock
@@ -23,4 +27,4 @@ yarn.lock
 # moon
 .moon/cache
 .moon/docker
-*.sqlite
+
