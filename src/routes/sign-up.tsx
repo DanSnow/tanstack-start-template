@@ -1,4 +1,4 @@
-import { fieldConfig, ZodProvider } from '@autoform/zod/v4';
+import { fieldConfig, ZodProvider } from '@autoform/zod';
 import { useMutation } from '@tanstack/react-query';
 import { createFileRoute, useNavigate } from '@tanstack/react-router';
 import { z } from 'zod';
@@ -6,8 +6,8 @@ import { AutoForm } from '~/components/ui/autoform';
 import { authClient } from '~/lib/auth-client'; //import the auth client
 
 const formSchema = z.object({
-  email: z.email().register(
-    ...fieldConfig({
+  email: z.email().check(
+    fieldConfig({
       inputProps: {
         type: 'email',
       },
@@ -16,8 +16,8 @@ const formSchema = z.object({
   password: z
     .string()
     .min(8)
-    .register(
-      ...fieldConfig({
+    .check(
+      fieldConfig({
         inputProps: {
           type: 'password',
         },
