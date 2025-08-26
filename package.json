@@ -39,7 +39,7 @@
     "@autoform/react": "4.0.0",
     "@autoform/zod": "5.0.0",
     "@hookform/resolvers": "5.2.1",
-    "@libsql/client": "0.15.12",
+    "@libsql/client": "0.15.14",
     "@orpc/client": "1.8.5",
     "@orpc/server": "1.8.5",
     "@orpc/tanstack-query": "1.8.5",
