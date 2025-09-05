@@ -9,7 +9,7 @@
     "test": "moon run test --"
   },
   "devDependencies": {
-    "@biomejs/biome": "2.2.2",
+    "@biomejs/biome": "2.2.3",
     "@effect/vitest": "0.25.1",
     "@moonrepo/cli": "1.39.4",
     "@tailwindcss/vite": "4.1.12",
