@@ -90,8 +90,8 @@ importers:
         specifier: 0.44.5
         version: 0.44.5(@libsql/client@0.15.14)(gel@2.0.2)(kysely@0.28.5)
       effect:
-        specifier: 3.17.9
-        version: 3.17.9
+        specifier: 3.17.13
+        version: 3.17.13
       hashids:
         specifier: 2.3.0
         version: 2.3.0
@@ -137,7 +137,7 @@ importers:
         version: 2.2.3
       '@effect/vitest':
         specifier: 0.25.1
-        version: 0.25.1(effect@3.17.9)(vitest@3.2.4)
+        version: 0.25.1(effect@3.17.13)(vitest@3.2.4)
       '@moonrepo/cli':
         specifier: 1.39.4
         version: 1.39.4
@@ -3201,8 +3201,8 @@ packages:
   ee-first@1.1.1:
     resolution: {integrity: sha512-WMwm9LhRUo+WUaRN+vRuETqG89IgZphVSNkdFgeb6sS/E4OrDIN7t48CAewSHXc6C8lefD8KKfr5vY61brQlow==}
 
-  effect@3.17.9:
-    resolution: {integrity: sha512-Nkkn9n1zhy30Dq0MpQatDCH7nfYnOIiebkOHNxmmvoVnEDKCto+2ZwDDWFGzcN/ojwfqjRXWGC9Lo91K5kwZCg==}
+  effect@3.17.13:
+    resolution: {integrity: sha512-JMz5oBxs/6mu4FP9Csjub4jYMUwMLrp+IzUmSDVIzn2NoeoyOXMl7x1lghfr3dLKWffWrdnv/d8nFFdgrHXPqw==}
 
   electron-to-chromium@1.5.177:
     resolution: {integrity: sha512-7EH2G59nLsEMj97fpDuvVcYi6lwTcM1xuWw3PssD8xzboAW7zj7iB3COEEEATUfjLHrs5uKBLQT03V/8URx06g==}
@@ -5869,9 +5869,9 @@ snapshots:
 
   '@drizzle-team/brocli@0.10.2': {}
 
-  '@effect/vitest@0.25.1(effect@3.17.9)(vitest@3.2.4)':
+  '@effect/vitest@0.25.1(effect@3.17.13)(vitest@3.2.4)':
     dependencies:
-      effect: 3.17.9
+      effect: 3.17.13
       vitest: 3.2.4(@types/node@24.3.1)(@vitest/ui@3.2.4)(happy-dom@18.0.1)(jiti@2.5.1)(lightningcss@1.30.1)(msw@2.11.1(@types/node@24.3.1)(typescript@5.9.2))(terser@5.43.1)(tsx@4.20.5)(yaml@2.6.1)
 
   '@esbuild-kit/core-utils@3.3.2':
@@ -8593,7 +8593,7 @@ snapshots:
 
   ee-first@1.1.1: {}
 
-  effect@3.17.9:
+  effect@3.17.13:
     dependencies:
       '@standard-schema/spec': 1.0.0
       fast-check: 3.23.2
