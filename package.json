@@ -63,7 +63,7 @@
     "date-fns": "4.1.0",
     "dotenv": "17.2.1",
     "drizzle-orm": "0.44.5",
-    "effect": "3.17.9",
+    "effect": "3.17.13",
     "hashids": "2.3.0",
     "jotai": "2.13.1",
     "jotai-mutative": "1.2.0",
