@@ -18,8 +18,8 @@ importers:
         specifier: 5.2.1
         version: 5.2.1(react-hook-form@7.62.0(react@19.1.1))
       '@libsql/client':
-        specifier: 0.15.14
-        version: 0.15.14
+        specifier: 0.15.15
+        version: 0.15.15
       '@orpc/client':
         specifier: 1.8.6
         version: 1.8.6
@@ -70,7 +70,7 @@ importers:
         version: 1.130.17(@tanstack/react-query@5.87.1(react@19.1.1))(@tanstack/react-router@1.131.36(react-dom@19.1.1(react@19.1.1))(react@19.1.1))(@tanstack/router-core@1.131.36)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)
       '@tanstack/react-start':
         specifier: 1.131.36
-        version: 1.131.36(@libsql/client@0.15.14)(@netlify/blobs@9.1.2)(@tanstack/react-router@1.131.36(react-dom@19.1.1(react@19.1.1))(react@19.1.1))(@vitejs/plugin-react@5.0.2(vite@7.1.5(@types/node@24.3.1)(jiti@2.5.1)(lightningcss@1.30.1)(terser@5.43.1)(tsx@4.20.5)(yaml@2.6.1)))(drizzle-orm@0.44.5(@libsql/client@0.15.14)(gel@2.0.2)(kysely@0.28.5))(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(vite@7.1.5(@types/node@24.3.1)(jiti@2.5.1)(lightningcss@1.30.1)(terser@5.43.1)(tsx@4.20.5)(yaml@2.6.1))
+        version: 1.131.36(@libsql/client@0.15.15)(@netlify/blobs@9.1.2)(@tanstack/react-router@1.131.36(react-dom@19.1.1(react@19.1.1))(react@19.1.1))(@vitejs/plugin-react@5.0.2(vite@7.1.5(@types/node@24.3.1)(jiti@2.5.1)(lightningcss@1.30.1)(terser@5.43.1)(tsx@4.20.5)(yaml@2.6.1)))(drizzle-orm@0.44.5(@libsql/client@0.15.15)(gel@2.0.2)(kysely@0.28.5))(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(vite@7.1.5(@types/node@24.3.1)(jiti@2.5.1)(lightningcss@1.30.1)(terser@5.43.1)(tsx@4.20.5)(yaml@2.6.1))
       better-auth:
         specifier: 1.3.8
         version: 1.3.8(react-dom@19.1.1(react@19.1.1))(react@19.1.1)
@@ -88,7 +88,7 @@ importers:
         version: 17.2.2
       drizzle-orm:
         specifier: 0.44.5
-        version: 0.44.5(@libsql/client@0.15.14)(gel@2.0.2)(kysely@0.28.5)
+        version: 0.44.5(@libsql/client@0.15.15)(gel@2.0.2)(kysely@0.28.5)
       effect:
         specifier: 3.17.13
         version: 3.17.13
@@ -1036,19 +1036,19 @@ packages:
   '@levischuck/tiny-cbor@0.2.11':
     resolution: {integrity: sha512-llBRm4dT4Z89aRsm6u2oEZ8tfwL/2l6BwpZ7JcyieouniDECM5AqNgr/y08zalEIvW3RSK4upYyybDcmjXqAow==}
 
-  '@libsql/client@0.15.14':
-    resolution: {integrity: sha512-oXeFYcSyAsYWvpWVmynrwNwb+NHNHtMfSIVdfQTF1B9RsgDXQE5YCDP3SS0i1FA8nuLWy2trFDVwP1b2LNdNPQ==}
+  '@libsql/client@0.15.15':
+    resolution: {integrity: sha512-twC0hQxPNHPKfeOv3sNT6u2pturQjLcI+CnpTM0SjRpocEGgfiZ7DWKXLNnsothjyJmDqEsBQJ5ztq9Wlu470w==}
 
   '@libsql/core@0.15.14':
     resolution: {integrity: sha512-b2eVQma78Ss+edIIFi7LnhhyUy5hAJjYvrSAD5RFdO/YKP2rEvNAT1pIn2Li7NrqcsMmoEQWlpUWH4fWMdXtpQ==}
 
-  '@libsql/darwin-arm64@0.5.20':
-    resolution: {integrity: sha512-faHM2FX26xruO4w76YkW+lA28yKcTIzNiGvK9Q8+8sCuC7cn3KdMO6KJ84c6fJQwtwG+F4hxIoy95U5FYge3bg==}
+  '@libsql/darwin-arm64@0.5.22':
+    resolution: {integrity: sha512-4B8ZlX3nIDPndfct7GNe0nI3Yw6ibocEicWdC4fvQbSs/jdq/RC2oCsoJxJ4NzXkvktX70C1J4FcmmoBy069UA==}
     cpu: [arm64]
     os: [darwin]
 
-  '@libsql/darwin-x64@0.5.20':
-    resolution: {integrity: sha512-19l0oEW/r2kZxDJg+w53C0kq7eFFKpeKDEjV/FAAkBfQwJoGqS4sep9u1fK1X3KzOF5rB8cVyIrQGk+6ibzUeQ==}
+  '@libsql/darwin-x64@0.5.22':
+    resolution: {integrity: sha512-ny2HYWt6lFSIdNFzUFIJ04uiW6finXfMNJ7wypkAD8Pqdm6nAByO+Fdqu8t7sD0sqJGeUCiOg480icjyQ2/8VA==}
     cpu: [x64]
     os: [darwin]
 
@@ -1062,38 +1062,38 @@ packages:
   '@libsql/isomorphic-ws@0.1.5':
     resolution: {integrity: sha512-DtLWIH29onUYR00i0GlQ3UdcTRC6EP4u9w/h9LxpUZJWRMARk6dQwZ6Jkd+QdwVpuAOrdxt18v0K2uIYR3fwFg==}
 
-  '@libsql/linux-arm-gnueabihf@0.5.20':
-    resolution: {integrity: sha512-vfw5/R00ysWG0iMLxqV8I5mVnHwjofxuLAL9i6wwdexIIXusG1ExSIOP8/W6xvjPXetgzEVRo4A7zr1S6SGBBg==}
+  '@libsql/linux-arm-gnueabihf@0.5.22':
+    resolution: {integrity: sha512-3Uo3SoDPJe/zBnyZKosziRGtszXaEtv57raWrZIahtQDsjxBVjuzYQinCm9LRCJCUT5t2r5Z5nLDPJi2CwZVoA==}
     cpu: [arm]
     os: [linux]
 
-  '@libsql/linux-arm-musleabihf@0.5.20':
-    resolution: {integrity: sha512-VGqyvg0k3bg0JMMHCR0XrqBseFU9syWRxEbC0Aluipkw5Xsb+DSr9cNvMtGUbGDg2pEfkY/DDa9hTlst6K7P5w==}
+  '@libsql/linux-arm-musleabihf@0.5.22':
+    resolution: {integrity: sha512-LCsXh07jvSojTNJptT9CowOzwITznD+YFGGW+1XxUr7fS+7/ydUrpDfsMX7UqTqjm7xG17eq86VkWJgHJfvpNg==}
     cpu: [arm]
     os: [linux]
 
-  '@libsql/linux-arm64-gnu@0.5.20':
-    resolution: {integrity: sha512-Wq6oF4goWp20G/LBmI6rdFY716bb81VCzyglkkAwqMwdJeIsaC0DRvD62nx1OSbSZmZMRDobqoe2ZP8BvMvXyQ==}
+  '@libsql/linux-arm64-gnu@0.5.22':
+    resolution: {integrity: sha512-KSdnOMy88c9mpOFKUEzPskSaF3VLflfSUCBwas/pn1/sV3pEhtMF6H8VUCd2rsedwoukeeCSEONqX7LLnQwRMA==}
     cpu: [arm64]
     os: [linux]
 
-  '@libsql/linux-arm64-musl@0.5.20':
-    resolution: {integrity: sha512-Xb112/q3/Z6lKKhwJgR2QVRYtRQblEB69VbStIVjKKw5RZv+r77ZSOHfsR3RHL+R66VN431+DLJBV0+B+AImQw==}
+  '@libsql/linux-arm64-musl@0.5.22':
+    resolution: {integrity: sha512-mCHSMAsDTLK5YH//lcV3eFEgiR23Ym0U9oEvgZA0667gqRZg/2px+7LshDvErEKv2XZ8ixzw3p1IrBzLQHGSsw==}
     cpu: [arm64]
     os: [linux]
 
-  '@libsql/linux-x64-gnu@0.5.20':
-    resolution: {integrity: sha512-fHUaOYx7cVqbqPLqOIArfPsuWnu+jk9ETR0gt/8rH1J6pW5qhdDWn3B35Hk/ZmzNacBFSWZnHxxhWnZMWYVnVA==}
+  '@libsql/linux-x64-gnu@0.5.22':
+    resolution: {integrity: sha512-kNBHaIkSg78Y4BqAdgjcR2mBilZXs4HYkAmi58J+4GRwDQZh5fIUWbnQvB9f95DkWUIGVeenqLRFY2pcTmlsew==}
     cpu: [x64]
     os: [linux]
 
-  '@libsql/linux-x64-musl@0.5.20':
-    resolution: {integrity: sha512-EpT1Va1L/y2w0Sj75lxRmaTyX/MD32eKpZiz++3mrE2zRTYAURo9GEbglvSC6Y5aRnLcHPx6XmR25wigRb8WZg==}
+  '@libsql/linux-x64-musl@0.5.22':
+    resolution: {integrity: sha512-UZ4Xdxm4pu3pQXjvfJiyCzZop/9j/eA2JjmhMaAhe3EVLH2g11Fy4fwyUp9sT1QJYR1kpc2JLuybPM0kuXv/Tg==}
     cpu: [x64]
     os: [linux]
 
-  '@libsql/win32-x64-msvc@0.5.20':
-    resolution: {integrity: sha512-3/G5/SZWXmOCaNwEwDdiXEpjeY7NGx1khPjON1yi3BViKrb2TJiiHHn6zpCN7+ZWNibQFZylkETSTURRlealNA==}
+  '@libsql/win32-x64-msvc@0.5.22':
+    resolution: {integrity: sha512-Fj0j8RnBpo43tVZUVoNK6BV/9AtDUM5S7DF3LB4qTYg1LMSZqi3yeCneUTLJD6XomQJlZzbI4mst89yspVSAnA==}
     cpu: [x64]
     os: [win32]
 
@@ -3906,8 +3906,8 @@ packages:
     resolution: {integrity: sha512-b94GiNHQNy6JNTrt5w6zNyffMrNkXZb3KTkCZJb2V1xaEGCk093vkZ2jk3tpaeP33/OiXC+WvK9AxUebnf5nbw==}
     engines: {node: '>= 0.6.3'}
 
-  libsql@0.5.20:
-    resolution: {integrity: sha512-hkWCsiwTbNsrKeWqPh91ZZEcLDo0+WUnFv2QzITD33F7Er9KOlr7N2SGfNjAbnkciN+iPJ7g108Jkno1JFmzTw==}
+  libsql@0.5.22:
+    resolution: {integrity: sha512-NscWthMQt7fpU8lqd7LXMvT9pi+KhhmTHAJWUB/Lj6MWa0MKFv0F2V4C6WKKpjCVZl0VwcDz4nOI3CyaT1DDiA==}
     cpu: [x64, arm64, wasm32, arm]
     os: [darwin, linux, win32]
 
@@ -6212,12 +6212,12 @@ snapshots:
 
   '@levischuck/tiny-cbor@0.2.11': {}
 
-  '@libsql/client@0.15.14':
+  '@libsql/client@0.15.15':
     dependencies:
       '@libsql/core': 0.15.14
       '@libsql/hrana-client': 0.7.0
       js-base64: 3.7.7
-      libsql: 0.5.20
+      libsql: 0.5.22
       promise-limit: 2.7.0
     transitivePeerDependencies:
       - bufferutil
@@ -6227,10 +6227,10 @@ snapshots:
     dependencies:
       js-base64: 3.7.7
 
-  '@libsql/darwin-arm64@0.5.20':
+  '@libsql/darwin-arm64@0.5.22':
     optional: true
 
-  '@libsql/darwin-x64@0.5.20':
+  '@libsql/darwin-x64@0.5.22':
     optional: true
 
   '@libsql/hrana-client@0.7.0':
@@ -6253,25 +6253,25 @@ snapshots:
       - bufferutil
       - utf-8-validate
 
-  '@libsql/linux-arm-gnueabihf@0.5.20':
+  '@libsql/linux-arm-gnueabihf@0.5.22':
     optional: true
 
-  '@libsql/linux-arm-musleabihf@0.5.20':
+  '@libsql/linux-arm-musleabihf@0.5.22':
     optional: true
 
-  '@libsql/linux-arm64-gnu@0.5.20':
+  '@libsql/linux-arm64-gnu@0.5.22':
     optional: true
 
-  '@libsql/linux-arm64-musl@0.5.20':
+  '@libsql/linux-arm64-musl@0.5.22':
     optional: true
 
-  '@libsql/linux-x64-gnu@0.5.20':
+  '@libsql/linux-x64-gnu@0.5.22':
     optional: true
 
-  '@libsql/linux-x64-musl@0.5.20':
+  '@libsql/linux-x64-musl@0.5.22':
     optional: true
 
-  '@libsql/win32-x64-msvc@0.5.20':
+  '@libsql/win32-x64-msvc@0.5.22':
     optional: true
 
   '@mantine/code-highlight@7.17.8(@mantine/core@7.17.8(@mantine/hooks@7.17.8(react@19.1.1))(@types/react@19.1.12)(react-dom@19.1.1(react@19.1.1))(react@19.1.1))(@mantine/hooks@7.17.8(react@19.1.1))(react-dom@19.1.1(react@19.1.1))(react@19.1.1)':
@@ -7341,9 +7341,9 @@ snapshots:
       tiny-invariant: 1.3.3
       tiny-warning: 1.0.3
 
-  '@tanstack/react-start-plugin@1.131.36(@libsql/client@0.15.14)(@netlify/blobs@9.1.2)(@tanstack/react-router@1.131.36(react-dom@19.1.1(react@19.1.1))(react@19.1.1))(@vitejs/plugin-react@5.0.2(vite@7.1.5(@types/node@24.3.1)(jiti@2.5.1)(lightningcss@1.30.1)(terser@5.43.1)(tsx@4.20.5)(yaml@2.6.1)))(drizzle-orm@0.44.5(@libsql/client@0.15.14)(gel@2.0.2)(kysely@0.28.5))(vite@7.1.5(@types/node@24.3.1)(jiti@2.5.1)(lightningcss@1.30.1)(terser@5.43.1)(tsx@4.20.5)(yaml@2.6.1))':
+  '@tanstack/react-start-plugin@1.131.36(@libsql/client@0.15.15)(@netlify/blobs@9.1.2)(@tanstack/react-router@1.131.36(react-dom@19.1.1(react@19.1.1))(react@19.1.1))(@vitejs/plugin-react@5.0.2(vite@7.1.5(@types/node@24.3.1)(jiti@2.5.1)(lightningcss@1.30.1)(terser@5.43.1)(tsx@4.20.5)(yaml@2.6.1)))(drizzle-orm@0.44.5(@libsql/client@0.15.15)(gel@2.0.2)(kysely@0.28.5))(vite@7.1.5(@types/node@24.3.1)(jiti@2.5.1)(lightningcss@1.30.1)(terser@5.43.1)(tsx@4.20.5)(yaml@2.6.1))':
     dependencies:
-      '@tanstack/start-plugin-core': 1.131.36(@libsql/client@0.15.14)(@netlify/blobs@9.1.2)(@tanstack/react-router@1.131.36(react-dom@19.1.1(react@19.1.1))(react@19.1.1))(drizzle-orm@0.44.5(@libsql/client@0.15.14)(gel@2.0.2)(kysely@0.28.5))(vite@7.1.5(@types/node@24.3.1)(jiti@2.5.1)(lightningcss@1.30.1)(terser@5.43.1)(tsx@4.20.5)(yaml@2.6.1))
+      '@tanstack/start-plugin-core': 1.131.36(@libsql/client@0.15.15)(@netlify/blobs@9.1.2)(@tanstack/react-router@1.131.36(react-dom@19.1.1(react@19.1.1))(react@19.1.1))(drizzle-orm@0.44.5(@libsql/client@0.15.15)(gel@2.0.2)(kysely@0.28.5))(vite@7.1.5(@types/node@24.3.1)(jiti@2.5.1)(lightningcss@1.30.1)(terser@5.43.1)(tsx@4.20.5)(yaml@2.6.1))
       '@vitejs/plugin-react': 5.0.2(vite@7.1.5(@types/node@24.3.1)(jiti@2.5.1)(lightningcss@1.30.1)(terser@5.43.1)(tsx@4.20.5)(yaml@2.6.1))
       pathe: 2.0.3
       vite: 7.1.5(@types/node@24.3.1)(jiti@2.5.1)(lightningcss@1.30.1)(terser@5.43.1)(tsx@4.20.5)(yaml@2.6.1)
@@ -7392,10 +7392,10 @@ snapshots:
       react: 19.1.1
       react-dom: 19.1.1(react@19.1.1)
 
-  '@tanstack/react-start@1.131.36(@libsql/client@0.15.14)(@netlify/blobs@9.1.2)(@tanstack/react-router@1.131.36(react-dom@19.1.1(react@19.1.1))(react@19.1.1))(@vitejs/plugin-react@5.0.2(vite@7.1.5(@types/node@24.3.1)(jiti@2.5.1)(lightningcss@1.30.1)(terser@5.43.1)(tsx@4.20.5)(yaml@2.6.1)))(drizzle-orm@0.44.5(@libsql/client@0.15.14)(gel@2.0.2)(kysely@0.28.5))(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(vite@7.1.5(@types/node@24.3.1)(jiti@2.5.1)(lightningcss@1.30.1)(terser@5.43.1)(tsx@4.20.5)(yaml@2.6.1))':
+  '@tanstack/react-start@1.131.36(@libsql/client@0.15.15)(@netlify/blobs@9.1.2)(@tanstack/react-router@1.131.36(react-dom@19.1.1(react@19.1.1))(react@19.1.1))(@vitejs/plugin-react@5.0.2(vite@7.1.5(@types/node@24.3.1)(jiti@2.5.1)(lightningcss@1.30.1)(terser@5.43.1)(tsx@4.20.5)(yaml@2.6.1)))(drizzle-orm@0.44.5(@libsql/client@0.15.15)(gel@2.0.2)(kysely@0.28.5))(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(vite@7.1.5(@types/node@24.3.1)(jiti@2.5.1)(lightningcss@1.30.1)(terser@5.43.1)(tsx@4.20.5)(yaml@2.6.1))':
     dependencies:
       '@tanstack/react-start-client': 1.131.36(react-dom@19.1.1(react@19.1.1))(react@19.1.1)
-      '@tanstack/react-start-plugin': 1.131.36(@libsql/client@0.15.14)(@netlify/blobs@9.1.2)(@tanstack/react-router@1.131.36(react-dom@19.1.1(react@19.1.1))(react@19.1.1))(@vitejs/plugin-react@5.0.2(vite@7.1.5(@types/node@24.3.1)(jiti@2.5.1)(lightningcss@1.30.1)(terser@5.43.1)(tsx@4.20.5)(yaml@2.6.1)))(drizzle-orm@0.44.5(@libsql/client@0.15.14)(gel@2.0.2)(kysely@0.28.5))(vite@7.1.5(@types/node@24.3.1)(jiti@2.5.1)(lightningcss@1.30.1)(terser@5.43.1)(tsx@4.20.5)(yaml@2.6.1))
+      '@tanstack/react-start-plugin': 1.131.36(@libsql/client@0.15.15)(@netlify/blobs@9.1.2)(@tanstack/react-router@1.131.36(react-dom@19.1.1(react@19.1.1))(react@19.1.1))(@vitejs/plugin-react@5.0.2(vite@7.1.5(@types/node@24.3.1)(jiti@2.5.1)(lightningcss@1.30.1)(terser@5.43.1)(tsx@4.20.5)(yaml@2.6.1)))(drizzle-orm@0.44.5(@libsql/client@0.15.15)(gel@2.0.2)(kysely@0.28.5))(vite@7.1.5(@types/node@24.3.1)(jiti@2.5.1)(lightningcss@1.30.1)(terser@5.43.1)(tsx@4.20.5)(yaml@2.6.1))
       '@tanstack/react-start-server': 1.131.36(react-dom@19.1.1(react@19.1.1))(react@19.1.1)
       '@tanstack/start-server-functions-client': 1.131.36(vite@7.1.5(@types/node@24.3.1)(jiti@2.5.1)(lightningcss@1.30.1)(terser@5.43.1)(tsx@4.20.5)(yaml@2.6.1))
       '@tanstack/start-server-functions-server': 1.131.2(vite@7.1.5(@types/node@24.3.1)(jiti@2.5.1)(lightningcss@1.30.1)(terser@5.43.1)(tsx@4.20.5)(yaml@2.6.1))
@@ -7532,7 +7532,7 @@ snapshots:
       tiny-invariant: 1.3.3
       tiny-warning: 1.0.3
 
-  '@tanstack/start-plugin-core@1.131.36(@libsql/client@0.15.14)(@netlify/blobs@9.1.2)(@tanstack/react-router@1.131.36(react-dom@19.1.1(react@19.1.1))(react@19.1.1))(drizzle-orm@0.44.5(@libsql/client@0.15.14)(gel@2.0.2)(kysely@0.28.5))(vite@7.1.5(@types/node@24.3.1)(jiti@2.5.1)(lightningcss@1.30.1)(terser@5.43.1)(tsx@4.20.5)(yaml@2.6.1))':
+  '@tanstack/start-plugin-core@1.131.36(@libsql/client@0.15.15)(@netlify/blobs@9.1.2)(@tanstack/react-router@1.131.36(react-dom@19.1.1(react@19.1.1))(react@19.1.1))(drizzle-orm@0.44.5(@libsql/client@0.15.15)(gel@2.0.2)(kysely@0.28.5))(vite@7.1.5(@types/node@24.3.1)(jiti@2.5.1)(lightningcss@1.30.1)(terser@5.43.1)(tsx@4.20.5)(yaml@2.6.1))':
     dependencies:
       '@babel/code-frame': 7.26.2
       '@babel/core': 7.28.3
@@ -7548,7 +7548,7 @@ snapshots:
       babel-dead-code-elimination: 1.0.10
       cheerio: 1.1.2
       h3: 1.13.0
-      nitropack: 2.12.4(@libsql/client@0.15.14)(@netlify/blobs@9.1.2)(drizzle-orm@0.44.5(@libsql/client@0.15.14)(gel@2.0.2)(kysely@0.28.5))
+      nitropack: 2.12.4(@libsql/client@0.15.15)(@netlify/blobs@9.1.2)(drizzle-orm@0.44.5(@libsql/client@0.15.15)(gel@2.0.2)(kysely@0.28.5))
       pathe: 2.0.3
       ufo: 1.6.1
       vite: 7.1.5(@types/node@24.3.1)(jiti@2.5.1)(lightningcss@1.30.1)(terser@5.43.1)(tsx@4.20.5)(yaml@2.6.1)
@@ -8437,10 +8437,10 @@ snapshots:
 
   date-fns@4.1.0: {}
 
-  db0@0.3.2(@libsql/client@0.15.14)(drizzle-orm@0.44.5(@libsql/client@0.15.14)(gel@2.0.2)(kysely@0.28.5)):
+  db0@0.3.2(@libsql/client@0.15.15)(drizzle-orm@0.44.5(@libsql/client@0.15.15)(gel@2.0.2)(kysely@0.28.5)):
     optionalDependencies:
-      '@libsql/client': 0.15.14
-      drizzle-orm: 0.44.5(@libsql/client@0.15.14)(gel@2.0.2)(kysely@0.28.5)
+      '@libsql/client': 0.15.15
+      drizzle-orm: 0.44.5(@libsql/client@0.15.15)(gel@2.0.2)(kysely@0.28.5)
 
   debug@4.4.1:
     dependencies:
@@ -8579,9 +8579,9 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  drizzle-orm@0.44.5(@libsql/client@0.15.14)(gel@2.0.2)(kysely@0.28.5):
+  drizzle-orm@0.44.5(@libsql/client@0.15.15)(gel@2.0.2)(kysely@0.28.5):
     optionalDependencies:
-      '@libsql/client': 0.15.14
+      '@libsql/client': 0.15.15
       gel: 2.0.2
       kysely: 0.28.5
 
@@ -9332,20 +9332,20 @@ snapshots:
     dependencies:
       readable-stream: 2.3.8
 
-  libsql@0.5.20:
+  libsql@0.5.22:
     dependencies:
       '@neon-rs/load': 0.0.4
       detect-libc: 2.0.2
     optionalDependencies:
-      '@libsql/darwin-arm64': 0.5.20
-      '@libsql/darwin-x64': 0.5.20
-      '@libsql/linux-arm-gnueabihf': 0.5.20
-      '@libsql/linux-arm-musleabihf': 0.5.20
-      '@libsql/linux-arm64-gnu': 0.5.20
-      '@libsql/linux-arm64-musl': 0.5.20
-      '@libsql/linux-x64-gnu': 0.5.20
-      '@libsql/linux-x64-musl': 0.5.20
-      '@libsql/win32-x64-msvc': 0.5.20
+      '@libsql/darwin-arm64': 0.5.22
+      '@libsql/darwin-x64': 0.5.22
+      '@libsql/linux-arm-gnueabihf': 0.5.22
+      '@libsql/linux-arm-musleabihf': 0.5.22
+      '@libsql/linux-arm64-gnu': 0.5.22
+      '@libsql/linux-arm64-musl': 0.5.22
+      '@libsql/linux-x64-gnu': 0.5.22
+      '@libsql/linux-x64-musl': 0.5.22
+      '@libsql/win32-x64-msvc': 0.5.22
 
   lightningcss-darwin-arm64@1.30.1:
     optional: true
@@ -9600,7 +9600,7 @@ snapshots:
       p-wait-for: 5.0.2
       qs: 6.14.0
 
-  nitropack@2.12.4(@libsql/client@0.15.14)(@netlify/blobs@9.1.2)(drizzle-orm@0.44.5(@libsql/client@0.15.14)(gel@2.0.2)(kysely@0.28.5)):
+  nitropack@2.12.4(@libsql/client@0.15.15)(@netlify/blobs@9.1.2)(drizzle-orm@0.44.5(@libsql/client@0.15.15)(gel@2.0.2)(kysely@0.28.5)):
     dependencies:
       '@cloudflare/kv-asset-handler': 0.4.0
       '@netlify/functions': 3.1.10(rollup@4.46.2)
@@ -9622,7 +9622,7 @@ snapshots:
       cookie-es: 2.0.0
       croner: 9.1.0
       crossws: 0.3.5
-      db0: 0.3.2(@libsql/client@0.15.14)(drizzle-orm@0.44.5(@libsql/client@0.15.14)(gel@2.0.2)(kysely@0.28.5))
+      db0: 0.3.2(@libsql/client@0.15.15)(drizzle-orm@0.44.5(@libsql/client@0.15.15)(gel@2.0.2)(kysely@0.28.5))
       defu: 6.1.4
       destr: 2.0.5
       dot-prop: 9.0.0
@@ -9668,7 +9668,7 @@ snapshots:
       unenv: 2.0.0-rc.19
       unimport: 5.2.0
       unplugin-utils: 0.2.4
-      unstorage: 1.16.1(@netlify/blobs@9.1.2)(db0@0.3.2(@libsql/client@0.15.14)(drizzle-orm@0.44.5(@libsql/client@0.15.14)(gel@2.0.2)(kysely@0.28.5)))(ioredis@5.7.0)
+      unstorage: 1.16.1(@netlify/blobs@9.1.2)(db0@0.3.2(@libsql/client@0.15.15)(drizzle-orm@0.44.5(@libsql/client@0.15.15)(gel@2.0.2)(kysely@0.28.5)))(ioredis@5.7.0)
       untyped: 2.0.0
       unwasm: 0.3.9
       youch: 4.1.0-beta.8
@@ -10709,7 +10709,7 @@ snapshots:
       picomatch: 4.0.3
       webpack-virtual-modules: 0.6.2
 
-  unstorage@1.16.1(@netlify/blobs@9.1.2)(db0@0.3.2(@libsql/client@0.15.14)(drizzle-orm@0.44.5(@libsql/client@0.15.14)(gel@2.0.2)(kysely@0.28.5)))(ioredis@5.7.0):
+  unstorage@1.16.1(@netlify/blobs@9.1.2)(db0@0.3.2(@libsql/client@0.15.15)(drizzle-orm@0.44.5(@libsql/client@0.15.15)(gel@2.0.2)(kysely@0.28.5)))(ioredis@5.7.0):
     dependencies:
       anymatch: 3.1.3
       chokidar: 4.0.3
@@ -10721,7 +10721,7 @@ snapshots:
       ufo: 1.6.1
     optionalDependencies:
       '@netlify/blobs': 9.1.2
-      db0: 0.3.2(@libsql/client@0.15.14)(drizzle-orm@0.44.5(@libsql/client@0.15.14)(gel@2.0.2)(kysely@0.28.5))
+      db0: 0.3.2(@libsql/client@0.15.15)(drizzle-orm@0.44.5(@libsql/client@0.15.15)(gel@2.0.2)(kysely@0.28.5))
       ioredis: 5.7.0
 
   untun@0.1.3:
