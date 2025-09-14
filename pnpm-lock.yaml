@@ -10,13 +10,13 @@ importers:
     dependencies:
       '@autoform/react':
         specifier: 4.0.0
-        version: 4.0.0(@hookform/resolvers@5.2.1(react-hook-form@7.62.0(react@19.1.1)))(react-hook-form@7.62.0(react@19.1.1))(react@19.1.1)
+        version: 4.0.0(@hookform/resolvers@5.2.2(react-hook-form@7.62.0(react@19.1.1)))(react-hook-form@7.62.0(react@19.1.1))(react@19.1.1)
       '@autoform/zod':
         specifier: 5.0.0
         version: 5.0.0(zod@4.1.8)
       '@hookform/resolvers':
-        specifier: 5.2.1
-        version: 5.2.1(react-hook-form@7.62.0(react@19.1.1))
+        specifier: 5.2.2
+        version: 5.2.2(react-hook-form@7.62.0(react@19.1.1))
       '@libsql/client':
         specifier: 0.15.15
         version: 0.15.15
@@ -960,8 +960,8 @@ packages:
   '@hexagon/base64@1.1.28':
     resolution: {integrity: sha512-lhqDEAvWixy3bZ+UOYbPwUbBkwBq5C1LAJ/xPC8Oi+lL54oyakv/npbA0aU2hgCsx/1NUd4IBvV03+aUBWxerw==}
 
-  '@hookform/resolvers@5.2.1':
-    resolution: {integrity: sha512-u0+6X58gkjMcxur1wRWokA7XsiiBJ6aK17aPZxhkoYiK5J+HcTx0Vhu9ovXe6H+dVpO6cjrn2FkJTryXEMlryQ==}
+  '@hookform/resolvers@5.2.2':
+    resolution: {integrity: sha512-A/IxlMLShx3KjV/HeTcTfaMxdwy690+L/ZADoeaTltLx+CVuzkeVIPuybK3jrRfw7YZnmdKsVVHAlEPIAEUNlA==}
     peerDependencies:
       react-hook-form: ^7.55.0
 
@@ -5588,10 +5588,10 @@ snapshots:
 
   '@autoform/core@3.0.0': {}
 
-  '@autoform/react@4.0.0(@hookform/resolvers@5.2.1(react-hook-form@7.62.0(react@19.1.1)))(react-hook-form@7.62.0(react@19.1.1))(react@19.1.1)':
+  '@autoform/react@4.0.0(@hookform/resolvers@5.2.2(react-hook-form@7.62.0(react@19.1.1)))(react-hook-form@7.62.0(react@19.1.1))(react@19.1.1)':
     dependencies:
       '@autoform/core': 3.0.0
-      '@hookform/resolvers': 5.2.1(react-hook-form@7.62.0(react@19.1.1))
+      '@hookform/resolvers': 5.2.2(react-hook-form@7.62.0(react@19.1.1))
       react: 19.1.1
       react-hook-form: 7.62.0(react@19.1.1)
 
@@ -6143,7 +6143,7 @@ snapshots:
 
   '@hexagon/base64@1.1.28': {}
 
-  '@hookform/resolvers@5.2.1(react-hook-form@7.62.0(react@19.1.1))':
+  '@hookform/resolvers@5.2.2(react-hook-form@7.62.0(react@19.1.1))':
     dependencies:
       '@standard-schema/utils': 0.3.0
       react-hook-form: 7.62.0(react@19.1.1)
