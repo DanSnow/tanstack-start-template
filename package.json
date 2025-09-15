@@ -71,7 +71,7 @@
     "mutative": "1.2.0",
     "ofetch": "1.4.1",
     "react": "19.1.1",
-    "react-day-picker": "9.9.0",
+    "react-day-picker": "9.10.0",
     "react-dom": "19.1.1",
     "react-hook-form": "7.62.0",
     "react-use": "17.6.0",
