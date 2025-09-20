@@ -13,7 +13,7 @@ importers:
         version: 4.0.0(@hookform/resolvers@5.2.2(react-hook-form@7.63.0(react@19.1.1)))(react-hook-form@7.63.0(react@19.1.1))(react@19.1.1)
       '@autoform/zod':
         specifier: 5.0.0
-        version: 5.0.0(zod@4.1.9)
+        version: 5.0.0(zod@4.1.11)
       '@hookform/resolvers':
         specifier: 5.2.2
         version: 5.2.2(react-hook-form@7.63.0(react@19.1.1))
@@ -52,7 +52,7 @@ importers:
         version: 1.1.10(@types/react-dom@19.1.9(@types/react@19.1.13))(@types/react@19.1.13)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)
       '@t3-oss/env-core':
         specifier: 0.13.8
-        version: 0.13.8(arktype@2.1.20)(typescript@5.9.2)(zod@4.1.9)
+        version: 0.13.8(arktype@2.1.20)(typescript@5.9.2)(zod@4.1.11)
       '@tanstack/react-query':
         specifier: 5.89.0
         version: 5.89.0(react@19.1.1)
@@ -129,8 +129,8 @@ importers:
         specifier: 3.3.1
         version: 3.3.1
       zod:
-        specifier: 4.1.9
-        version: 4.1.9
+        specifier: 4.1.11
+        version: 4.1.11
     devDependencies:
       '@biomejs/biome':
         specifier: 2.2.4
@@ -5420,8 +5420,8 @@ packages:
   zod@3.25.76:
     resolution: {integrity: sha512-gzUt/qt81nXsFGKIFcC3YnfEAx5NkunCfnDlvuBSSFS02bcXu4Lmea0AFIUwbLWxWPx3d9p8S5QoaujKcNQxcQ==}
 
-  zod@4.1.9:
-    resolution: {integrity: sha512-HI32jTq0AUAC125z30E8bQNz0RQ+9Uc+4J7V97gLYjZVKRjeydPgGt6dvQzFrav7MYOUGFqqOGiHpA/fdbd0cQ==}
+  zod@4.1.11:
+    resolution: {integrity: sha512-WPsqwxITS2tzx1bzhIKsEs19ABD5vmCVa4xBo2tq/SrV4RNZtfws1EnCWQXM6yh8bD08a1idvkB5MZSBiZsjwg==}
 
   zx@8.8.2:
     resolution: {integrity: sha512-JuCw+diiuDihAtDC/ClDjaP3spsOxfFAMWrSa+esdU+YnBwYGuFef+B127zQ3x2FHOFULQ4NbaX/95d5260eYQ==}
@@ -5452,9 +5452,9 @@ snapshots:
       react: 19.1.1
       react-hook-form: 7.63.0(react@19.1.1)
 
-  '@autoform/zod@5.0.0(zod@4.1.9)':
+  '@autoform/zod@5.0.0(zod@4.1.11)':
     dependencies:
-      zod: 4.1.9
+      zod: 4.1.11
 
   '@babel/code-frame@7.26.2':
     dependencies:
@@ -7031,11 +7031,11 @@ snapshots:
 
   '@standard-schema/utils@0.3.0': {}
 
-  '@t3-oss/env-core@0.13.8(arktype@2.1.20)(typescript@5.9.2)(zod@4.1.9)':
+  '@t3-oss/env-core@0.13.8(arktype@2.1.20)(typescript@5.9.2)(zod@4.1.11)':
     optionalDependencies:
       arktype: 2.1.20
       typescript: 5.9.2
-      zod: 4.1.9
+      zod: 4.1.11
 
   '@tailwindcss/node@4.1.13':
     dependencies:
@@ -7917,7 +7917,7 @@ snapshots:
       jose: 6.1.0
       kysely: 0.28.5
       nanostores: 1.0.1
-      zod: 4.1.9
+      zod: 4.1.11
     optionalDependencies:
       react: 19.1.1
       react-dom: 19.1.1(react@19.1.1)
@@ -10724,6 +10724,6 @@ snapshots:
 
   zod@3.25.76: {}
 
-  zod@4.1.9: {}
+  zod@4.1.11: {}
 
   zx@8.8.2: {}
