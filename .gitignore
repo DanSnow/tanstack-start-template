@@ -28,3 +28,4 @@ yarn.lock
 .moon/cache
 .moon/docker
 
+dist

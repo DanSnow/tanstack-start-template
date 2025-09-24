@@ -1,6 +1,5 @@
 import { createServerFn } from '@tanstack/react-start';
-import { getHeaders } from '@tanstack/react-start/server';
-import { Array, pipe } from 'effect';
+import { getRequestHeaders } from '@tanstack/react-start/server';
 import { auth } from '~/lib/server/auth';
 
 /**
@@ -12,15 +11,18 @@ import { auth } from '~/lib/server/auth';
  */
 export const getServerSession = createServerFn({
   method: 'GET',
-}).handler(() => {
-  const headers = getHeaders();
-  return auth.api.getSession({
-    headers: new Headers(
-      pipe(
-        headers,
-        Object.entries,
-        Array.filter((pair): pair is [string, string] => pair[1] !== undefined),
-      ),
-    ),
+}).handler(async () => {
+  const headers = getRequestHeaders();
+  const res = await auth.api.getSession({
+    headers,
   });
+
+  if (!res) {
+    return null;
+  }
+
+  return {
+    session: res.session,
+    user: res.user,
+  };
 });

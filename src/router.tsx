@@ -5,7 +5,7 @@ import { NotFound } from './components/NotFound';
 import { createRouterContext } from './router-context';
 import { routeTree } from './routeTree.gen';
 
-export function createRouter() {
+export function getRouter() {
   const context = createRouterContext();
 
   const router = createTanStackRouter({
@@ -18,10 +18,4 @@ export function createRouter() {
   });
 
   return routerWithQueryClient(router, context.queryClient);
-}
-
-declare module '@tanstack/react-router' {
-  interface Register {
-    router: ReturnType<typeof createRouter>;
-  }
 }
