@@ -1,6 +1,7 @@
-import { ReactQueryDevtools } from '@tanstack/react-query-devtools';
+import { TanStackDevtools } from '@tanstack/react-devtools';
+import { ReactQueryDevtoolsPanel } from '@tanstack/react-query-devtools';
 import { useRouteContext } from '@tanstack/react-router';
-import { TanStackRouterDevtools } from '@tanstack/react-router-devtools';
+import { TanStackRouterDevtoolsPanel } from '@tanstack/react-router-devtools';
 import { DevTools } from 'jotai-devtools';
 import { useEffect, useState } from 'react';
 
@@ -15,9 +16,19 @@ function Devtools() {
   return (
     mounted && (
       <>
-        <ReactQueryDevtools client={queryClient} />
+        <TanStackDevtools
+          plugins={[
+            {
+              name: 'TanStack Query',
+              render: <ReactQueryDevtoolsPanel client={queryClient} />,
+            },
+            {
+              name: 'TanStack Router',
+              render: <TanStackRouterDevtoolsPanel />,
+            },
+          ]}
+        />
         <DevTools store={store} />
-        <TanStackRouterDevtools position="bottom-right" />
       </>
     )
   );
