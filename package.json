@@ -17,7 +17,7 @@
     "@tanstack/react-devtools": "0.7.1",
     "@testing-library/react": "16.3.0",
     "@types/fs-extra": "11.0.4",
-    "@types/node": "24.6.1",
+    "@types/node": "24.6.2",
     "@types/react": "19.1.16",
     "@types/react-dom": "19.1.9",
     "@vitejs/plugin-react": "5.0.4",
