@@ -11,7 +11,7 @@
   "devDependencies": {
     "@biomejs/biome": "2.2.6",
     "@effect/vitest": "0.26.0",
-    "@moonrepo/cli": "1.41.4",
+    "@moonrepo/cli": "1.41.5",
     "@tailwindcss/vite": "4.1.14",
     "@tanstack/devtools-vite": "0.3.6",
     "@tanstack/react-devtools": "0.7.6",
