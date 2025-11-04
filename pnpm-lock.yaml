@@ -136,8 +136,8 @@ importers:
         specifier: 2.3.3
         version: 2.3.3
       '@effect/vitest':
-        specifier: 0.26.0
-        version: 0.26.0(effect@3.18.4)(vitest@4.0.6)
+        specifier: 0.27.0
+        version: 0.27.0(effect@3.18.4)(vitest@4.0.6)
       '@moonrepo/cli':
         specifier: 1.41.6
         version: 1.41.6
@@ -468,10 +468,10 @@ packages:
   '@drizzle-team/brocli@0.10.2':
     resolution: {integrity: sha512-z33Il7l5dKjUgGULTqBsQBQwckHh5AbIuxhdsIxDDiZAzBOrZO6q9ogcWC65kU382AfynTfgNumVcNIjuIua6w==}
 
-  '@effect/vitest@0.26.0':
-    resolution: {integrity: sha512-h7r21XRtHpl8CQmIuplCK54bYJkUij4c6bUxK27y4d9dTXn4s7c/I3Lilb4VZxv3P3S3sChCu5YIGW4pdQFjZg==}
+  '@effect/vitest@0.27.0':
+    resolution: {integrity: sha512-8bM7n9xlMUYw9GqPIVgXFwFm2jf27m/R7psI64PGpwU5+26iwyxp9eAXEsfT5S6lqztYfpQQ1Ubp5o6HfNYzJQ==}
     peerDependencies:
-      effect: ^3.18.0
+      effect: ^3.19.0
       vitest: ^3.2.0
 
   '@esbuild-kit/core-utils@3.3.2':
@@ -3998,7 +3998,7 @@ snapshots:
 
   '@drizzle-team/brocli@0.10.2': {}
 
-  '@effect/vitest@0.26.0(effect@3.18.4)(vitest@4.0.6)':
+  '@effect/vitest@0.27.0(effect@3.18.4)(vitest@4.0.6)':
     dependencies:
       effect: 3.18.4
       vitest: 4.0.6(@types/node@24.10.0)(@vitest/ui@4.0.6)(happy-dom@20.0.10)(jiti@2.6.1)(lightningcss@1.30.2)(msw@2.11.6(@types/node@24.10.0)(typescript@5.9.3))(terser@5.43.1)(tsx@4.20.6)(yaml@2.6.1)
