@@ -24,7 +24,7 @@
     "@vitest/coverage-v8": "4.0.8",
     "@vitest/ui": "4.0.8",
     "autoprefixer": "10.4.22",
-    "drizzle-kit": "0.31.6",
+    "drizzle-kit": "0.31.7",
     "happy-dom": "20.0.10",
     "jotai-devtools": "0.13.0",
     "msw": "2.12.1",
