@@ -67,7 +67,7 @@
     "drizzle-orm": "0.44.7",
     "effect": "3.19.8",
     "hashids": "2.3.0",
-    "jotai": "2.15.1",
+    "jotai": "2.15.2",
     "jotai-mutative": "1.2.1",
     "lucide-react": "0.555.0",
     "mutative": "1.3.0",
