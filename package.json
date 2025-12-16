@@ -78,7 +78,7 @@
     "react-hook-form": "7.68.0",
     "react-use": "17.6.0",
     "tailwind-merge": "3.4.0",
-    "zod": "4.1.13"
+    "zod": "4.2.1"
   },
   "packageManager": "pnpm@10.26.0",
   "pnpm": {
