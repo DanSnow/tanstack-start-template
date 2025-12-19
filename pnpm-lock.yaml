@@ -90,8 +90,8 @@ importers:
         specifier: 0.45.1
         version: 0.45.1(@libsql/client@0.15.15)(better-sqlite3@12.4.1)(gel@2.0.2)(kysely@0.28.5)
       effect:
-        specifier: 3.19.12
-        version: 3.19.12
+        specifier: 3.19.13
+        version: 3.19.13
       hashids:
         specifier: 2.3.0
         version: 2.3.0
@@ -137,7 +137,7 @@ importers:
         version: 2.3.10
       '@effect/vitest':
         specifier: 0.27.0
-        version: 0.27.0(effect@3.19.12)(vitest@4.0.16)
+        version: 0.27.0(effect@3.19.13)(vitest@4.0.16)
       '@moonrepo/cli':
         specifier: 1.41.7
         version: 1.41.7
@@ -2608,8 +2608,8 @@ packages:
       sqlite3:
         optional: true
 
-  effect@3.19.12:
-    resolution: {integrity: sha512-7F9RGTrCTC3D7nh9Zw+3VlJWwZgo5k33KA+476BAaD0rKIXKZsY/jQ+ipyhR/Avo239Fi6GqAVFs1mqM1IJ7yg==}
+  effect@3.19.13:
+    resolution: {integrity: sha512-8MZ783YuHRwHZX2Mmm+bpGxq+7XPd88sWwYAz2Ysry80sEKpftDZXs2Hg9ZyjESi1IBTNHF0oDKe0zJRkUlyew==}
 
   electron-to-chromium@1.5.250:
     resolution: {integrity: sha512-/5UMj9IiGDMOFBnN4i7/Ry5onJrAGSbOGo3s9FEKmwobGq6xw832ccET0CE3CkkMBZ8GJSlUIesZofpyurqDXw==}
@@ -4221,9 +4221,9 @@ snapshots:
 
   '@drizzle-team/brocli@0.10.2': {}
 
-  '@effect/vitest@0.27.0(effect@3.19.12)(vitest@4.0.16)':
+  '@effect/vitest@0.27.0(effect@3.19.13)(vitest@4.0.16)':
     dependencies:
-      effect: 3.19.12
+      effect: 3.19.13
       vitest: 4.0.16(@types/node@24.10.4)(@vitest/ui@4.0.16)(happy-dom@20.0.11)(jiti@2.6.1)(lightningcss@1.30.2)(msw@2.12.4(@types/node@24.10.4)(typescript@5.9.3))(terser@5.43.1)(tsx@4.21.0)(yaml@2.6.1)
 
   '@esbuild-kit/core-utils@3.3.2':
@@ -6205,7 +6205,7 @@ snapshots:
       gel: 2.0.2
       kysely: 0.28.5
 
-  effect@3.19.12:
+  effect@3.19.13:
     dependencies:
       '@standard-schema/spec': 1.0.0
       fast-check: 3.23.2
