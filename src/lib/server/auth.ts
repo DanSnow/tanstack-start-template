@@ -1,6 +1,6 @@
 import { betterAuth } from 'better-auth';
 import { drizzleAdapter } from 'better-auth/adapters/drizzle';
-import { reactStartCookies } from 'better-auth/react-start';
+import { tanstackStartCookies } from 'better-auth/tanstack-start';
 import { db } from '~/drizzle/db';
 import * as schema from '~/drizzle/schema';
 
@@ -12,5 +12,5 @@ export const auth = betterAuth({
   emailAndPassword: {
     enabled: true,
   },
-  plugins: [reactStartCookies()],
+  plugins: [tanstackStartCookies()],
 });
