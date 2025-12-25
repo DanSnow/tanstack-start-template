@@ -1,11 +1,5 @@
 import type { ErrorComponentProps } from '@tanstack/react-router';
-import {
-  ErrorComponent,
-  Link,
-  rootRouteId,
-  useMatch,
-  useRouter,
-} from '@tanstack/react-router';
+import { ErrorComponent, Link, rootRouteId, useMatch, useRouter } from '@tanstack/react-router';
 
 export function DefaultCatchBoundary({ error }: ErrorComponentProps) {
   const router = useRouter();
@@ -30,10 +24,7 @@ export function DefaultCatchBoundary({ error }: ErrorComponentProps) {
           Try Again
         </button>
         {isRoot ? (
-          <Link
-            to="/"
-            className="px-2 py-1 font-extrabold text-white uppercase bg-gray-600 rounded dark:bg-gray-700"
-          >
+          <Link to="/" className="px-2 py-1 font-extrabold text-white uppercase bg-gray-600 rounded dark:bg-gray-700">
             Home
           </Link>
         ) : (

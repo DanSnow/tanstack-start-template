@@ -1,21 +1,11 @@
-import {
-  createRootRouteWithContext,
-  HeadContent,
-  linkOptions,
-  Outlet,
-  Scripts,
-} from '@tanstack/react-router';
+import { createRootRouteWithContext, HeadContent, linkOptions, Outlet, Scripts } from '@tanstack/react-router';
 import jotaiDevtoolStyle from 'jotai-devtools/styles.css?url';
 import type * as React from 'react';
 import { lazy } from 'react';
 import { DefaultCatchBoundary } from '~/components/DefaultCatchBoundary';
 import { NavLink } from '~/components/NavLink';
 import { NotFound } from '~/components/NotFound';
-import {
-  NavigationMenu,
-  NavigationMenuItem,
-  NavigationMenuList,
-} from '~/components/ui/navigation-menu';
+import { NavigationMenu, NavigationMenuItem, NavigationMenuList } from '~/components/ui/navigation-menu';
 import type { Context } from '~/router-context';
 import appCss from '~/styles/app.css?url';
 import { seo } from '~/utils/seo';
@@ -32,10 +22,8 @@ export const Route = createRootRouteWithContext<Context>()({
         content: 'width=device-width, initial-scale=1',
       },
       ...seo({
-        title:
-          'TanStack Start | Type-Safe, Client-First, Full-Stack React Framework',
-        description:
-          'TanStack Start is a type-safe, client-first, full-stack React framework. ',
+        title: 'TanStack Start | Type-Safe, Client-First, Full-Stack React Framework',
+        description: 'TanStack Start is a type-safe, client-first, full-stack React framework. ',
       }),
     ],
     links: [
@@ -77,9 +65,7 @@ const EmptyComponent = () => null;
 
 EmptyComponent.displayName = 'EmptyComponent';
 
-const Devtools = import.meta.env.DEV
-  ? lazy(() => import('~/components/Devtools'))
-  : EmptyComponent;
+const Devtools = import.meta.env.DEV ? lazy(() => import('~/components/Devtools')) : EmptyComponent;
 
 function RootComponent() {
   const ctx = Route.useRouteContext();

@@ -1,0 +1,10 @@
+{
+  "categories": {
+    "correctness": "error",
+    "suspicious": "warn",
+    "perf": "warn"
+  },
+  "rules": {
+    "no-floating-promises": "off"
+  }
+}

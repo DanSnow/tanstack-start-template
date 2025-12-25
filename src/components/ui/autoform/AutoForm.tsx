@@ -1,7 +1,4 @@
-import {
-  type AutoFormUIComponents,
-  AutoForm as BaseAutoForm,
-} from '@autoform/react';
+import { type AutoFormUIComponents, AutoForm as BaseAutoForm } from '@autoform/react';
 import React from 'react';
 import { ArrayElementWrapper } from './components/ArrayElementWrapper';
 import { ArrayWrapper } from './components/ArrayWrapper';
@@ -37,11 +34,7 @@ export const ShadcnAutoFormFieldComponents = {
 export type FieldTypes = keyof typeof ShadcnAutoFormFieldComponents;
 
 // biome-ignore lint/suspicious/noExplicitAny: <explanation>
-export function AutoForm<T extends Record<string, any>>({
-  uiComponents,
-  formComponents,
-  ...props
-}: AutoFormProps<T>) {
+export function AutoForm<T extends Record<string, any>>({ uiComponents, formComponents, ...props }: AutoFormProps<T>) {
   return (
     <BaseAutoForm
       {...props}

@@ -36,11 +36,7 @@ function RouteComponent() {
   const navigate = useNavigate();
   const { mutate } = useMutation({
     mutationKey: ['auth', 'signUp'],
-    mutationFn: async ({
-      email,
-      password,
-      name,
-    }: z.infer<typeof formSchema>) => {
+    mutationFn: async ({ email, password, name }: z.infer<typeof formSchema>) => {
       const { data, error } = await authClient.signUp.email({
         email,
         password,

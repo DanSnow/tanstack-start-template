@@ -20,9 +20,7 @@
       "datasourceTemplate": "node-version",
       "depNameTemplate": "node",
       "managerFilePatterns": [".moon/toolchain.yml"],
-      "matchStrings": [
-        "{\"currentValue\": $.\"node\".\"version\" }"
-      ]
+      "matchStrings": ["{\"currentValue\": $.\"node\".\"version\" }"]
     },
     {
       "customType": "jsonata",
@@ -30,9 +28,7 @@
       "datasourceTemplate": "npm",
       "depNameTemplate": "pnpm",
       "managerFilePatterns": [".moon/toolchain.yml"],
-      "matchStrings": [
-        "{\"currentValue\": $.\"node\".\"pnpm\".\"version\" }"
-      ]
+      "matchStrings": ["{\"currentValue\": $.\"node\".\"pnpm\".\"version\" }"]
     }
   ]
 }

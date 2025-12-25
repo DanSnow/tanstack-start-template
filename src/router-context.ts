@@ -14,9 +14,7 @@ export function createRouterContext() {
   const orpcClient: RouterClient<AppRouter> = createORPCClient(
     new RPCLink({
       url:
-        typeof window !== 'undefined'
-          ? new URL('/api/orpc', window.location.origin)
-          : new URL('/api/orpc', HOST_URL),
+        typeof window !== 'undefined' ? new URL('/api/orpc', window.location.origin) : new URL('/api/orpc', HOST_URL),
     }),
   );
 

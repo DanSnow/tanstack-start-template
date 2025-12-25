@@ -6,11 +6,5 @@ import { defineConfig } from 'vite';
 import tsconfigPaths from 'vite-tsconfig-paths';
 
 export default defineConfig({
-  plugins: [
-    devtools(),
-    tsconfigPaths(),
-    tailwindcss(),
-    tanstackStart({}),
-    React(),
-  ],
+  plugins: [devtools(), tsconfigPaths(), tailwindcss(), tanstackStart({}), React()],
 });

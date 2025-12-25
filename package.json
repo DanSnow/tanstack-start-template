@@ -1,8 +1,8 @@
 {
   "name": "tanstack-start-example-basic",
   "private": true,
-  "sideEffects": false,
   "type": "module",
+  "sideEffects": false,
   "scripts": {
     "build": "moon run build --",
     "dev": "moon run dev --",
@@ -14,7 +14,7 @@
     "@moonrepo/cli": "1.41.7",
     "@tailwindcss/vite": "4.1.18",
     "@tanstack/devtools-vite": "0.3.12",
-    "@tanstack/react-devtools": "0.8.6",
+    "@tanstack/react-devtools": "0.8.4",
     "@testing-library/react": "16.3.1",
     "@types/fs-extra": "11.0.4",
     "@types/node": "24.10.4",
@@ -28,6 +28,9 @@
     "happy-dom": "20.0.11",
     "jotai-devtools": "0.13.0",
     "msw": "2.12.4",
+    "oxfmt": "^0.20.0",
+    "oxlint": "^1.35.0",
+    "oxlint-tsgolint": "^0.10.0",
     "postcss": "8.5.6",
     "tailwindcss": "4.1.18",
     "tsx": "4.21.0",
@@ -80,10 +83,11 @@
     "tailwind-merge": "3.4.0",
     "zod": "4.2.1"
   },
-  "packageManager": "pnpm@10.26.2",
+  "engines": {
+    "node": "24.12.0"
+  },
   "pnpm": {
     "onlyBuiltDependencies": [
-      "@biomejs/biome",
       "@moonrepo/cli",
       "@parcel/watcher",
       "@tailwindcss/oxide",
@@ -92,7 +96,5 @@
       "msw"
     ]
   },
-  "engines": {
-    "node": "24.12.0"
-  }
+  "packageManager": "pnpm@10.26.2+sha512.0e308ff2005fc7410366f154f625f6631ab2b16b1d2e70238444dd6ae9d630a8482d92a451144debc492416896ed16f7b114a86ec68b8404b2443869e68ffda6"
 }

@@ -30,21 +30,18 @@ flowchart TD
 ### Core Files (Required)
 
 1. `projectbrief.md`
-
    - Foundation document that shapes all other files
    - Created at project start if it doesn't exist
    - Defines core requirements and goals
    - Source of truth for project scope
 
 2. `productContext.md`
-
    - Why this project exists
    - Problems it solves
    - How it should work
    - User experience goals
 
 3. `activeContext.md`
-
    - Current work focus
    - Recent changes
    - Next steps
@@ -53,7 +50,6 @@ flowchart TD
    - Learnings and project insights
 
 4. `systemPatterns.md`
-
    - System architecture
    - Key technical decisions
    - Design patterns in use
@@ -61,7 +57,6 @@ flowchart TD
    - Critical implementation paths
 
 5. `techContext.md`
-
    - Technologies used
    - Development setup
    - Technical constraints
