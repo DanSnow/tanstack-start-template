@@ -190,13 +190,13 @@ importers:
         specifier: 2.12.4
         version: 2.12.4(@types/node@24.10.4)(typescript@5.9.3)
       oxfmt:
-        specifier: ^0.20.0
+        specifier: 0.20.0
         version: 0.20.0
       oxlint:
-        specifier: ^1.35.0
+        specifier: 1.35.0
         version: 1.35.0(oxlint-tsgolint@0.10.0)
       oxlint-tsgolint:
-        specifier: ^0.10.0
+        specifier: 0.10.0
         version: 0.10.0
       postcss:
         specifier: 8.5.6
