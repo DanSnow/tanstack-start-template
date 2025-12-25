@@ -8,38 +8,6 @@
     "dev": "moon run dev --",
     "test": "moon run test --"
   },
-  "devDependencies": {
-    "@biomejs/biome": "2.3.10",
-    "@effect/vitest": "0.27.0",
-    "@moonrepo/cli": "1.41.7",
-    "@tailwindcss/vite": "4.1.18",
-    "@tanstack/devtools-vite": "0.3.12",
-    "@tanstack/react-devtools": "0.8.4",
-    "@testing-library/react": "16.3.1",
-    "@types/fs-extra": "11.0.4",
-    "@types/node": "24.10.4",
-    "@types/react": "19.2.7",
-    "@types/react-dom": "19.2.3",
-    "@vitejs/plugin-react": "5.1.2",
-    "@vitest/coverage-v8": "4.0.16",
-    "@vitest/ui": "4.0.16",
-    "autoprefixer": "10.4.23",
-    "drizzle-kit": "0.31.8",
-    "happy-dom": "20.0.11",
-    "jotai-devtools": "0.13.0",
-    "msw": "2.12.4",
-    "oxfmt": "^0.20.0",
-    "oxlint": "^1.35.0",
-    "oxlint-tsgolint": "^0.10.0",
-    "postcss": "8.5.6",
-    "tailwindcss": "4.1.18",
-    "tsx": "4.21.0",
-    "typescript": "5.9.3",
-    "vite": "7.3.0",
-    "vite-tsconfig-paths": "6.0.3",
-    "vitest": "4.0.16",
-    "zx": "8.8.5"
-  },
   "dependencies": {
     "@autoform/react": "4.0.0",
     "@autoform/zod": "5.0.0",
@@ -83,9 +51,42 @@
     "tailwind-merge": "3.4.0",
     "zod": "4.2.1"
   },
+  "devDependencies": {
+    "@biomejs/biome": "2.3.10",
+    "@effect/vitest": "0.27.0",
+    "@moonrepo/cli": "1.41.7",
+    "@tailwindcss/vite": "4.1.18",
+    "@tanstack/devtools-vite": "0.3.12",
+    "@tanstack/react-devtools": "0.8.4",
+    "@testing-library/react": "16.3.1",
+    "@types/fs-extra": "11.0.4",
+    "@types/node": "24.10.4",
+    "@types/react": "19.2.7",
+    "@types/react-dom": "19.2.3",
+    "@vitejs/plugin-react": "5.1.2",
+    "@vitest/coverage-v8": "4.0.16",
+    "@vitest/ui": "4.0.16",
+    "autoprefixer": "10.4.23",
+    "drizzle-kit": "0.31.8",
+    "happy-dom": "20.0.11",
+    "jotai-devtools": "0.13.0",
+    "msw": "2.12.4",
+    "oxfmt": "^0.20.0",
+    "oxlint": "^1.35.0",
+    "oxlint-tsgolint": "^0.10.0",
+    "postcss": "8.5.6",
+    "tailwindcss": "4.1.18",
+    "tsx": "4.21.0",
+    "typescript": "5.9.3",
+    "vite": "7.3.0",
+    "vite-tsconfig-paths": "6.0.3",
+    "vitest": "4.0.16",
+    "zx": "8.8.5"
+  },
   "engines": {
     "node": "24.12.0"
   },
+  "packageManager": "pnpm@10.26.2+sha512.0e308ff2005fc7410366f154f625f6631ab2b16b1d2e70238444dd6ae9d630a8482d92a451144debc492416896ed16f7b114a86ec68b8404b2443869e68ffda6",
   "pnpm": {
     "onlyBuiltDependencies": [
       "@moonrepo/cli",
@@ -95,6 +96,5 @@
       "esbuild",
       "msw"
     ]
-  },
-  "packageManager": "pnpm@10.26.2+sha512.0e308ff2005fc7410366f154f625f6631ab2b16b1d2e70238444dd6ae9d630a8482d92a451144debc492416896ed16f7b114a86ec68b8404b2443869e68ffda6"
+  }
 }
