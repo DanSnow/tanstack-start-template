@@ -30,7 +30,7 @@
     "@tanstack/react-router-devtools": "1.144.0",
     "@tanstack/react-router-with-query": "1.130.17",
     "@tanstack/react-start": "1.145.3",
-    "better-auth": "1.4.9",
+    "better-auth": "1.4.10",
     "class-variance-authority": "0.7.1",
     "clsx": "2.1.1",
     "date-fns": "4.1.0",
