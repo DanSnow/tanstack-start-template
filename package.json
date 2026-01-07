@@ -29,7 +29,7 @@
     "@tanstack/react-router": "1.145.7",
     "@tanstack/react-router-devtools": "1.145.7",
     "@tanstack/react-router-with-query": "1.130.17",
-    "@tanstack/react-start": "1.145.9",
+    "@tanstack/react-start": "1.145.10",
     "better-auth": "1.4.10",
     "class-variance-authority": "0.7.1",
     "clsx": "2.1.1",
