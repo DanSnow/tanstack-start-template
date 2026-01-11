@@ -1,11 +1,11 @@
-import type { FieldWrapperProps } from '@autoform/react';
-import type React from 'react';
+import React from 'react';
 import { Label } from '~/components/ui/label';
+import { FieldWrapperProps } from '@autoform/react';
 
-const DISABLED_LABELS = new Set(['boolean', 'object', 'array']);
+const DISABLED_LABELS = ['boolean', 'object', 'array'];
 
 export const FieldWrapper: React.FC<FieldWrapperProps> = ({ label, children, id, field, error }) => {
-  const isDisabled = DISABLED_LABELS.has(field.type);
+  const isDisabled = DISABLED_LABELS.includes(field.type);
 
   return (
     <div className="space-y-2">
