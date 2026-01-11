@@ -5,6 +5,10 @@
   "biome.enabled": false,
   "oxc.typeAware": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "workbench.editor.customLabels.enabled": true,
+  "workbench.editor.customLabels.patterns": {
+    "**/src/routes/**/index.tsx": "${dirname}/${filename}.${extname}"
+  },
   "editor.codeActionsOnSave": {
     "source.fixAll.biome": "always"
   },
