@@ -11,7 +11,7 @@
   "dependencies": {
     "@autoform/react": "4.0.0",
     "@autoform/zod": "5.0.0",
-    "@base-ui/react": "1.0.0",
+    "@base-ui/react": "1.1.0",
     "@hookform/resolvers": "5.2.2",
     "@libsql/client": "0.17.0",
     "@orpc/client": "1.13.4",
