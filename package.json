@@ -63,7 +63,7 @@
     "@vitest/ui": "4.0.17",
     "autoprefixer": "10.4.23",
     "drizzle-kit": "0.31.8",
-    "happy-dom": "20.3.3",
+    "happy-dom": "20.3.4",
     "jotai-devtools": "0.13.0",
     "msw": "2.12.7",
     "oxfmt": "0.26.0",
