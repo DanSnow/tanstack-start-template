@@ -51,7 +51,7 @@
     "@moonrepo/cli": "1.41.7",
     "@tailwindcss/vite": "4.1.18",
     "@tanstack/devtools-vite": "0.4.1",
-    "@tanstack/react-devtools": "0.9.2",
+    "@tanstack/react-devtools": "0.9.3",
     "@tanstack/react-form": "1.28.0",
     "@testing-library/react": "16.3.2",
     "@types/fs-extra": "11.0.4",
