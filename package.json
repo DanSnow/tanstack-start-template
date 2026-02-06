@@ -65,7 +65,7 @@
     "drizzle-kit": "0.31.8",
     "happy-dom": "20.5.0",
     "jotai-devtools": "0.13.0",
-    "msw": "2.12.8",
+    "msw": "2.12.9",
     "oxfmt": "0.28.0",
     "oxlint": "1.43.0",
     "oxlint-tsgolint": "0.11.4",
