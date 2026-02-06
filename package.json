@@ -28,7 +28,7 @@
     "class-variance-authority": "0.7.1",
     "clsx": "2.1.1",
     "date-fns": "4.1.0",
-    "dotenv": "17.2.3",
+    "dotenv": "17.2.4",
     "drizzle-orm": "0.45.1",
     "effect": "3.19.16",
     "hashids": "2.3.0",
