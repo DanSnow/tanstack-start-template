@@ -55,7 +55,7 @@
     "@tanstack/react-form": "1.28.0",
     "@testing-library/react": "16.3.2",
     "@types/fs-extra": "11.0.4",
-    "@types/node": "24.10.8",
+    "@types/node": "24.10.13",
     "@types/react": "19.2.14",
     "@types/react-dom": "19.2.3",
     "@vitejs/plugin-react": "5.1.4",
@@ -79,7 +79,7 @@
     "zx": "8.8.5"
   },
   "engines": {
-    "node": "24.13.0"
+    "node": "24.13.1"
   },
   "packageManager": "pnpm@10.29.3",
   "pnpm": {
