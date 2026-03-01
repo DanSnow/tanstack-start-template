@@ -1,16 +1,16 @@
 {
   "editor.tabSize": 2,
   "editor.formatOnSave": true,
-  "prettier.enable": true,
+  "prettier.enable": false,
   "biome.enabled": false,
   "oxc.typeAware": true,
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.defaultFormatter": "oxc.oxc-vscode",
   "workbench.editor.customLabels.enabled": true,
   "workbench.editor.customLabels.patterns": {
     "**/src/routes/**/index.tsx": "${dirname}/${filename}.${extname}"
   },
   "editor.codeActionsOnSave": {
-    "source.fixAll.biome": "always"
+    "source.fixAll.oxc": "always"
   },
   "[javascript]": {
     "editor.defaultFormatter": "oxc.oxc-vscode"
@@ -22,7 +22,7 @@
     "editor.defaultFormatter": "oxc.oxc-vscode"
   },
   "[jsonc]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "oxc.oxc-vscode"
   },
   "files.watcherExclude": {
     "**/.git/objects/**": true,

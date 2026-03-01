@@ -10,9 +10,9 @@ tasks:
       - vite
       - dev
       - --port
-      - '3000'
-    local: true
+      - "3000"
     toolchain: node
+    preset: server
   lint:
     command:
       - oxlint
@@ -24,29 +24,29 @@ tasks:
     command:
       - node
       - .output/server/index.mjs
-    local: true
     toolchain: node
+    preset: server
   test:
     command:
       - vitest
     toolchain: node
   generate-auth:
-    local: true
     script: |
       touch src/drizzle/auth-schema.ts # ensure the file exists before generate schema
       pnpm dlx @better-auth/cli generate --config src/lib/server/auth.ts --output src/drizzle/auth-schema.ts
       pnpm exec oxlint --fix src/drizzle/auth-schema.ts
+    preset: server
   generate-migrate:
-    local: true
+    toolchains: node
     command: drizzle-kit generate
-    platform: node
-    inputs:
-      - src/drizzle/**/*.ts
     outputs:
       - src/drizzle/migrations/**/*
+    inputs:
+      - src/drizzle/**/*.ts
+    preset: server
   migrate:
-    local: true
+    toolchains: node
     command: drizzle-kit migrate
-    platform: node
     deps:
       - generate-migrate
+    preset: server
