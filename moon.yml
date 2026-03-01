@@ -10,7 +10,7 @@ tasks:
       - vite
       - dev
       - --port
-      - "3000"
+      - '3000'
     toolchain: node
     preset: server
   lint:
