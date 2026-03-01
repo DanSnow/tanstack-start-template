@@ -1,12 +1,12 @@
 {
   "$schema": "https://ui.shadcn.com/schema.json",
-  "style": "base-vega",
+  "style": "base-nova",
   "rsc": false,
   "tsx": true,
   "tailwind": {
-    "config": "tailwind.config.js",
-    "css": "app/styles/app.css",
-    "baseColor": "zinc",
+    "config": "",
+    "css": "src/styles/app.css",
+    "baseColor": "neutral",
     "cssVariables": true,
     "prefix": ""
   },
@@ -18,6 +18,9 @@
     "hooks": "~/hooks"
   },
   "iconLibrary": "lucide",
+  "rtl": false,
+  "menuColor": "default",
+  "menuAccent": "subtle",
   "registries": {
     "@autoform": "https://raw.githubusercontent.com/vantezzen/autoform/refs/heads/main/packages/shadcn/registry/{name}.json"
   }
