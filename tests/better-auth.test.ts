@@ -21,7 +21,7 @@ it('should generate auth schema', { timeout: 60_000 }, async () => {
   await $({
     input: 'y',
     cwd: path.resolve(__dirname, '..'),
-  })`pnpm exec moon --log=debug run 'tanstack-start-template:generate-auth'`;
+  })`pnpm exec moon run 'tanstack-start-template:generate-auth'`;
 
   const isExist = await fs.exists(path.resolve(__dirname, '../src/drizzle/auth-schema.ts'));
   expect(isExist).toBe(true);
