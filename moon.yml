@@ -10,7 +10,7 @@ tasks:
       - vite
       - dev
       - --port
-      - "3000"
+      - '3000'
     toolchain: node
     preset: server
   lint:
@@ -33,7 +33,7 @@ tasks:
   generate-auth:
     script: |
       touch src/drizzle/auth-schema.ts # ensure the file exists before generate schema
-      pnpm dlx @better-auth/cli generate --config src/lib/server/auth.ts --output src/drizzle/auth-schema.ts
+      pnpm dlx auth generate --config src/lib/server/auth.ts --output src/drizzle/auth-schema.ts
       pnpm exec oxlint --fix src/drizzle/auth-schema.ts
     preset: server
   generate-migrate:
