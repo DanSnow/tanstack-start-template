@@ -111,8 +111,8 @@ importers:
         specifier: 17.6.0
         version: 17.6.0(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
       shadcn:
-        specifier: 4.0.5
-        version: 4.0.5(@types/node@24.12.0)(typescript@5.9.3)
+        specifier: 4.0.6
+        version: 4.0.6(@types/node@24.12.0)(typescript@5.9.3)
       tailwind-merge:
         specifier: 3.5.0
         version: 3.5.0
@@ -4542,8 +4542,8 @@ packages:
   setprototypeof@1.2.0:
     resolution: {integrity: sha512-E5LDX7Wrp85Kil5bhZv46j8jOeboKq5JMmYM3gVGdGH8xFpPWXUMsNrlODCrkoxMEeNi/XZIwuRvY4XNwYMJpw==}
 
-  shadcn@4.0.5:
-    resolution: {integrity: sha512-z0SOHEU1+ADam1UJHrgxJhUsOb0/jBoYc+u9mhWs071KrnORq48X7uCwG3mD2ysQEBtOfeK/MxMGsmzL5Jt+Jg==}
+  shadcn@4.0.6:
+    resolution: {integrity: sha512-20M3ZsQPas+0QLVzrfrya2V3nryQiIPQsnJaOJg+Ylk24GtJa1vXGOLB7xwKuvWoMzM0YSLuCaoibW/NuHdDyA==}
     hasBin: true
 
   shebang-command@2.0.0:
@@ -9316,7 +9316,7 @@ snapshots:
 
   setprototypeof@1.2.0: {}
 
-  shadcn@4.0.5(@types/node@24.12.0)(typescript@5.9.3):
+  shadcn@4.0.6(@types/node@24.12.0)(typescript@5.9.3):
     dependencies:
       '@antfu/ni': 25.0.0
       '@babel/core': 7.29.0
