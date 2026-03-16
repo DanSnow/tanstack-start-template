@@ -14,6 +14,7 @@ const handler = new RPCHandler(appRouter, {
 async function handleRequest(request: Request) {
   const res = await handler.handle(request, {
     prefix: '/api/orpc',
+    context: { headers: request.headers },
   });
   if (res.matched) {
     return res.response;

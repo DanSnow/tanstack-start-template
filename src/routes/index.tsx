@@ -2,7 +2,7 @@ import { createFileRoute } from '@tanstack/react-router';
 import { createServerFn } from '@tanstack/react-start';
 import { useCallback } from 'react';
 import { Button } from '~/components/ui/button';
-import { getServerSession } from '~/utils/server-session';
+import { getSession } from '~/utils/server-session';
 
 export const Route = createFileRoute('/')({
   component: Home,
@@ -14,7 +14,7 @@ export const Route = createFileRoute('/')({
         },
       }),
     );
-    const session = await getServerSession();
+    const session = await getSession();
     return { greeting, session };
   },
 });
