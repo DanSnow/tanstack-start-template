@@ -75,8 +75,8 @@ importers:
         specifier: 0.45.1
         version: 0.45.1(@electric-sql/pglite@0.3.15)(@libsql/client@0.17.0)(@prisma/client@7.4.2(prisma@7.4.2(@types/react@19.2.14)(better-sqlite3@12.4.1)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(typescript@5.9.3))(typescript@5.9.3))(@types/pg@8.18.0)(better-sqlite3@12.4.1)(gel@2.0.2)(kysely@0.28.11)(mysql2@3.15.3)(pg@8.19.0)(postgres@3.4.7)(prisma@7.4.2(@types/react@19.2.14)(better-sqlite3@12.4.1)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(typescript@5.9.3))
       effect:
-        specifier: 3.19.19
-        version: 3.19.19
+        specifier: 3.20.0
+        version: 3.20.0
       hashids:
         specifier: 2.3.0
         version: 2.3.0
@@ -128,7 +128,7 @@ importers:
         version: 2.4.7
       '@effect/vitest':
         specifier: 0.28.0
-        version: 0.28.0(effect@3.19.19)(vitest@4.1.0)
+        version: 0.28.0(effect@3.20.0)(vitest@4.1.0)
       '@moonrepo/cli':
         specifier: 2.1.0
         version: 2.1.0
@@ -3005,8 +3005,8 @@ packages:
   effect@3.18.4:
     resolution: {integrity: sha512-b1LXQJLe9D11wfnOKAk3PKxuqYshQ0Heez+y5pnkd3jLj1yx9QhM72zZ9uUrOQyNvrs2GZZd/3maL0ZV18YuDA==}
 
-  effect@3.19.19:
-    resolution: {integrity: sha512-Yc8U/SVXo2dHnaP7zNBlAo83h/nzSJpi7vph6Hzyl4ulgMBIgPmz3UzOjb9sBgpFE00gC0iETR244sfXDNLHRg==}
+  effect@3.20.0:
+    resolution: {integrity: sha512-qMLfDJscrNG8p/aw+IkT9W7fgj50Z4wG5bLBy0Txsxz8iUHjDIkOgO3SV0WZfnQbNG2VJYb0b+rDLMrhM4+Krw==}
 
   electron-to-chromium@1.5.302:
     resolution: {integrity: sha512-sM6HAN2LyK82IyPBpznDRqlTQAtuSaO+ShzFiWTvoMJLHyZ+Y39r8VMfHzwbU8MVBzQ4Wdn85+wlZl2TLGIlwg==}
@@ -5587,9 +5587,9 @@ snapshots:
     dependencies:
       '@noble/ciphers': 1.3.0
 
-  '@effect/vitest@0.28.0(effect@3.19.19)(vitest@4.1.0)':
+  '@effect/vitest@0.28.0(effect@3.20.0)(vitest@4.1.0)':
     dependencies:
-      effect: 3.19.19
+      effect: 3.20.0
       vitest: 4.1.0(@types/node@24.12.0)(@vitest/ui@4.1.0)(happy-dom@20.8.4)(msw@2.12.12(@types/node@24.12.0)(typescript@5.9.3))(vite@8.0.0(@types/node@24.12.0)(esbuild@0.25.12)(jiti@2.6.1)(terser@5.43.1)(tsx@4.21.0)(yaml@2.6.1))
 
   '@electric-sql/pglite-socket@0.0.20(@electric-sql/pglite@0.3.15)':
@@ -7720,7 +7720,7 @@ snapshots:
       fast-check: 3.23.2
     optional: true
 
-  effect@3.19.19:
+  effect@3.20.0:
     dependencies:
       '@standard-schema/spec': 1.1.0
       fast-check: 3.23.2
