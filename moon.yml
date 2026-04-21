@@ -2,6 +2,8 @@ id: tanstack-start-template
 tasks:
   build:
     command:
+      - pnpm
+      - exec
       - vite
       - build
     toolchain: node
