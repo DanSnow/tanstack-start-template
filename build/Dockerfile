@@ -26,7 +26,7 @@ FROM base AS build
 COPY --from=skeleton /root/.proto /root/.proto
 
 # Copy workspace configs
-COPY --from=skeleton /app/.moon/docker/workspace .
+COPY --from=skeleton /app/.moon/docker/configs .
 
 # Install dependencies
 RUN moon docker setup
