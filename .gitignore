@@ -9,6 +9,7 @@ yarn.lock
 .DS_Store
 .cache
 .env
+.env.docker
 .vercel
 .output
 .vinxi
