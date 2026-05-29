@@ -1,6 +1,8 @@
-$schema: https://moonrepo.dev/schemas/toolchain.json
+# yaml-language-server: $schema=./cache/schemas/toolchains.json
+$schema: ./cache/schemas/toolchains.json
 
-node: {}
+node:
+  version: null
 
 javascript:
   packageManager: pnpm
@@ -10,4 +12,4 @@ javascript:
   syncPackageManagerField: false
 
 pnpm:
-  version: 10.30.3
+  version: null

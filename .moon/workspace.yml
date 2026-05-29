@@ -1,5 +1,11 @@
-$schema: https://moonrepo.dev/schemas/workspace.json
+# yaml-language-server: $schema=./cache/schemas/workspace.json
+$schema: ./cache/schemas/workspace.json
 vcs:
   defaultBranch: main
+
 projects:
   - .
+
+hasher:
+  ignorePatterns:
+    - .jj/**/*
