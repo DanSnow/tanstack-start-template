@@ -1,15 +1,17 @@
 import { createRootRouteWithContext, HeadContent, linkOptions, Outlet, Scripts } from '@tanstack/react-router';
-import jotaiDevtoolStyle from 'jotai-devtools/styles.css?url';
 import type * as React from 'react';
 import { lazy } from 'react';
+
 import { DefaultCatchBoundary } from '~/components/DefaultCatchBoundary';
 import { NavLink } from '~/components/NavLink';
 import { NotFound } from '~/components/NotFound';
 import { NavigationMenu, NavigationMenuItem, NavigationMenuList } from '~/components/ui/navigation-menu';
 import type { Context } from '~/router-context';
-import appCss from '~/styles/app.css?url';
 import { seo } from '~/utils/seo';
 import { WrapComponent } from '~/WrapComponent';
+
+import jotaiDevtoolStyle from 'jotai-devtools/styles.css?url';
+import appCss from '~/styles/app.css?url';
 
 export const Route = createRootRouteWithContext<Context>()({
   head: () => ({

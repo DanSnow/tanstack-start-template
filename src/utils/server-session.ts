@@ -1,7 +1,8 @@
 import { createIsomorphicFn } from '@tanstack/react-start';
 import { getRequestHeaders } from '@tanstack/react-start/server';
-import { auth } from '~/lib/server/auth';
+
 import { authClient } from '~/lib/auth-client';
+import { auth } from '~/lib/server/auth';
 
 export const getSession = createIsomorphicFn()
   .server(async () => {

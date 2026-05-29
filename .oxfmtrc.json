@@ -1,5 +1,6 @@
 {
   "printWidth": 120,
   "singleQuote": true,
-  "ignorePatterns": ["src/routeTree.gen.ts"]
+  "ignorePatterns": ["src/routeTree.gen.ts"],
+  "sortImports": true
 }

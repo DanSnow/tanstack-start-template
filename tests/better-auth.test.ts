@@ -1,4 +1,5 @@
 import { fileURLToPath, pathToFileURL } from 'node:url';
+
 import { expect, it } from 'vitest';
 import { $, fs, path } from 'zx';
 

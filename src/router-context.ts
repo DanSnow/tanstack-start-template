@@ -4,6 +4,7 @@ import type { RouterClient } from '@orpc/server';
 import { createTanstackQueryUtils } from '@orpc/tanstack-query';
 import { QueryClient } from '@tanstack/react-query';
 import { createStore } from 'jotai';
+
 import type { AppRouter } from './server';
 
 const HOST_URL = 'http://localhost:3000';

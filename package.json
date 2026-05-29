@@ -6,7 +6,9 @@
   "scripts": {
     "build": "moon run '~:build' --",
     "dev": "moon run '~:dev' --",
-    "test": "moon run '~:test' --"
+    "test": "moon run '~:test' --",
+    "format": "oxfmt --write .",
+    "lint": "oxlint --fix ."
   },
   "dependencies": {
     "@autoform/react": "4.0.0",
