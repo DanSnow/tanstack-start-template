@@ -6,6 +6,7 @@ import { DefaultCatchBoundary } from '~/components/DefaultCatchBoundary';
 import { NavLink } from '~/components/NavLink';
 import { NotFound } from '~/components/NotFound';
 import { NavigationMenu, NavigationMenuItem, NavigationMenuList } from '~/components/ui/navigation-menu';
+import { Toaster } from '~/components/ui/sonner';
 import type { Context } from '~/router-context';
 import { seo } from '~/utils/seo';
 import { WrapComponent } from '~/WrapComponent';
@@ -115,6 +116,7 @@ function RootDocument({ children }: { children: React.ReactNode }) {
           </NavigationMenuList>
         </NavigationMenu>
         {children}
+        <Toaster />
         <Scripts />
       </body>
     </html>

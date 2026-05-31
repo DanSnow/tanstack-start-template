@@ -1,3 +1,6 @@
 allowBuilds:
   esbuild: true
   msw: true
+
+overrides:
+  kysely: "0.28.17"
