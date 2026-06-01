@@ -68,8 +68,8 @@
     "@types/react": "19.2.15",
     "@types/react-dom": "19.2.3",
     "@vitejs/plugin-react": "6.0.2",
-    "@vitest/coverage-v8": "4.1.7",
-    "@vitest/ui": "4.1.7",
+    "@vitest/coverage-v8": "4.1.8",
+    "@vitest/ui": "4.1.8",
     "autoprefixer": "10.5.0",
     "drizzle-kit": "0.31.10",
     "happy-dom": "20.9.0",
@@ -85,7 +85,7 @@
     "typescript": "6.0.3",
     "vite": "8.0.14",
     "vite-tsconfig-paths": "6.1.1",
-    "vitest": "4.1.7",
+    "vitest": "4.1.8",
     "zx": "8.8.5"
   },
   "packageManager": "pnpm@11.3.0+sha512.2c403d6594527287672b1f7056343a1f7c3634036a67ffabfcc2b3d7595d843768f8787148d1b57cf7956c90606bbd192857c363af19e96d2d0ec9ec5741d215"
