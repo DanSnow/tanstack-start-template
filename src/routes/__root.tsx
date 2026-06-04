@@ -89,6 +89,10 @@ const links = linkOptions([
     label: 'Home',
   },
   {
+    to: '/demo/form',
+    label: 'Form Demo',
+  },
+  {
     to: '/sign-in',
     label: 'Sign In',
   },

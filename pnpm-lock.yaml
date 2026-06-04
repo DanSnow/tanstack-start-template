@@ -11,12 +11,6 @@ importers:
 
   .:
     dependencies:
-      '@autoform/react':
-        specifier: 4.0.0
-        version: 4.0.0(@hookform/resolvers@5.4.0(react-hook-form@7.77.0(react@19.2.7)))(react-hook-form@7.77.0(react@19.2.7))(react@19.2.7)
-      '@autoform/zod':
-        specifier: 5.0.0
-        version: 5.0.0(zod@4.4.3)
       '@base-ui/react':
         specifier: 1.5.0
         version: 1.5.0(@date-fns/tz@1.4.1)(@types/react@19.2.16)(date-fns@4.4.0)(react-dom@19.2.7(react@19.2.7))(react@19.2.7)
@@ -29,9 +23,6 @@ importers:
       '@fontsource-variable/geist':
         specifier: 5.2.9
         version: 5.2.9
-      '@hookform/resolvers':
-        specifier: 5.4.0
-        version: 5.4.0(react-hook-form@7.77.0(react@19.2.7))
       '@libsql/client':
         specifier: 0.17.3
         version: 0.17.3
@@ -47,6 +38,9 @@ importers:
       '@t3-oss/env-core':
         specifier: 0.13.11
         version: 0.13.11(typescript@6.0.3)(zod@4.4.3)
+      '@tanstack/react-form':
+        specifier: 1.33.0
+        version: 1.33.0(@tanstack/react-start@1.168.18(crossws@0.4.5(srvx@0.11.16))(react-dom@19.2.7(react@19.2.7))(react@19.2.7)(vite@8.0.16(@types/node@24.12.4)(esbuild@0.28.0)(jiti@2.7.0)(tsx@4.22.4)))(react-dom@19.2.7(react@19.2.7))(react@19.2.7)
       '@tanstack/react-pacer':
         specifier: ^0.22.1
         version: 0.22.1(react-dom@19.2.7(react@19.2.7))(react@19.2.7)
@@ -119,9 +113,6 @@ importers:
       react-dom:
         specifier: 19.2.7
         version: 19.2.7(react@19.2.7)
-      react-hook-form:
-        specifier: 7.77.0
-        version: 7.77.0(react@19.2.7)
       react-use:
         specifier: 17.6.0
         version: 17.6.0(react-dom@19.2.7(react@19.2.7))(react@19.2.7)
@@ -156,9 +147,6 @@ importers:
       '@tanstack/react-devtools':
         specifier: 0.10.5
         version: 0.10.5(@types/react-dom@19.2.3(@types/react@19.2.16))(@types/react@19.2.16)(csstype@3.2.3)(react-dom@19.2.7(react@19.2.7))(react@19.2.7)(solid-js@1.9.7)
-      '@tanstack/react-form':
-        specifier: 1.33.0
-        version: 1.33.0(@tanstack/react-start@1.168.18(crossws@0.4.5(srvx@0.11.16))(react-dom@19.2.7(react@19.2.7))(react@19.2.7)(vite@8.0.16(@types/node@24.12.4)(esbuild@0.28.0)(jiti@2.7.0)(tsx@4.22.4)))(react-dom@19.2.7(react@19.2.7))(react@19.2.7)
       '@testing-library/react':
         specifier: 16.3.2
         version: 16.3.2(@testing-library/dom@10.4.0)(@types/react-dom@19.2.3(@types/react@19.2.16))(@types/react@19.2.16)(react-dom@19.2.7(react@19.2.7))(react@19.2.7)
@@ -230,21 +218,6 @@ importers:
         version: 8.8.5
 
 packages:
-
-  '@autoform/core@3.0.0':
-    resolution: {integrity: sha512-wBBJgqhw2lDc8VCf4Om/ONZH7RyvaLoqkAcNaU+c8Qo+U5kfY7Fke1mltW6CV0njoWMLarQ+0ZKnWdPRulDpgA==}
-
-  '@autoform/react@4.0.0':
-    resolution: {integrity: sha512-OVYRY7u+KnNxEZY6RF4tOmKgO3R68Y0amqyourU9vrFL/mi/4bW/6mi6hkWK8HwHK6a8C7clSm73/4nGQPSuaw==}
-    peerDependencies:
-      '@hookform/resolvers': ^3.9.0
-      react: ^16.8.0 || ^17 || ^18 || ^19
-      react-hook-form: ^7
-
-  '@autoform/zod@5.0.0':
-    resolution: {integrity: sha512-n9mxQAVbaPS3uP6Laxn/36lDv74pmkoRS4nIOKEohFg5me3nLFXrnOnrSk4aENjYpolhB5JuGWUMIwgEzRK8fg==}
-    peerDependencies:
-      zod: ^3.25.0 || ^4.0.0
 
   '@babel/code-frame@7.27.1':
     resolution: {integrity: sha512-cjQ7ZlQ0Mv3b47hABuTevyTuYN4i+loJKGeV9flcCgIK37cCXRh+L1bd3iBHlynerhQ7BhCkn2BPbQUL+rGqFg==}
@@ -1047,11 +1020,6 @@ packages:
     engines: {node: '>=18.14.1'}
     peerDependencies:
       hono: ^4
-
-  '@hookform/resolvers@5.4.0':
-    resolution: {integrity: sha512-EIsqr/t/qbinPIhGjMdtvutIN1Kk4uwbROE9/UQ93CAVGR7GkA7Y92+fX80OzXi/OB67jVFYwKGO1WzkxmkFZw==}
-    peerDependencies:
-      react-hook-form: ^7.55.0
 
   '@inquirer/ansi@2.0.6':
     resolution: {integrity: sha512-I/INw4sHGlVZ/afZOckpLiDP9SmbMl1g/GCqeHjLw1Afw/0PlRs2tRFgTGWmdI0hoNuWZn3y2iHNmG1vyECyQQ==}
@@ -2152,9 +2120,6 @@ packages:
 
   '@standard-schema/spec@1.1.0':
     resolution: {integrity: sha512-l2aFy5jALhniG5HgqrD6jXLi/rUWrKvqN/qJx6yoJsgKhblVd+iqqU4RCXavm/jPityDo5TCvKMnpjKnOriy0w==}
-
-  '@standard-schema/utils@0.3.0':
-    resolution: {integrity: sha512-e7Mew686owMaPJVNNLs55PUvgz371nKgwsc4vxE49zsODpJEnxgxRo2y/OKrqueavXgZNMDVj3DdHFlaSAeU8g==}
 
   '@t3-oss/env-core@0.13.11':
     resolution: {integrity: sha512-sM7GYY+KL7H/Hl0BE0inWfk3nRHZOLhmVn7sHGxaZt9FAR6KqREXAE+6TqKfiavfXmpRxO/OZ2QgKRd+oiBYRQ==}
@@ -4363,12 +4328,6 @@ packages:
     peerDependencies:
       react: '>=16.13.1'
 
-  react-hook-form@7.77.0:
-    resolution: {integrity: sha512-Sslh9YDYc0GDlWT/lxasnIduNo4v3yyvqRGvmGKUre5AFjDs/HV9/OafHGD8d+sB2yoL4UIL9L8X9i0WlZZebg==}
-    engines: {node: '>=18.0.0'}
-    peerDependencies:
-      react: ^16.8.0 || ^17 || ^18 || ^19
-
   react-is@17.0.2:
     resolution: {integrity: sha512-w2GsyukL62IJnlaff/nRegPQR94C/XXamvMWmSHRJ4y7Ts/4ocGRmTHvOs8PSE6pB3dWOrD/nueuU5sduBsQ4w==}
 
@@ -5197,19 +5156,6 @@ packages:
 
 snapshots:
 
-  '@autoform/core@3.0.0': {}
-
-  '@autoform/react@4.0.0(@hookform/resolvers@5.4.0(react-hook-form@7.77.0(react@19.2.7)))(react-hook-form@7.77.0(react@19.2.7))(react@19.2.7)':
-    dependencies:
-      '@autoform/core': 3.0.0
-      '@hookform/resolvers': 5.4.0(react-hook-form@7.77.0(react@19.2.7))
-      react: 19.2.7
-      react-hook-form: 7.77.0(react@19.2.7)
-
-  '@autoform/zod@5.0.0(zod@4.4.3)':
-    dependencies:
-      zod: 4.4.3
-
   '@babel/code-frame@7.27.1':
     dependencies:
       '@babel/helper-validator-identifier': 7.29.7
@@ -5830,11 +5776,6 @@ snapshots:
   '@hono/node-server@1.19.14(hono@4.12.23)':
     dependencies:
       hono: 4.12.23
-
-  '@hookform/resolvers@5.4.0(react-hook-form@7.77.0(react@19.2.7))':
-    dependencies:
-      '@standard-schema/utils': 0.3.0
-      react-hook-form: 7.77.0(react@19.2.7)
 
   '@inquirer/ansi@2.0.6': {}
 
@@ -6735,8 +6676,6 @@ snapshots:
       solid-js: 1.9.7
 
   '@standard-schema/spec@1.1.0': {}
-
-  '@standard-schema/utils@0.3.0': {}
 
   '@t3-oss/env-core@0.13.11(typescript@6.0.3)(zod@4.4.3)':
     optionalDependencies:
@@ -8881,10 +8820,6 @@ snapshots:
   react-error-boundary@5.0.0(react@19.2.7):
     dependencies:
       '@babel/runtime': 7.29.7
-      react: 19.2.7
-
-  react-hook-form@7.77.0(react@19.2.7):
-    dependencies:
       react: 19.2.7
 
   react-is@17.0.2: {}
