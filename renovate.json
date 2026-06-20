@@ -1,6 +1,12 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": ["config:js-app", ":automergeAll", "customManagers:biomeVersions"],
+  "extends": [
+    "config:js-app",
+    ":dependencyDashboard",
+    ":automergeAll",
+    "abandonments:recommended",
+    "security:minimumReleaseAgeNpm"
+  ],
   "semanticCommitScope": "deps",
   "automergeType": "pr",
   "prCreation": "immediate",
