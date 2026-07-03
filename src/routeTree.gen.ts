@@ -75,20 +75,10 @@ export interface FileRoutesById {
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
   fullPaths:
-    | '/'
-    | '/sign-in'
-    | '/sign-up'
-    | '/demo/form'
-    | '/api/auth/$'
-    | '/api/orpc/$'
+    '/' | '/sign-in' | '/sign-up' | '/demo/form' | '/api/auth/$' | '/api/orpc/$'
   fileRoutesByTo: FileRoutesByTo
   to:
-    | '/'
-    | '/sign-in'
-    | '/sign-up'
-    | '/demo/form'
-    | '/api/auth/$'
-    | '/api/orpc/$'
+    '/' | '/sign-in' | '/sign-up' | '/demo/form' | '/api/auth/$' | '/api/orpc/$'
   id:
     | '__root__'
     | '/'
