@@ -5,9 +5,9 @@ settings:
   excludeLinksFromLockfile: false
 
 overrides:
-  esbuild@<=0.24.2: ^0.28.1
-  esbuild@>=0.27.3 <0.28.1: ^0.28.1
-  jsondiffpatch@<0.7.2: ^0.7.2
+  esbuild@<=0.24.2: 0.28.1
+  esbuild@>=0.27.3 <0.28.1: 0.28.1
+  jsondiffpatch@<0.7.2: 0.7.6
   kysely: 0.28.17
   solid-js: 1.9.11
 
@@ -4821,7 +4821,7 @@ packages:
       '@farmfe/core': '*'
       '@rspack/core': '*'
       bun-types-no-globals: '*'
-      esbuild: ^0.28.1
+      esbuild: 0.28.1
       rolldown: '*'
       rollup: '*'
       unloader: '*'
@@ -5000,7 +5000,7 @@ packages:
     peerDependencies:
       '@types/node': ^20.19.0 || >=22.12.0
       '@vitejs/devtools': ^0.3.0
-      esbuild: ^0.28.1
+      esbuild: 0.28.1
       jiti: '>=1.21.0'
       less: ^4.0.0
       sass: ^1.70.0
