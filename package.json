@@ -54,7 +54,7 @@
     "zod": "4.4.3"
   },
   "devDependencies": {
-    "@ast-grep/lang-yaml": "^0.0.6",
+    "@ast-grep/lang-yaml": "0.0.6",
     "@ast-grep/napi": "0.44.0",
     "@effect/vitest": "0.29.0",
     "@moonrepo/cli": "2.3.5",
