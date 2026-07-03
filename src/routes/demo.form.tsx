@@ -90,9 +90,7 @@ function FormDemo() {
         </form.Subscribe>
       </form>
 
-      {submitted && (
-        <pre className="p-4 bg-muted rounded-md text-sm">{JSON.stringify(submitted, null, 2)}</pre>
-      )}
+      {submitted && <pre className="p-4 bg-muted rounded-md text-sm">{JSON.stringify(submitted, null, 2)}</pre>}
     </div>
   );
 }

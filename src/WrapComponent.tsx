@@ -5,6 +5,7 @@ import type { ReactNode } from 'react';
 
 import { AuthProvider } from '~/components/auth/auth-provider';
 import { authClient } from '~/lib/auth-client';
+
 import type { Context } from './router-context';
 
 export function WrapComponent({ children, context }: { children: ReactNode; context: Context }) {
