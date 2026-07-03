@@ -1,4 +1,5 @@
 allowBuilds:
+  '@ast-grep/lang-yaml': true
   esbuild: true
   msw: true
 

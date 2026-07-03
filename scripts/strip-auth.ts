@@ -1,12 +1,21 @@
 #!/usr/bin/env tsx
+import { readFileSync, writeFileSync, existsSync, rmSync, readdirSync } from 'node:fs';
+import { resolve, dirname } from 'node:path';
+import { fileURLToPath } from 'node:url';
+
 /**
  * Strip better-auth and drizzle ORM from the TanStack Start template.
  * Run with: pnpm tsx scripts/strip-auth.ts
  */
 import { $ } from 'zx';
-import { readFileSync, writeFileSync, existsSync, rmSync } from 'node:fs';
-import { resolve, dirname } from 'node:path';
-import { fileURLToPath } from 'node:url';
+
+import {
+  removeAuthProvider,
+  removeSession,
+  removeAuthedProcedure,
+  removeNavLinks,
+  stripAuthEnvKeys,
+} from './transforms/ast-grep-transforms';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = resolve(__dirname, '..');
@@ -18,21 +27,25 @@ $.verbose = true;
 
 console.log('\n=== Phase 1: AST transforms ===\n');
 
-const transforms: [string, string][] = [
-  ['scripts/transforms/remove-auth-provider.js', 'src/WrapComponent.tsx'],
-  ['scripts/transforms/remove-session.js', 'src/routes/index.tsx'],
-  ['scripts/transforms/remove-authed-procedure.js', 'src/server/orpc.ts'],
-  ['scripts/transforms/remove-nav-links.js', 'src/routes/__root.tsx'],
+const transforms: [string, (filePath: string) => boolean][] = [
+  ['src/WrapComponent.tsx', removeAuthProvider],
+  ['src/routes/index.tsx', removeSession],
+  ['src/server/orpc.ts', removeAuthedProcedure],
+  ['src/routes/__root.tsx', removeNavLinks],
+  ['src/env.ts', stripAuthEnvKeys],
 ];
 
-for (const [transform, target] of transforms) {
+for (const [target, transform] of transforms) {
   const targetPath = resolve(ROOT, target);
   if (!existsSync(targetPath)) {
     console.log(`Skipping ${target} (not found)`);
     continue;
   }
-  await $`pnpm dlx jscodeshift --parser=tsx --extensions=tsx,ts -t ${transform} ${target}`;
+  const changed = transform(targetPath);
+  console.log(changed ? `Transformed: ${target}` : `No match, unchanged: ${target}`);
 }
+
+await $`pnpm exec oxfmt --write ${transforms.map(([target]) => target)}`;
 
 // ─── Phase 2: Delete files & directories ────────────────────────────────────
 
@@ -48,7 +61,6 @@ const toDelete = [
   'src/routes/api/auth.$.ts',
   'src/utils/server-session.ts',
   'src/server/utils/hashid.ts',
-  'src/env.ts',
   'src/components/ui/calendar.tsx',
   'drizzle.config.ts',
   'db.sqlite',
@@ -72,7 +84,6 @@ for (const rel of emptyDirs) {
   if (!existsSync(p)) continue;
   try {
     // rmdir fails if not empty — that's intentional
-    const { readdirSync } = await import('node:fs');
     const remaining = readdirSync(p);
     if (remaining.length === 0) {
       rmSync(p, { recursive: true });
@@ -101,7 +112,6 @@ const depsToRemove = [
   'hashids',
   'date-fns',
   'react-day-picker',
-  '@t3-oss/env-core',
 ];
 const devDepsToRemove = ['drizzle-kit'];
 

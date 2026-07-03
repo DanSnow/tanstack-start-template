@@ -5,6 +5,8 @@
     "perf": "warn"
   },
   "rules": {
-    "no-floating-promises": "off"
+    "no-floating-promises": "off",
+    "no-shadow": "off",
+    "no-underscore-dangle": ["warn", { "allow": ["__dirname"] }]
   }
 }
