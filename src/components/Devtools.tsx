@@ -2,8 +2,9 @@ import { TanStackDevtools } from '@tanstack/react-devtools';
 import { ReactQueryDevtoolsPanel } from '@tanstack/react-query-devtools';
 import { useRouteContext } from '@tanstack/react-router';
 import { TanStackRouterDevtoolsPanel } from '@tanstack/react-router-devtools';
-import { DevTools } from 'jotai-devtools';
 import { useEffect, useState } from 'react';
+
+import { JotaiDevtoolsPanel } from './JotaiDevtoolPanel';
 
 function Devtools() {
   const { queryClient, store } = useRouteContext({ from: '__root__' });
@@ -26,9 +27,12 @@ function Devtools() {
               name: 'TanStack Router',
               render: <TanStackRouterDevtoolsPanel />,
             },
+            {
+              name: 'Jotai',
+              render: <JotaiDevtoolsPanel store={store} theme="dark" />,
+            },
           ]}
         />
-        <DevTools store={store} />
       </>
     )
   );

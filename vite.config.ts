@@ -11,7 +11,4 @@ export default defineConfig({
     tsconfigPaths: true,
   },
   plugins: [devtools(), tailwindcss(), tanstackStart({}), React(), nitro({ preset: 'node-server' })],
-  optimizeDeps: {
-    exclude: ['@tanstack/devtools'],
-  },
 });
