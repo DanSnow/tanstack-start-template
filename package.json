@@ -8,7 +8,8 @@
     "dev": "moon run '~:dev' --",
     "test": "moon run '~:test' --",
     "format": "oxfmt --write .",
-    "lint": "oxlint --fix ."
+    "lint": "oxlint --fix .",
+    "typecheck": "tsc --noEmit"
   },
   "dependencies": {
     "@base-ui/react": "1.6.0",
