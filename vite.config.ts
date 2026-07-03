@@ -6,6 +6,7 @@ import { nitro } from 'nitro/vite';
 import { defineConfig } from 'vite';
 
 export default defineConfig({
+  base: process.env.VITE_BASE_PATH ?? '/',
   resolve: {
     tsconfigPaths: true,
   },

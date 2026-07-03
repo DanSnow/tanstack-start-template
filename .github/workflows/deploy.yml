@@ -1,0 +1,51 @@
+on:
+  push:
+    branches:
+      - main
+
+name: deploy
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    # Disabled by default — this template builds in SSR mode.
+    # Run `pnpm tsx scripts/configure-spa.ts` to switch to SPA mode and enable this workflow.
+    if: false
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+      - uses: moonrepo/setup-toolchain@v0
+      - uses: pnpm/action-setup@v5
+        with:
+          run_install: false
+      - uses: actions/setup-node@v6
+        with:
+          node-version: '24.17.0'
+          cache: 'pnpm'
+      - run: pnpm install
+      - uses: actions/cache@v5
+        with:
+          path: .moon/cache
+          key: ${{ runner.os }}-moon
+      - run: pnpm build
+        env:
+          VITE_BASE_PATH: /${{ github.event.repository.name }}/
+      - uses: actions/configure-pages@v6
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: dist/client
+      - uses: actions/deploy-pages@v5
+        id: deployment

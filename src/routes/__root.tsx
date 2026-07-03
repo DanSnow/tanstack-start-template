@@ -7,6 +7,7 @@ import { NavLink } from '~/components/NavLink';
 import { NotFound } from '~/components/NotFound';
 import { NavigationMenu, NavigationMenuItem, NavigationMenuList } from '~/components/ui/navigation-menu';
 import { Toaster } from '~/components/ui/sonner';
+import { appUrl } from '~/env';
 import type { Context } from '~/router-context';
 import { seo } from '~/utils/seo';
 import { WrapComponent } from '~/WrapComponent';
@@ -35,22 +36,22 @@ export const Route = createRootRouteWithContext<Context>()({
       {
         rel: 'apple-touch-icon',
         sizes: '180x180',
-        href: '/apple-touch-icon.png',
+        href: appUrl('apple-touch-icon.png'),
       },
       {
         rel: 'icon',
         type: 'image/png',
         sizes: '32x32',
-        href: '/favicon-32x32.png',
+        href: appUrl('favicon-32x32.png'),
       },
       {
         rel: 'icon',
         type: 'image/png',
         sizes: '16x16',
-        href: '/favicon-16x16.png',
+        href: appUrl('favicon-16x16.png'),
       },
-      { rel: 'manifest', href: '/site.webmanifest', color: '#fffff' },
-      { rel: 'icon', href: '/favicon.ico' },
+      { rel: 'manifest', href: appUrl('site.webmanifest'), color: '#fffff' },
+      { rel: 'icon', href: appUrl('favicon.ico') },
     ],
   }),
   errorComponent: (props) => {
