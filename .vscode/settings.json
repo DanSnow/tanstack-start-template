@@ -2,7 +2,7 @@
   "editor.tabSize": 2,
   "editor.formatOnSave": true,
   "prettier.enable": false,
-  "biome.enabled": false,
+  "js/ts.experimental.useTsgo": true,
   "oxc.typeAware": true,
   "editor.defaultFormatter": "oxc.oxc-vscode",
   "workbench.editor.customLabels.enabled": true,
