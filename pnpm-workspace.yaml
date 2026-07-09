@@ -11,5 +11,5 @@ overrides:
   esbuild@<=0.24.2: 0.28.1
   esbuild@>=0.27.3 <0.28.1: 0.28.1
   jsondiffpatch@<0.7.2: 0.7.6
-  kysely: '0.28.17'
+  kysely: '0.29.3'
   solid-js: '1.9.14'
