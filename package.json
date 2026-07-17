@@ -56,7 +56,7 @@
   "devDependencies": {
     "@ast-grep/lang-yaml": "0.0.6",
     "@ast-grep/napi": "0.44.1",
-    "@effect/vitest": "0.29.0",
+    "@effect/vitest": "0.30.0",
     "@moonrepo/cli": "2.4.3",
     "@tailwindcss/vite": "4.3.2",
     "@tanstack/devtools-vite": "0.8.1",
