@@ -5,36 +5,13 @@
     ":automergeAll",
     ":approveMajorUpdates",
     "abandonments:recommended",
-    "security:minimumReleaseAgeNpm"
+    "security:minimumReleaseAgeNpm",
+    "github>moonrepo/moon//ecosystem/renovate"
   ],
   "semanticCommitScope": "deps",
   "automergeType": "pr",
   "prCreation": "immediate",
   "ignorePresets": [":ignoreModulesAndTests"],
   "ignorePaths": ["**/node_modules/**", "**/__fixtures__/**", "test/**"],
-  "rebaseWhen": "conflicted",
-  "packageRules": [
-    {
-      "matchPackageNames": ["@orpc/**"],
-      "groupName": "orpc monorepo"
-    }
-  ],
-  "customManagers": [
-    {
-      "customType": "jsonata",
-      "fileFormat": "yaml",
-      "datasourceTemplate": "node-version",
-      "depNameTemplate": "node",
-      "managerFilePatterns": [".moon/toolchain.yml"],
-      "matchStrings": ["{\"currentValue\": $.\"node\".\"version\" }"]
-    },
-    {
-      "customType": "jsonata",
-      "fileFormat": "yaml",
-      "datasourceTemplate": "npm",
-      "depNameTemplate": "pnpm",
-      "managerFilePatterns": [".moon/toolchain.yml"],
-      "matchStrings": ["{\"currentValue\": $.\"node\".\"pnpm\".\"version\" }"]
-    }
-  ]
+  "rebaseWhen": "conflicted"
 }
