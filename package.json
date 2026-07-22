@@ -78,7 +78,7 @@
     "oxfmt": "0.59.0",
     "oxlint": "1.74.0",
     "oxlint-tsgolint": "0.25.0",
-    "postcss": "8.5.19",
+    "postcss": "8.5.20",
     "tailwindcss": "4.3.3",
     "tsx": "4.23.1",
     "typescript": "npm:@typescript/typescript6@6.0.2",
