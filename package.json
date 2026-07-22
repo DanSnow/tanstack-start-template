@@ -15,7 +15,7 @@
     "@base-ui/react": "1.6.0",
     "@better-auth-ui/core": "1.6.27",
     "@better-auth-ui/react": "1.6.27",
-    "@fontsource-variable/geist": "5.2.9",
+    "@fontsource-variable/geist": "5.3.0",
     "@libsql/client": "0.17.4",
     "@orpc/client": "1.14.8",
     "@orpc/server": "1.14.8",
