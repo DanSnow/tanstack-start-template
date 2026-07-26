@@ -30,3 +30,4 @@ yarn.lock
 .moon/docker
 
 dist
+fnox.toml

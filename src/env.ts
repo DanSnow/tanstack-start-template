@@ -4,6 +4,8 @@ import { createEnv } from '@t3-oss/env-core';
 import { joinURL } from 'ufo';
 import { z } from 'zod';
 
+const isServer = typeof import.meta.env === 'undefined' || !('SSR' in import.meta.env) || import.meta.env.SSR;
+
 export const env = createEnv({
   shared: {
     baseUrl: z.string().default('/'),
@@ -22,16 +24,16 @@ export const env = createEnv({
   client: {},
   clientPrefix: 'VITE_',
   runtimeEnvStrict: {
-    baseUrl: import.meta.env.BASE_URL,
-    DB_FILE_NAME: import.meta.env.SSR ? process.env.DB_FILE_NAME : undefined,
-    HASH_ID_SECRET: import.meta.env.SSR ? process.env.HASH_ID_SECRET : undefined,
-    BETTER_AUTH_URL: import.meta.env.SSR ? process.env.BETTER_AUTH_URL : undefined,
-    BETTER_AUTH_SECRET: import.meta.env.SSR ? process.env.BETTER_AUTH_SECRET : undefined,
-    OIDC_PROVIDER_URL: import.meta.env.SSR ? process.env.OIDC_PROVIDER_URL : undefined,
-    OIDC_AUTHORIZATION_URL: import.meta.env.SSR ? process.env.OIDC_AUTHORIZATION_URL : undefined,
-    OIDC_TOKEN_URL: import.meta.env.SSR ? process.env.OIDC_TOKEN_URL : undefined,
-    OIDC_CLIENT_ID: import.meta.env.SSR ? process.env.OIDC_CLIENT_ID : undefined,
-    OIDC_CLIENT_SECRET: import.meta.env.SSR ? process.env.OIDC_CLIENT_SECRET : undefined,
+    baseUrl: import.meta.env.BASE_URL ?? '/',
+    DB_FILE_NAME: isServer ? process.env.DB_FILE_NAME : undefined,
+    HASH_ID_SECRET: isServer ? process.env.HASH_ID_SECRET : undefined,
+    BETTER_AUTH_URL: isServer ? process.env.BETTER_AUTH_URL : undefined,
+    BETTER_AUTH_SECRET: isServer ? process.env.BETTER_AUTH_SECRET : undefined,
+    OIDC_PROVIDER_URL: isServer ? process.env.OIDC_PROVIDER_URL : undefined,
+    OIDC_AUTHORIZATION_URL: isServer ? process.env.OIDC_AUTHORIZATION_URL : undefined,
+    OIDC_TOKEN_URL: isServer ? process.env.OIDC_TOKEN_URL : undefined,
+    OIDC_CLIENT_ID: isServer ? process.env.OIDC_CLIENT_ID : undefined,
+    OIDC_CLIENT_SECRET: isServer ? process.env.OIDC_CLIENT_SECRET : undefined,
   },
 });
 
