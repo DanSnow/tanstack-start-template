@@ -74,7 +74,7 @@
     "@vitest/coverage-v8": "4.1.10",
     "@vitest/ui": "4.1.10",
     "auth": "1.7.0-rc.2",
-    "drizzle-kit": "1.0.0-rc.4",
+    "drizzle-kit": "1.0.0-rc.4-ca0f029",
     "happy-dom": "20.11.1",
     "jotai-devtools": "0.14.0",
     "msw": "2.15.0",
