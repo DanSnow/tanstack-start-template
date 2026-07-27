@@ -16,6 +16,8 @@ export type AuthProps = {
   path?: string;
   socialLayout?: SocialLayout;
   socialPosition?: 'top' | 'bottom';
+  /** Whether the server has an OIDC provider configured; shows the OIDC sign-in button when `true`. */
+  oidcConfigured?: boolean;
   /** @remarks `AuthView` */
   view?: AuthView;
 };
@@ -49,7 +51,7 @@ const AUTH_VIEWS: Partial<Record<AuthView, ComponentType<AuthProps>>> = {
  * @param view - Explicit auth view to render (e.g., `"signIn"`, `"signUp"`)
  * @returns The React element for the resolved authentication view
  */
-export function Auth({ className, path, socialLayout, socialPosition, view }: AuthProps) {
+export function Auth({ className, path, socialLayout, socialPosition, oidcConfigured, view }: AuthProps) {
   const { basePaths, emailAndPassword, plugins, viewPaths, navigate } = useAuth();
 
   if (!view && !path) {
@@ -115,5 +117,12 @@ export function Auth({ className, path, socialLayout, socialPosition, view }: Au
     );
   }
 
-  return <AuthView className={className} socialLayout={socialLayout} socialPosition={socialPosition} />;
+  return (
+    <AuthView
+      className={className}
+      socialLayout={socialLayout}
+      socialPosition={socialPosition}
+      oidcConfigured={oidcConfigured}
+    />
+  );
 }

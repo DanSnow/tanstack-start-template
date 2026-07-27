@@ -15,12 +15,14 @@ import { Label } from '~/components/ui/label';
 import { Spinner } from '~/components/ui/spinner';
 import { cn } from '~/lib/utils';
 
+import { OidcButton } from './oidc-button';
 import { ProviderButtons, type SocialLayout } from './provider-buttons';
 
 export type SignInProps = {
   className?: string;
   socialLayout?: SocialLayout;
   socialPosition?: 'top' | 'bottom';
+  oidcConfigured?: boolean;
 };
 
 /**
@@ -29,9 +31,10 @@ export type SignInProps = {
  * @param className - Optional additional container class names
  * @param socialLayout - Layout style for social provider buttons
  * @param socialPosition - Position of social provider buttons; `"top"` or `"bottom"`. Defaults to `"bottom"`.
+ * @param oidcConfigured - Whether the server has an OIDC provider configured; shows an OIDC sign-in button when `true`.
  * @returns The rendered sign-in UI as a JSX element
  */
-export function SignIn({ className, socialLayout, socialPosition = 'bottom' }: SignInProps) {
+export function SignIn({ className, socialLayout, socialPosition = 'bottom', oidcConfigured }: SignInProps) {
   const {
     authClient,
     basePaths,
@@ -106,7 +109,8 @@ export function SignIn({ className, socialLayout, socialPosition = 'bottom' }: S
     });
   };
 
-  const showSeparator = emailAndPassword?.enabled && socialProviders && socialProviders.length > 0;
+  const hasSocialOptions = (socialProviders && socialProviders.length > 0) || oidcConfigured;
+  const showSeparator = emailAndPassword?.enabled && hasSocialOptions;
 
   return (
     <Card className={cn('w-full max-w-sm', className)}>
@@ -119,6 +123,8 @@ export function SignIn({ className, socialLayout, socialPosition = 'bottom' }: S
           {socialPosition === 'top' && (
             <>
               {socialProviders && socialProviders.length > 0 && <ProviderButtons socialLayout={socialLayout} />}
+
+              {oidcConfigured && <OidcButton />}
 
               {showSeparator && (
                 <FieldSeparator className="*:data-[slot=field-separator-content]:bg-card m-0 text-xs flex items-center">
@@ -238,6 +244,8 @@ export function SignIn({ className, socialLayout, socialPosition = 'bottom' }: S
               )}
 
               {socialProviders && socialProviders.length > 0 && <ProviderButtons socialLayout={socialLayout} />}
+
+              {oidcConfigured && <OidcButton />}
             </>
           )}
         </div>
