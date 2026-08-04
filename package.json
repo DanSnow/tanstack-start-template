@@ -24,7 +24,7 @@
     "@orpc/server": "1.14.13",
     "@orpc/tanstack-query": "1.14.13",
     "@t3-oss/env-core": "0.13.11",
-    "@tanstack/react-form": "1.33.2",
+    "@tanstack/react-form": "1.33.3",
     "@tanstack/react-pacer": "0.22.1",
     "@tanstack/react-query": "5.101.4",
     "@tanstack/react-query-devtools": "5.101.4",
