@@ -71,8 +71,8 @@
     "@types/react-dom": "19.2.4",
     "@typescript/native": "npm:typescript@7.0.2",
     "@vitejs/plugin-react": "6.0.5",
-    "@vitest/coverage-v8": "4.1.10",
-    "@vitest/ui": "4.1.10",
+    "@vitest/coverage-v8": "4.1.11",
+    "@vitest/ui": "4.1.11",
     "auth": "1.7.0",
     "drizzle-kit": "1.0.0-rc.5-ab785fc",
     "happy-dom": "20.11.2",
@@ -87,7 +87,7 @@
     "tsx": "4.23.12",
     "typescript": "npm:@typescript/typescript6@6.0.2",
     "vite": "8.2.1",
-    "vitest": "4.1.10",
+    "vitest": "4.1.11",
     "zx": "8.8.5"
   },
   "packageManager": "pnpm@11.22.0+sha512.1ff870c4c6133dfd88fb2afc46dd13d47f09c9794b438c6fdb47ca98caf3bc16381ee0be93a091b8e3824cf01f889f46d7d9e20910fb0be1ab0fb5baa80dd621"
