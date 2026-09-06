@@ -215,8 +215,8 @@ importers:
         specifier: 7.0.2001
         version: 7.0.2001
       postcss:
-        specifier: 8.5.26
-        version: 8.5.26
+        specifier: 8.5.27
+        version: 8.5.27
       tailwindcss:
         specifier: 4.3.3
         version: 4.3.3
@@ -4537,8 +4537,8 @@ packages:
     resolution: {integrity: sha512-HeP7D2wyhkR+XaK6v4W8oRF62Dsz4flyuczALJp61GckGm42u1saSSJ/0auvcBqxs3jMRFEcPK34At/0JBKdOg==}
     engines: {node: '>=4'}
 
-  postcss@8.5.26:
-    resolution: {integrity: sha512-u82N74LFzG8ca+dD8puPnplTXoGH4fTPpVGuIbt36G3qvNlkvfD0lEAZSxaly3KX8TS/L1A1gsCEmvKmBcVbkQ==}
+  postcss@8.5.27:
+    resolution: {integrity: sha512-79Iho8QeYyooJ8e9lCRyTVlyTAkS/kXBYKff6TMzS3kEWGQ8Ds5UEtXpGrSUDLUWok6QTvxeYy0GO8fopHnaSA==}
     engines: {node: ^10 || ^12 || >=14}
 
   powershell-utils@0.1.0:
@@ -9318,7 +9318,7 @@ snapshots:
       cssesc: 3.0.0
       util-deprecate: 1.0.2
 
-  postcss@8.5.26:
+  postcss@8.5.27:
     dependencies:
       nanoid: 3.3.18
       picocolors: 1.1.1
@@ -9669,7 +9669,7 @@ snapshots:
       kleur: 4.1.5
       open: 11.0.0
       ora: 8.2.0
-      postcss: 8.5.26
+      postcss: 8.5.27
       postcss-selector-parser: 7.1.4
       prompts: 2.4.2
       recast: 0.23.12
@@ -10042,7 +10042,7 @@ snapshots:
     dependencies:
       lightningcss: 1.33.0
       picomatch: 4.0.5
-      postcss: 8.5.26
+      postcss: 8.5.27
       rolldown: 1.2.5
       tinyglobby: 0.2.17
     optionalDependencies:
