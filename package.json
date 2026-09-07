@@ -14,7 +14,7 @@
     "db:migrate": "drizzle-kit migrate"
   },
   "dependencies": {
-    "@base-ui/react": "1.7.0",
+    "@base-ui/react": "1.8.0",
     "@better-auth-ui/core": "1.6.45",
     "@better-auth-ui/react": "1.6.45",
     "@better-auth/drizzle-adapter": "1.7.2",
