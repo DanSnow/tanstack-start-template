@@ -124,8 +124,8 @@ importers:
         specifier: 17.6.1
         version: 17.6.1(react-dom@19.3.0(react@19.3.0))(react@19.3.0)
       shadcn:
-        specifier: 4.21.0
-        version: 4.21.0(@typescript/typescript6@6.0.2)(supports-color@7.2.0)
+        specifier: 4.21.1
+        version: 4.21.1(@typescript/typescript6@6.0.2)(supports-color@7.2.0)
       sonner:
         specifier: 2.0.8
         version: 2.0.8(@types/react@19.3.0)(react-dom@19.3.0(react@19.3.0))(react@19.3.0)
@@ -393,11 +393,6 @@ packages:
     resolution: {integrity: sha512-1k2lAGRMfHTcwuNYcCNUmaUffmQv8KWMfh2iJUUeRlwlwH4FdNG7mfPI10NPfLHJFThE4Tyr4mv7kTNZOiPuBg==}
     engines: {node: '>=6.9.0'}
 
-  '@babel/parser@7.29.7':
-    resolution: {integrity: sha512-hnORnjP/1P/zFEndoeX+n+t1RwWRJiJpM/jO7FW32Kn9r5+sJB2JWOdYo4L6k78j15eCwY3Gm/7364B1EMwtNg==}
-    engines: {node: '>=6.0.0'}
-    hasBin: true
-
   '@babel/parser@7.29.8':
     resolution: {integrity: sha512-E8lTAYNB1KW+FH+VGJuZM1ioAx2E6oVlvQFRrf5P8ZZmsiJXYAD9vTFV7yyEURNzgh1dFqMZuO6tUwcARbqFCA==}
     engines: {node: '>=6.0.0'}
@@ -473,10 +468,6 @@ packages:
 
   '@babel/traverse@7.29.7':
     resolution: {integrity: sha512-EhlfNQtZ+NK22w5BM61ciuiq1m58ed33Wr1Xan//ZRTy6hgjnwyCffRYwzsGXdASJSUJ1guZILsErh1eQcl+zw==}
-    engines: {node: '>=6.9.0'}
-
-  '@babel/types@7.29.7':
-    resolution: {integrity: sha512-4zBIxpPzowiZpusoFkyGVwakdRJUyuH5PxQ/PrqghfdFWWasvnCdPfQXHrenDai+gyLARulZjZowCOj6fjT4pA==}
     engines: {node: '>=6.9.0'}
 
   '@babel/types@7.29.8':
@@ -2061,6 +2052,10 @@ packages:
 
   '@sec-ant/readable-stream@0.4.1':
     resolution: {integrity: sha512-831qok9r2t8AlxLko40y2ebgSDhenenCatLVeW/uBtnHPyhHOvG0C7TvfgecV+wHzIm5KUICgzmVpWS+IMEAeg==}
+
+  '@shadcn/registry@0.1.0':
+    resolution: {integrity: sha512-eMF6tPNi9SWZgPvqBvPQFhJN7gV9PcjRdF3kPiiWo5yZJocWqVgxFuspCHrOij3bIJ797NIGZ+j/v7AiXfA6qg==}
+    engines: {node: '>=20.18.1'}
 
   '@simplewebauthn/browser@13.3.0':
     resolution: {integrity: sha512-BE/UWv6FOToAdVk0EokzkqQQDOWtNydYlY6+OrmiZ5SCNmb41VehttboTetUM3T/fr6EAFYVXjz4My2wg230rQ==}
@@ -4896,8 +4891,8 @@ packages:
   setprototypeof@1.2.0:
     resolution: {integrity: sha512-E5LDX7Wrp85Kil5bhZv46j8jOeboKq5JMmYM3gVGdGH8xFpPWXUMsNrlODCrkoxMEeNi/XZIwuRvY4XNwYMJpw==}
 
-  shadcn@4.21.0:
-    resolution: {integrity: sha512-UU2mFNusW8C5rvadKdH69vERYZqUlOOlXBcf0MYhYLdTGP6DPti7X4qovCu+RTfCqsAgq/T+YfE0Vnttxh9aiw==}
+  shadcn@4.21.1:
+    resolution: {integrity: sha512-keQmMdKI1eLKTtYpwFwrFfFegsskOpUgt1l3aF359pbCFt0taq0TMuZ75yK+q/StcV2YvjmBMenrs0diWoezXQ==}
     engines: {node: '>=20.18.1'}
     hasBin: true
 
@@ -5757,10 +5752,6 @@ snapshots:
       '@babel/template': 7.29.7
       '@babel/types': 7.29.8
 
-  '@babel/parser@7.29.7':
-    dependencies:
-      '@babel/types': 7.29.7
-
   '@babel/parser@7.29.8':
     dependencies:
       '@babel/types': 7.29.8
@@ -5865,11 +5856,6 @@ snapshots:
       debug: 4.4.3(supports-color@7.2.0)
     transitivePeerDependencies:
       - supports-color
-
-  '@babel/types@7.29.7':
-    dependencies:
-      '@babel/helper-string-parser': 7.29.7
-      '@babel/helper-validator-identifier': 7.29.7
 
   '@babel/types@7.29.8':
     dependencies:
@@ -7106,6 +7092,36 @@ snapshots:
   '@rolldown/pluginutils@1.0.1': {}
 
   '@sec-ant/readable-stream@0.4.1': {}
+
+  '@shadcn/registry@0.1.0(@typescript/typescript6@6.0.2)(supports-color@7.2.0)':
+    dependencies:
+      '@babel/core': 7.29.7(supports-color@7.2.0)
+      '@babel/parser': 7.29.8
+      '@babel/plugin-transform-typescript': 7.29.7(@babel/core@7.29.7(supports-color@7.2.0))(supports-color@7.2.0)
+      '@babel/preset-typescript': 7.29.7(@babel/core@7.29.7(supports-color@7.2.0))(supports-color@7.2.0)
+      '@dotenvx/dotenvx': 1.75.1
+      cn: 0.2.6
+      cosmiconfig: 9.0.2(@typescript/typescript6@6.0.2)
+      deepmerge: 4.3.1
+      execa: 9.6.1
+      fast-glob: 3.3.3
+      fs-extra: 11.4.0
+      fuzzysort: 3.1.0
+      kleur: 4.1.5
+      ora: 8.2.0
+      postcss: 8.5.28
+      prompts: 2.4.2
+      recast: 0.23.12
+      socks: 2.8.9
+      stringify-object: 5.0.0
+      ts-morph: 26.0.0
+      tsconfig-paths: 4.2.0
+      type-fest: 4.41.0
+      undici: 7.29.0
+      zod: 3.25.76
+    transitivePeerDependencies:
+      - supports-color
+      - typescript
 
   '@simplewebauthn/browser@13.3.0': {}
 
@@ -9827,14 +9843,15 @@ snapshots:
 
   setprototypeof@1.2.0: {}
 
-  shadcn@4.21.0(@typescript/typescript6@6.0.2)(supports-color@7.2.0):
+  shadcn@4.21.1(@typescript/typescript6@6.0.2)(supports-color@7.2.0):
     dependencies:
       '@babel/core': 7.29.7(supports-color@7.2.0)
-      '@babel/parser': 7.29.7
+      '@babel/parser': 7.29.8
       '@babel/plugin-transform-typescript': 7.29.7(@babel/core@7.29.7(supports-color@7.2.0))(supports-color@7.2.0)
       '@babel/preset-typescript': 7.29.7(@babel/core@7.29.7(supports-color@7.2.0))(supports-color@7.2.0)
       '@dotenvx/dotenvx': 1.75.1
       '@modelcontextprotocol/sdk': 1.29.0(supports-color@7.2.0)(zod@3.25.76)
+      '@shadcn/registry': 0.1.0(@typescript/typescript6@6.0.2)(supports-color@7.2.0)
       '@types/validate-npm-package-name': 4.0.2
       browserslist: 4.28.7
       cn: 0.2.6
