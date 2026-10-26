@@ -146,8 +146,8 @@ importers:
         specifier: 0.51.0
         version: 0.51.0
       '@effect/vitest':
-        specifier: 0.30.0
-        version: 0.30.0(effect@3.22.3)(vitest@4.1.12)
+        specifier: 0.30.1
+        version: 0.30.1(effect@3.22.3)(vitest@4.1.12)
       '@moonrepo/cli':
         specifier: 2.6.2
         version: 2.6.2
@@ -679,11 +679,11 @@ packages:
   '@drizzle-team/brocli@0.12.0':
     resolution: {integrity: sha512-mlUE+rZ8CatQekLhnaiN91Iemdd+e2gFKooGlnRB3oPTL3VghLfX24dx7HrzMNeC1JrIB/0kpsfyty3f5HNfxQ==}
 
-  '@effect/vitest@0.30.0':
-    resolution: {integrity: sha512-2qcK7F4XSwOn7Ye9vgEkrndHiiHVf9Nl+U5jvvLBKeYx4+8++O5Y8RFezaQzs/rWx8GkdlStv/s+HYMHZ/2/AQ==}
+  '@effect/vitest@0.30.1':
+    resolution: {integrity: sha512-RkVje95T+ni6vAgI787XRbM4scAe+x/5FSQxrqZH19LtvoTWeFgImaRCoJXOy5rOwvShb7skJtrRbYtqEZi65A==}
     peerDependencies:
-      effect: ^3.22.0
-      vitest: ^3.2.0
+      effect: ^3.22.4
+      vitest: ^3.2.0 || ^4.0.0
 
   '@emnapi/core@1.11.1':
     resolution: {integrity: sha512-RSvbQmHzdKzNsLYa/wHrbc3KN4sYLKAdPZxqiM2HATqv/SBk2/ENSHpvXGaLOMcsAyz0poEGqkmmKYG3OWiJEQ==}
@@ -6023,7 +6023,7 @@ snapshots:
 
   '@drizzle-team/brocli@0.12.0': {}
 
-  '@effect/vitest@0.30.0(effect@3.22.3)(vitest@4.1.12)':
+  '@effect/vitest@0.30.1(effect@3.22.3)(vitest@4.1.12)':
     dependencies:
       effect: 3.22.3
       vitest: 4.1.12(@types/node@24.19.2)(@vitest/coverage-v8@4.1.12)(@vitest/ui@4.1.12)(happy-dom@20.14.6)(msw@2.15.0(@types/node@24.19.2)(@typescript/typescript6@6.0.2))(vite@8.3.5(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15))
