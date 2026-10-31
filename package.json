@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "@base-ui/react": "1.9.0",
-    "@better-auth-ui/core": "1.6.45",
+    "@better-auth-ui/core": "1.7.32",
     "@better-auth-ui/react": "1.6.45",
     "@better-auth/drizzle-adapter": "1.7.14",
     "@fontsource-variable/geist": "5.3.0",
